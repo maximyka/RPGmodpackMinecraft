@@ -398,7 +398,7 @@ hash = "9a1835dd388a04c37acb1384e7c39650804103b3dd9d4b3910fd49022d18a4bf"
 
 [[files]]
 path = "mods/MyCustomSkillsAddon.jar"
-hash = "3f749c0541e047333abdbd171c2b8a0209b704c46520590abee5594c26efecef"
+hash = "3166c327dad821a1d51d9f2747483e1480e0eab4efbd92a5f3761531e6d50d88"
 
 [[files]]
 path = "mods/notenoughanimations-forge-1.12.3-mc1.20.1.jar"
