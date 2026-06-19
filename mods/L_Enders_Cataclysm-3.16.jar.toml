@@ -1,8 +1,6 @@
 name = "L'Ender's Cataclysm"
-filename = "L_Enders_Cataclysm-1.20.1-3.16.jar"
+filename = "L_Enders_Cataclysm-3.16.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/bUv7vynI/versions/37o6MAsL/L_Enders_Cataclysm-1.20.1-3.16.jar"
-hash-format = "sha1"
-hash = "9828e83be62208fc1c0a0c44bc7a03be1884fa3a"
+url = "https://github.com/maximyka/RPGmodpackMinecraft/releases/download/untagged-6ec22ff1c85beecd98e2/L_Enders_Cataclysm-3.16.jar"
