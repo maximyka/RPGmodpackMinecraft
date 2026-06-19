@@ -1,0 +1,28 @@
+{
+    "id": "customtree:shooter_nw_m4",
+    "bonuses": [
+        {
+            "type": "skilltree:attribute",
+            "attribute": "tacz_attributes:ads_accuracy",
+            "id": "401b860a-af2b-5a2e-8872-5f3737e20247",
+            "name": "Lesser Accuracy shooter_nw_m4",
+            "amount": 0.015,
+            "operation": 0
+        }
+    ],
+    "requirements": [],
+    "directConnections": [
+        "customtree:shooter_nw_m3"
+    ],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+    "iconTexture": "skilltree:textures/icons/arrow_bronze.png",
+    "borderTexture": "skilltree:textures/tooltip/lesser.png",
+    "titleColor": "",
+    "positionX": -169.76822,
+    "positionY": -168.92772,
+    "buttonSize": 16,
+    "isStartingPoint": false
+}

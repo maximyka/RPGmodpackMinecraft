@@ -1,0 +1,31 @@
+{
+    "id": "customtree:hunter_start",
+    "bonuses": [],
+    "requirements": [
+        {
+            "minValue": 200,
+            "statTypeId": "minecraft:used",
+            "statId": "minecraft:bow",
+            "type": "skilltree:stat_value"
+        }
+    ],
+    "directConnections": [
+        "customtree:hunter_arrow_shaft_1",
+        "customtree:hunter_fletch_c_1",
+        "customtree:hunter_limb_bi_1",
+        "customtree:hunter_limb_bo_1",
+        "customtree:hunter_limb_ti_1",
+        "customtree:hunter_limb_to_1"
+    ],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/class.png",
+    "iconTexture": "skilltree:textures/icons/bow_gold.png",
+    "borderTexture": "skilltree:textures/tooltip/keystone.png",
+    "positionX": 0,
+    "positionY": 0,
+    "buttonSize": 32,
+    "isStartingPoint": true,
+    "skillTree": "customtree:hunter_tree"
+}

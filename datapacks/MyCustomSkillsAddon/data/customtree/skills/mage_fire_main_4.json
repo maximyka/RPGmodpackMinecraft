@@ -1,0 +1,27 @@
+{
+    "id": "customtree:mage_fire_main_4",
+    "bonuses": [
+        {
+            "type": "skilltree:attribute",
+            "attribute": "irons_spellbooks:fire_spell_power",
+            "id": "b518d940-d665-49cd-80fa-1ce6c8526353",
+            "name": "Lesser fire 4",
+            "amount": 0.02,
+            "operation": 0
+        }
+    ],
+    "requirements": [],
+    "directConnections": [
+        "customtree:mage_fire_main_5"
+    ],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+    "iconTexture": "skilltree:textures/icons/arrow_bronze.png",
+    "borderTexture": "skilltree:textures/tooltip/lesser.png",
+    "positionX": -159.15,
+    "positionY": 101.57,
+    "buttonSize": 16,
+    "isStartingPoint": false
+}

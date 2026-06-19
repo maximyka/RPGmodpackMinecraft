@@ -1,0 +1,29 @@
+{
+    "id": "customtree:hunter_limb_bi_1",
+    "bonuses": [
+        {
+            "type": "skilltree:attribute",
+            "attribute": "minecraft:generic.max_health",
+            "id": "4947e0b0-bdc1-463b-ab56-0c43a7d3001a",
+            "name": "hunter_limb_bi_1",
+            "amount": 0.5,
+            "operation": 0
+        }
+    ],
+    "requirements": [],
+    "directConnections": [
+        "customtree:hunter_limb_bi_2",
+        "customtree:hunter_start"
+    ],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+    "iconTexture": "skilltree:textures/icons/heart_red.png",
+    "borderTexture": "skilltree:textures/tooltip/lesser.png",
+    "positionX": -14.08,
+    "positionY": 38.0,
+    "buttonSize": 16,
+    "isStartingPoint": false,
+    "skillTree": "customtree:hunter_tree"
+}

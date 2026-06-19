@@ -1,0 +1,43 @@
+{
+  "id": "customtree:pl_rm3_c3",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "furattributes:passive_regeneration",
+      "id": "6cead184-06aa-4ed3-8c75-a2f71571d49b",
+      "name": "Sacred Resolve Regeneration",
+      "amount": 1.5,
+      "operation": 0
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:healing_received",
+      "id": "d7c29a88-954a-4198-851f-9a4477cd6479",
+      "name": "Sacred Resolve Healing Received",
+      "amount": 0.0625,
+      "operation": 1
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:custom",
+      "statId": "minecraft:damage_taken",
+      "minValue": 85000
+    }
+  ],
+  "directConnections": [
+    "customtree:pl_rm4_c3",
+    "customtree:pl_rm3_c4"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/potion_yellow_big.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "positionX": 159.552,
+  "positionY": -114.66,
+  "buttonSize": 20,
+  "isStartingPoint": false
+}

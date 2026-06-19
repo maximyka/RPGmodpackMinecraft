@@ -1,0 +1,44 @@
+{
+  "id": "customtree:pl_r5_c2",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "c8ffa686-7319-4d9f-97de-16cf6a3fbce7",
+      "name": "Skill",
+      "amount": 0.25,
+      "operation": 1
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.movement_speed",
+      "id": "f84cd819-fada-4ebb-a975-2bb26b497825",
+      "name": "Skill",
+      "amount": -0.1,
+      "operation": 1
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:numeric_value",
+      "value_provider": {
+        "percentage": false,
+        "missing": false,
+        "type": "skilltree:health_level"
+      },
+      "required_value": 80.0,
+      "logic": "MORE"
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "skilltree:textures/icons/chestplate_leather.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "positionX": 124.8,
+  "positionY": 201.6,
+  "buttonSize": 32,
+  "isStartingPoint": false
+}

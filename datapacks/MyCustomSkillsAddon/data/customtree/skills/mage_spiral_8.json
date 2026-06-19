@@ -1,0 +1,35 @@
+{
+    "id": "customtree:mage_spiral_8",
+    "bonuses": [
+        {
+            "type": "skilltree:attribute",
+            "attribute": "irons_spellbooks:cast_time_reduction",
+            "id": "02eb3ca0-83f1-41e4-97df-38b5d574544f",
+            "name": "Mage Spiral 8",
+            "amount": 0.06,
+            "operation": 1
+        }
+    ],
+    "requirements": [
+        {
+            "minValue": 350,
+            "statTypeId": "minecraft:custom",
+            "statId": "kubejs:mana_spent",
+            "type": "skilltree:stat_value"
+        }
+    ],
+    "directConnections": [
+        "customtree:mage_spiral_9",
+        "customtree:mage_fire_main_1"
+    ],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+    "iconTexture": "skilltree:textures/icons/potion_blue.png",
+    "borderTexture": "skilltree:textures/tooltip/notable.png",
+    "positionX": -73.46,
+    "positionY": 53.37,
+    "buttonSize": 20,
+    "isStartingPoint": false
+}

@@ -1,0 +1,41 @@
+{
+  "id": "customtree:sg_3_5c",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:dodge_chance",
+      "id": "30000000-0000-0000-0000-000808652281",
+      "name": "Dodge",
+      "amount": 0.018,
+      "operation": 0,
+      "player_condition": {
+        "item_condition": {
+          "equipment_type": "shield",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:custom",
+      "statId": "minecraft:damage_blocked_by_shield",
+      "minValue": 50000
+    }
+  ],
+  "directConnections": [
+    "customtree:sg_notable_bl"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/glove_iron.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "positionX": -220.0,
+  "positionY": 148.0,
+  "buttonSize": 20,
+  "isStartingPoint": false
+}

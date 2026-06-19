@@ -1,0 +1,29 @@
+{
+    "id": "customtree:hunter_poison_2",
+    "bonuses": [
+        {
+            "type": "skilltree:attribute",
+            "attribute": "furattributes:armor_shred",
+            "id": "29f08c24-16a4-4756-8661-b1b3500e71c7",
+            "name": "hunter_poison_2",
+            "amount": 0.025,
+            "operation": 1
+        }
+    ],
+    "requirements": [],
+    "directConnections": [
+        "customtree:hunter_poison_1",
+        "customtree:hunter_poison_3"
+    ],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+    "iconTexture": "skilltree:textures/icons/cross_green.png",
+    "borderTexture": "skilltree:textures/tooltip/lesser.png",
+    "positionX": -170,
+    "positionY": -210,
+    "buttonSize": 16,
+    "isStartingPoint": false,
+    "skillTree": "customtree:hunter_tree"
+}

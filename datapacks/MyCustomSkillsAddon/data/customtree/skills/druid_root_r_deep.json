@@ -1,0 +1,52 @@
+{
+    "id": "customtree:druid_root_r_deep",
+    "bonuses": [
+        {
+            "type": "skilltree:attribute",
+            "attribute": "attributeslib:healing_received",
+            "id": "75a92217-df09-586c-b9bf-7098e322e2a3",
+            "name": "Druid root_r_deep",
+            "amount": 0.1,
+            "operation": 1,
+            "player_condition": {
+                "type": "skilltree:none"
+            },
+            "player_multiplier": {
+                "type": "skilltree:none"
+            }
+        },
+        {
+            "type": "skilltree:attribute",
+            "attribute": "attributeslib:dodge_chance",
+            "id": "67dc4a0e-4dc8-598e-b58e-003eb65ae93f",
+            "name": "Druid root_r_deep",
+            "amount": 0.05,
+            "operation": 0,
+            "player_condition": {
+                "type": "skilltree:none"
+            },
+            "player_multiplier": {
+                "type": "skilltree:none"
+            }
+        }
+    ],
+    "requirements": [
+        {
+            "minValue": 650,
+            "statTypeId": "minecraft:custom",
+            "statId": "minecraft:mob_kills",
+            "type": "skilltree:stat_value"
+        }
+    ],
+    "directConnections": [],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+    "iconTexture": "skilltree:textures/icons/cross_green.png",
+    "borderTexture": "skilltree:textures/tooltip/notable.png",
+    "positionX": 60.0,
+    "positionY": 160.0,
+    "buttonSize": 20,
+    "isStartingPoint": false
+}

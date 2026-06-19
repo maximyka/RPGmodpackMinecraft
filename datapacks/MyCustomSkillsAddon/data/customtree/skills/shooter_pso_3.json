@@ -1,0 +1,55 @@
+{
+    "id": "customtree:shooter_pso_3",
+    "positionX": -90.0,
+    "positionY": -140.0,
+    "buttonSize": 20,
+    "isStartingPoint": false,
+    "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+    "iconTexture": "skilltree:textures/icons/apple_green.png",
+    "borderTexture": "skilltree:textures/tooltip/notable.png",
+    "bonuses": [
+        {
+            "type": "skilltree:attribute",
+            "attribute": "tacz_attributes:sniper_damage",
+            "id": "67f8affd-4869-5f92-ba82-92a68feef7bf",
+            "name": "Notable Sniper Damage shooter_pso_3",
+            "amount": 0.08,
+            "operation": 1,
+            "player_condition": {
+                "type": "skilltree:none"
+            },
+            "player_multiplier": {
+                "type": "skilltree:none"
+            }
+        },
+        {
+            "type": "skilltree:attribute",
+            "attribute": "tacz_attributes:headshot_multiplier",
+            "id": "a1e85da3-b4b5-521a-8d02-40e95bc67a37",
+            "name": "Notable Headshot shooter_pso_3",
+            "amount": 0.05,
+            "operation": 0,
+            "player_condition": {
+                "type": "skilltree:none"
+            },
+            "player_multiplier": {
+                "type": "skilltree:none"
+            }
+        }
+    ],
+    "requirements": [
+        {
+            "minValue": 6,
+            "statTypeId": "minecraft:custom",
+            "statId": "GunShots",
+            "type": "skilltree:stat_value"
+        }
+    ],
+    "directConnections": [
+        "customtree:shooter_pso_2",
+        "customtree:shooter_pso_4"
+    ],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": []
+}

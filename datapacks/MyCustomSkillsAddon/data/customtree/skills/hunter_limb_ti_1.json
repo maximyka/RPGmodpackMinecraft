@@ -1,0 +1,29 @@
+{
+    "id": "customtree:hunter_limb_ti_1",
+    "bonuses": [
+        {
+            "type": "skilltree:attribute",
+            "attribute": "puffish_attributes:stealth",
+            "id": "2c8f83b4-c60f-4051-8b46-f5159ac2c98f",
+            "name": "hunter_limb_ti_1",
+            "amount": 0.02,
+            "operation": 1
+        }
+    ],
+    "requirements": [],
+    "directConnections": [
+        "customtree:hunter_limb_ti_2",
+        "customtree:hunter_start"
+    ],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+    "iconTexture": "skilltree:textures/icons/boots_leather.png",
+    "borderTexture": "skilltree:textures/tooltip/lesser.png",
+    "positionX": -14.08,
+    "positionY": -38.0,
+    "buttonSize": 16,
+    "isStartingPoint": false,
+    "skillTree": "customtree:hunter_tree"
+}

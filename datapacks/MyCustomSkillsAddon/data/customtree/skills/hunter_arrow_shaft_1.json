@@ -1,0 +1,29 @@
+{
+    "id": "customtree:hunter_arrow_shaft_1",
+    "bonuses": [
+        {
+            "type": "skilltree:attribute",
+            "attribute": "furattributes:crit_chance",
+            "id": "4f94b824-f70a-49d4-9b1f-12b1884fdb0b",
+            "name": "hunter_arrow_shaft_1",
+            "amount": 0.015,
+            "operation": 0
+        }
+    ],
+    "requirements": [],
+    "directConnections": [
+        "customtree:hunter_arrow_shaft_2",
+        "customtree:hunter_start"
+    ],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+    "iconTexture": "skilltree:textures/icons/arrow_steel.png",
+    "borderTexture": "skilltree:textures/tooltip/lesser.png",
+    "positionX": 32,
+    "positionY": 0,
+    "buttonSize": 16,
+    "isStartingPoint": false,
+    "skillTree": "customtree:hunter_tree"
+}

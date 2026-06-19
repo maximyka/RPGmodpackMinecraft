@@ -1,0 +1,52 @@
+{
+    "id": "customtree:hunter_apex_sniper",
+    "bonuses": [
+        {
+            "type": "skilltree:attribute",
+            "attribute": "furattributes:proj_damage",
+            "id": "3219ac4d-28cc-4105-9efe-e7c2fbade37c",
+            "name": "Sniper Proj Dmg",
+            "amount": 0.5,
+            "operation": 1
+        },
+        {
+            "type": "skilltree:attribute",
+            "attribute": "furattributes:duplex",
+            "id": "046347e6-3c3f-4747-bb6d-e3a1e1e11acf",
+            "name": "Sniper Duplex",
+            "amount": 0.2,
+            "operation": 0
+        },
+        {
+            "type": "skilltree:attribute",
+            "attribute": "minecraft:generic.movement_speed",
+            "id": "2178db3e-0e36-4916-97f4-1a1a4d25db8e",
+            "name": "Sniper Penalty",
+            "amount": -0.15,
+            "operation": 1
+        }
+    ],
+    "requirements": [
+        {
+            "minValue": 15000,
+            "statTypeId": "minecraft:used",
+            "statId": "minecraft:bow",
+            "type": "skilltree:stat_value"
+        }
+    ],
+    "directConnections": [
+        "customtree:hunter_arrow_tip_dn",
+        "customtree:hunter_arrow_tip_up"
+    ],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+    "iconTexture": "skilltree:textures/icons/arrow_diamond.png",
+    "borderTexture": "skilltree:textures/tooltip/keystone.png",
+    "positionX": 390,
+    "positionY": 0,
+    "buttonSize": 32,
+    "isStartingPoint": false,
+    "skillTree": "customtree:hunter_tree"
+}

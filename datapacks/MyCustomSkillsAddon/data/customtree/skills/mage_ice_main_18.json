@@ -1,0 +1,40 @@
+{
+    "id": "customtree:mage_ice_main_18",
+    "bonuses": [
+        {
+            "type": "skilltree:attribute",
+            "attribute": "irons_spellbooks:ice_spell_power",
+            "id": "34a713d4-b384-4f49-9de1-773a7708195e",
+            "name": "Keystone ice",
+            "amount": 0.35,
+            "operation": 1
+        },
+        {
+            "type": "skilltree:attribute",
+            "attribute": "minecraft:generic.movement_speed",
+            "id": "21d11074-d800-4a7d-ae01-56040a6c9b2e",
+            "name": "Keystone Penalty ice",
+            "amount": -0.15,
+            "operation": 1
+        }
+    ],
+    "requirements": [
+        {
+            "minValue": 6500,
+            "statTypeId": "minecraft:custom",
+            "statId": "kubejs:mana_spent",
+            "type": "skilltree:stat_value"
+        }
+    ],
+    "directConnections": [],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+    "iconTexture": "skilltree:textures/icons/eye_green.png",
+    "borderTexture": "skilltree:textures/tooltip/keystone.png",
+    "positionX": 181.49,
+    "positionY": -547.29,
+    "buttonSize": 32,
+    "isStartingPoint": false
+}

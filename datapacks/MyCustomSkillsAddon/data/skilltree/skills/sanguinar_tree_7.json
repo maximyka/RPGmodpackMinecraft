@@ -1,0 +1,29 @@
+{
+  "id": "skilltree:sanguinar_tree_7",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:blood_spell_power",
+      "id": "3da37945-ba7d-403a-b40e-2ad3b8ee6697",
+      "name": "Skill",
+      "amount": 0.06,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:sanguinar_tree_5"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/glove_bronze.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Руки в Кровь",
+  "titleColor": "",
+  "positionX": -131.67311,
+  "positionY": -53.829998,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

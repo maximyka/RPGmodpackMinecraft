@@ -1,0 +1,27 @@
+{
+    "id": "customtree:mage_fire_subb_1",
+    "bonuses": [
+        {
+            "type": "skilltree:attribute",
+            "attribute": "irons_spellbooks:fire_magic_resist",
+            "id": "6f14c739-7246-4582-a547-1eee6865b371",
+            "name": "Lesser Resist fire subB 1",
+            "amount": 0.02,
+            "operation": 0
+        }
+    ],
+    "requirements": [],
+    "directConnections": [
+        "customtree:mage_fire_subb_2"
+    ],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+    "iconTexture": "skilltree:textures/icons/arrow_bronze.png",
+    "borderTexture": "skilltree:textures/tooltip/lesser.png",
+    "positionX": -353.78,
+    "positionY": 53.49,
+    "buttonSize": 16,
+    "isStartingPoint": false
+}

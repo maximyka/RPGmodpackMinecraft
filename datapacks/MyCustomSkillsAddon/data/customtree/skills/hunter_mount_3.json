@@ -1,0 +1,36 @@
+{
+    "id": "customtree:hunter_mount_3",
+    "bonuses": [
+        {
+            "type": "skilltree:attribute",
+            "attribute": "puffish_attributes:mount_speed",
+            "id": "a53f18ab-6dc2-4522-be76-14a3a6b75445",
+            "name": "hunter_mount_3",
+            "amount": 0.15,
+            "operation": 1
+        }
+    ],
+    "requirements": [
+        {
+            "minValue": 10000,
+            "statTypeId": "minecraft:used",
+            "statId": "minecraft:crossbow",
+            "type": "skilltree:stat_value"
+        }
+    ],
+    "directConnections": [
+        "customtree:hunter_apex_mount",
+        "customtree:hunter_mount_2"
+    ],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+    "iconTexture": "skilltree:textures/icons/boots_leather.png",
+    "borderTexture": "skilltree:textures/tooltip/notable.png",
+    "positionX": 185,
+    "positionY": -302.73,
+    "buttonSize": 20,
+    "isStartingPoint": false,
+    "skillTree": "customtree:hunter_tree"
+}

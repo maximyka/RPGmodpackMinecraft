@@ -1,0 +1,56 @@
+{
+    "id": "customtree:warrior_guard_l3",
+    "bonuses": [
+        {
+            "type": "skilltree:attribute",
+            "attribute": "minecraft:generic.movement_speed",
+            "id": "a35afc5f-d616-58da-8e91-7be41407640c",
+            "name": "Warrior guard_l3",
+            "amount": 0.036,
+            "operation": 1,
+            "player_condition": {
+                "type": "skilltree:none"
+            },
+            "player_multiplier": {
+                "type": "skilltree:none"
+            }
+        },
+        {
+            "type": "skilltree:attribute",
+            "attribute": "attributeslib:dodge_chance",
+            "id": "d513befc-d618-559f-8de2-75412cf750e6",
+            "name": "Warrior guard_l3",
+            "amount": 0.05,
+            "operation": 0,
+            "player_condition": {
+                "type": "skilltree:none"
+            },
+            "player_multiplier": {
+                "type": "skilltree:none"
+            }
+        }
+    ],
+    "requirements": [
+        {
+            "minValue": 25000,
+            "statTypeId": "minecraft:custom",
+            "statId": "minecraft:damage_dealt",
+            "type": "skilltree:stat_value"
+        }
+    ],
+    "directConnections": [
+        "customtree:warrior_guard_l4",
+        "customtree:warrior_guard_l_up1",
+        "customtree:warrior_guard_l_dn1"
+    ],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+    "iconTexture": "skilltree:textures/icons/chestplate_fur.png",
+    "borderTexture": "skilltree:textures/tooltip/notable.png",
+    "positionX": -90.0,
+    "positionY": 0.0,
+    "buttonSize": 20,
+    "isStartingPoint": false
+}

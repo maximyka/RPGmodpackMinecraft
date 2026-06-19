@@ -1,0 +1,27 @@
+{
+    "id": "customtree:mage_blood_suba_1",
+    "bonuses": [
+        {
+            "type": "skilltree:attribute",
+            "attribute": "irons_spellbooks:blood_magic_resist",
+            "id": "bf29a831-e78a-4c84-a77a-27f13b15c4a1",
+            "name": "Lesser Resist blood subA 1",
+            "amount": 0.02,
+            "operation": 0
+        }
+    ],
+    "requirements": [],
+    "directConnections": [
+        "customtree:mage_blood_suba_2"
+    ],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+    "iconTexture": "skilltree:textures/icons/arrow_bronze.png",
+    "borderTexture": "skilltree:textures/tooltip/lesser.png",
+    "positionX": -361.95,
+    "positionY": -75.32,
+    "buttonSize": 16,
+    "isStartingPoint": false
+}

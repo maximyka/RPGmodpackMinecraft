@@ -1,0 +1,28 @@
+{
+    "id": "customtree:shooter_horus_r_110_2",
+    "bonuses": [
+        {
+            "type": "skilltree:attribute",
+            "attribute": "tacz_attributes:magazine_capacity",
+            "id": "dbd1925f-e9a5-5d47-ac35-41c201fdec73",
+            "name": "Lesser Magazine shooter_horus_r_110_2",
+            "amount": 0.04,
+            "operation": 0
+        }
+    ],
+    "requirements": [],
+    "directConnections": [
+        "customtree:shooter_horus_r_110_1"
+    ],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+    "iconTexture": "skilltree:textures/icons/arrow.png",
+    "borderTexture": "skilltree:textures/tooltip/lesser.png",
+    "titleColor": "",
+    "positionX": 61.785732,
+    "positionY": 99.99007,
+    "buttonSize": 16,
+    "isStartingPoint": false
+}

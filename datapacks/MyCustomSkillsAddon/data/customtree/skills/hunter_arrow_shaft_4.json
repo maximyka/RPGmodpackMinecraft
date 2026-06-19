@@ -1,0 +1,36 @@
+{
+    "id": "customtree:hunter_arrow_shaft_4",
+    "bonuses": [
+        {
+            "type": "skilltree:attribute",
+            "attribute": "furattributes:duplex",
+            "id": "89da8575-7430-4798-8cba-b8e00f46d430",
+            "name": "hunter_arrow_shaft_4",
+            "amount": 0.04,
+            "operation": 0
+        }
+    ],
+    "requirements": [
+        {
+            "minValue": 800,
+            "statTypeId": "minecraft:used",
+            "statId": "minecraft:bow",
+            "type": "skilltree:stat_value"
+        }
+    ],
+    "directConnections": [
+        "customtree:hunter_arrow_shaft_3",
+        "customtree:hunter_arrow_shaft_5"
+    ],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+    "iconTexture": "skilltree:textures/icons/arrow_steel.png",
+    "borderTexture": "skilltree:textures/tooltip/notable.png",
+    "positionX": 128,
+    "positionY": 0,
+    "buttonSize": 20,
+    "isStartingPoint": false,
+    "skillTree": "customtree:hunter_tree"
+}

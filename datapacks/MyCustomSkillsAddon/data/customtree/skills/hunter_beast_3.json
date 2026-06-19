@@ -1,0 +1,29 @@
+{
+    "id": "customtree:hunter_beast_3",
+    "bonuses": [
+        {
+            "type": "skilltree:attribute",
+            "attribute": "furattributes:passive_regeneration",
+            "id": "7dfbbc42-0ef8-4df8-b257-8fc8ad511d40",
+            "name": "hunter_beast_3",
+            "amount": 0.02,
+            "operation": 1
+        }
+    ],
+    "requirements": [],
+    "directConnections": [
+        "customtree:hunter_beast_2",
+        "customtree:hunter_beast_4"
+    ],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+    "iconTexture": "skilltree:textures/icons/chestplate_fur.png",
+    "borderTexture": "skilltree:textures/tooltip/lesser.png",
+    "positionX": 205,
+    "positionY": 130,
+    "buttonSize": 16,
+    "isStartingPoint": false,
+    "skillTree": "customtree:hunter_tree"
+}

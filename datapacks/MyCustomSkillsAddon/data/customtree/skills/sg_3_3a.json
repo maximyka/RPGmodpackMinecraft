@@ -1,0 +1,28 @@
+{
+  "id": "customtree:sg_3_3a",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:prot_shred",
+      "id": "30000000-0000-0000-0000-000268486357",
+      "name": "ShredResist",
+      "amount": 0.1,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "customtree:sg_4_3a",
+    "customtree:sg_apex_left_t"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/glove_iron.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -203.0,
+  "positionY": 52.0,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

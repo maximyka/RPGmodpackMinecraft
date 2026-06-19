@@ -1,0 +1,40 @@
+{
+    "id": "customtree:warrior_guard_l_up1",
+    "bonuses": [
+        {
+            "type": "skilltree:attribute",
+            "attribute": "minecraft:generic.attack_speed",
+            "id": "fbbed4d5-39ea-5478-a1a4-4549d7211072",
+            "name": "Warrior guard_l_up1",
+            "amount": 0.04,
+            "operation": 1,
+            "player_condition": {
+                "type": "skilltree:none"
+            },
+            "player_multiplier": {
+                "type": "skilltree:none"
+            }
+        }
+    ],
+    "requirements": [
+        {
+            "minValue": 35000,
+            "statTypeId": "minecraft:custom",
+            "statId": "minecraft:damage_dealt",
+            "type": "skilltree:stat_value"
+        }
+    ],
+    "directConnections": [
+        "customtree:warrior_guard_l_up2"
+    ],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+    "iconTexture": "skilltree:textures/icons/chestplate_fur.png",
+    "borderTexture": "skilltree:textures/tooltip/notable.png",
+    "positionX": -90.0,
+    "positionY": -30.0,
+    "buttonSize": 20,
+    "isStartingPoint": false
+}

@@ -1,0 +1,30 @@
+{
+    "id": "customtree:hunter_limb_bo_3",
+    "bonuses": [
+        {
+            "type": "skilltree:attribute",
+            "attribute": "minecraft:generic.armor",
+            "id": "4bcdeb52-4632-419a-bcc7-1b04d5034179",
+            "name": "hunter_limb_bo_3",
+            "amount": 0.75,
+            "operation": 0
+        }
+    ],
+    "requirements": [],
+    "directConnections": [
+        "customtree:hunter_limb_bi_3",
+        "customtree:hunter_limb_bo_2",
+        "customtree:hunter_limb_bo_4"
+    ],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+    "iconTexture": "skilltree:textures/icons/chestplate_leather.png",
+    "borderTexture": "skilltree:textures/tooltip/lesser.png",
+    "positionX": -68.1,
+    "positionY": 117.0,
+    "buttonSize": 16,
+    "isStartingPoint": false,
+    "skillTree": "customtree:hunter_tree"
+}

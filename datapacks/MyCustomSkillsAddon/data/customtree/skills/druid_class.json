@@ -1,0 +1,28 @@
+{
+    "id": "customtree:druid_class",
+    "bonuses": [],
+    "requirements": [
+        {
+            "minValue": 100,
+            "statTypeId": "minecraft:custom",
+            "statId": "minecraft:mob_kills",
+            "type": "skilltree:stat_value"
+        }
+    ],
+    "directConnections": [
+        "customtree:druid_trunk_1",
+        "customtree:druid_root_c1",
+        "customtree:druid_root_l1",
+        "customtree:druid_root_r1"
+    ],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/class.png",
+    "iconTexture": "skilltree:textures/icons/cross_green.png",
+    "borderTexture": "skilltree:textures/tooltip/lesser.png",
+    "positionX": 0.0,
+    "positionY": 0.0,
+    "buttonSize": 24,
+    "isStartingPoint": true
+}

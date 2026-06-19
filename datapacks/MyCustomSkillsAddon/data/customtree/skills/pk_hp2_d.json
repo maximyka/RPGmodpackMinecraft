@@ -1,0 +1,41 @@
+{
+    "id": "customtree:pk_hp2_d",
+    "bonuses": [
+        {
+            "amount": 0.1,
+            "attribute": "parcool:max_stamina",
+            "id": "11111111-0000-0000-0000-000000000048",
+            "name": "Second Wind III",
+            "operation": 1,
+            "player_condition": {
+                "type": "skilltree:none"
+            },
+            "player_multiplier": {
+                "type": "skilltree:none"
+            },
+            "type": "skilltree:attribute"
+        }
+    ],
+    "requirements": [
+        {
+            "minValue": 1150000,
+            "statTypeId": "minecraft:custom",
+            "statId": "minecraft:sprint_one_cm",
+            "type": "skilltree:stat_value"
+        }
+    ],
+    "directConnections": [
+        "customtree:pk_hp1_d",
+        "customtree:pk_hp3_d"
+    ],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+    "iconTexture": "skilltree:textures/icons/potion_yellow_big.png",
+    "borderTexture": "skilltree:textures/tooltip/notable.png",
+    "positionX": 73.0,
+    "positionY": 24.0,
+    "buttonSize": 20,
+    "isStartingPoint": false
+}

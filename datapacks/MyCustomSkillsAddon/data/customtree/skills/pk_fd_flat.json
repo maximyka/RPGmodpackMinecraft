@@ -1,0 +1,62 @@
+{
+    "id": "customtree:pk_fd_flat",
+    "bonuses": [
+        {
+            "amount": -0.05,
+            "attacker_condition": {
+                "type": "skilltree:none"
+            },
+            "attacker_multiplier": {
+                "type": "skilltree:none"
+            },
+            "damage_condition": {
+                "type": "skilltree:fall"
+            },
+            "operation": 1,
+            "player_condition": {
+                "type": "skilltree:none"
+            },
+            "player_multiplier": {
+                "type": "skilltree:none"
+            },
+            "type": "skilltree:damage_taken"
+        },
+        {
+            "amount": 0.0076,
+            "attribute": "minecraft:generic.movement_speed",
+            "id": "11111111-0000-0000-0000-000000000054",
+            "name": "Gateway Speed",
+            "operation": 1,
+            "player_condition": {
+                "type": "skilltree:none"
+            },
+            "player_multiplier": {
+                "type": "skilltree:none"
+            },
+            "type": "skilltree:attribute"
+        }
+    ],
+    "requirements": [
+        {
+            "minValue": 18750000,
+            "statTypeId": "minecraft:custom",
+            "statId": "minecraft:sprint_one_cm",
+            "type": "skilltree:stat_value"
+        }
+    ],
+    "directConnections": [
+        "customtree:pk_fd4_d",
+        "customtree:pk_fd4_u",
+        "customtree:pk_fd_ks"
+    ],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+    "iconTexture": "skilltree:textures/icons/boots_gold.png",
+    "borderTexture": "skilltree:textures/tooltip/notable.png",
+    "positionX": 200.0,
+    "positionY": -210.0,
+    "buttonSize": 20,
+    "isStartingPoint": false
+}

@@ -1,0 +1,28 @@
+{
+  "id": "customtree:sg_3_2b",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:life_steal",
+      "id": "30000000-0000-0000-0000-000965105179",
+      "name": "Lifesteal",
+      "amount": 0.01,
+      "operation": 0
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "customtree:sg_4_2b",
+    "customtree:sg_apex_right_b"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/potion_red.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": 203.0,
+  "positionY": 52.0,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

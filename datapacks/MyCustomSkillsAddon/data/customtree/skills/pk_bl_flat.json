@@ -1,0 +1,54 @@
+{
+    "id": "customtree:pk_bl_flat",
+    "bonuses": [
+        {
+            "amount": 0.0128,
+            "attribute": "minecraft:generic.movement_speed",
+            "id": "11111111-0000-0000-0000-000000000061",
+            "name": "Gateway Speed",
+            "operation": 1,
+            "player_condition": {
+                "type": "skilltree:none"
+            },
+            "player_multiplier": {
+                "type": "skilltree:none"
+            },
+            "type": "skilltree:attribute"
+        },
+        {
+            "amount": 0.15,
+            "attribute": "parcool:stamina_recovery",
+            "id": "11111111-0000-0000-0000-000000000062",
+            "name": "Gateway Stamina Recovery",
+            "operation": 1,
+            "player_condition": {
+                "type": "skilltree:none"
+            },
+            "player_multiplier": {
+                "type": "skilltree:none"
+            },
+            "type": "skilltree:attribute"
+        }
+    ],
+    "requirements": [
+        {
+            "minValue": 31400000,
+            "statTypeId": "minecraft:custom",
+            "statId": "minecraft:sprint_one_cm",
+            "type": "skilltree:stat_value"
+        }
+    ],
+    "directConnections": [
+        "customtree:pk_bl4"
+    ],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+    "iconTexture": "skilltree:textures/icons/potion_green.png",
+    "borderTexture": "skilltree:textures/tooltip/notable.png",
+    "positionX": -60.0,
+    "positionY": 372.0,
+    "buttonSize": 20,
+    "isStartingPoint": false
+}

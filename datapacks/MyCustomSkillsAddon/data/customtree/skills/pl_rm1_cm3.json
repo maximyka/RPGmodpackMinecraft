@@ -1,0 +1,34 @@
+{
+  "id": "customtree:pl_rm1_cm3",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "b35db06f-7e6f-4dd5-881d-40451f76ef55",
+      "name": "Notable Armor",
+      "amount": 0.1,
+      "operation": 1
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:custom",
+      "statId": "minecraft:damage_blocked_by_shield",
+      "minValue": 2500
+    }
+  ],
+  "directConnections": [
+    "customtree:pl_rm2_cm3"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/chestplate_leather.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "positionX": -145.728,
+  "positionY": -38.22,
+  "buttonSize": 20,
+  "isStartingPoint": false
+}

@@ -1,0 +1,34 @@
+{
+    "id": "customtree:pk_regen_3",
+    "bonuses": [
+        {
+            "amount": 100.0,
+            "attribute": "parcool:max_stamina",
+            "id": "11111111-0000-0000-0000-000000000093",
+            "name": "Inner Reservoir II",
+            "operation": 0,
+            "player_condition": {
+                "type": "skilltree:none"
+            },
+            "player_multiplier": {
+                "type": "skilltree:none"
+            },
+            "type": "skilltree:attribute"
+        }
+    ],
+    "requirements": [],
+    "directConnections": [
+        "customtree:pk_0_0",
+        "customtree:pk_regen_4"
+    ],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+    "iconTexture": "skilltree:textures/icons/potion_yellow_big.png",
+    "borderTexture": "skilltree:textures/tooltip/lesser.png",
+    "positionX": 0.0,
+    "positionY": 40.0,
+    "buttonSize": 16,
+    "isStartingPoint": false
+}

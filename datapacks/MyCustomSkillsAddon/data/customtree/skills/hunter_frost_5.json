@@ -1,0 +1,29 @@
+{
+    "id": "customtree:hunter_frost_5",
+    "bonuses": [
+        {
+            "type": "skilltree:attribute",
+            "attribute": "attributeslib:healing_received",
+            "id": "364d3ab8-a666-4824-8ec9-cb23d35d5486",
+            "name": "hunter_frost_5",
+            "amount": 0.02,
+            "operation": 1
+        }
+    ],
+    "requirements": [],
+    "directConnections": [
+        "customtree:hunter_apex_frost",
+        "customtree:hunter_frost_4"
+    ],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+    "iconTexture": "skilltree:textures/icons/cross_green.png",
+    "borderTexture": "skilltree:textures/tooltip/lesser.png",
+    "positionX": -245,
+    "positionY": 300,
+    "buttonSize": 16,
+    "isStartingPoint": false,
+    "skillTree": "customtree:hunter_tree"
+}

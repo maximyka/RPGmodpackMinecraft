@@ -1,0 +1,30 @@
+{
+    "id": "customtree:shooter_s_lesser_3_r",
+    "bonuses": [
+        {
+            "type": "skilltree:attribute",
+            "attribute": "tacz_attributes:burst_speed",
+            "id": "58627670-1678-465e-b9b7-edb906629cd9",
+            "name": "Skill",
+            "amount": 1.0,
+            "operation": 0
+        }
+    ],
+    "requirements": [],
+    "directConnections": [
+        "customtree:shooter_s_notable_2",
+        "customtree:shooter_s_notable_3",
+        "customtree:shooter_horus_r_190_1"
+    ],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+    "iconTexture": "skilltree:textures/icons/arrow_steel.png",
+    "borderTexture": "skilltree:textures/tooltip/lesser.png",
+    "titleColor": "",
+    "positionX": 16.0,
+    "positionY": 190.0,
+    "buttonSize": 16,
+    "isStartingPoint": false
+}

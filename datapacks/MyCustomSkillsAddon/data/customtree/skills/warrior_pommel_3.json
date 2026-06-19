@@ -1,0 +1,33 @@
+{
+    "id": "customtree:warrior_pommel_3",
+    "bonuses": [
+        {
+            "type": "skilltree:attribute",
+            "attribute": "minecraft:generic.max_health",
+            "id": "259447c2-431d-58d1-9b83-f7c79e11ad02",
+            "name": "Warrior pommel_3",
+            "amount": 0.02,
+            "operation": 1,
+            "player_condition": {
+                "type": "skilltree:none"
+            },
+            "player_multiplier": {
+                "type": "skilltree:none"
+            }
+        }
+    ],
+    "requirements": [],
+    "directConnections": [
+        "customtree:warrior_pommel_1"
+    ],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+    "iconTexture": "skilltree:textures/icons/heart_red.png",
+    "borderTexture": "skilltree:textures/tooltip/lesser.png",
+    "positionX": 30.0,
+    "positionY": 140.0,
+    "buttonSize": 16,
+    "isStartingPoint": false
+}

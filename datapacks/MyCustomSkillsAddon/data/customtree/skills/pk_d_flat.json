@@ -1,0 +1,55 @@
+{
+    "id": "customtree:pk_d_flat",
+    "bonuses": [
+        {
+            "amount": 0.0148,
+            "attribute": "minecraft:generic.movement_speed",
+            "id": "11111111-0000-0000-0000-000000000015",
+            "name": "Gateway Speed",
+            "operation": 1,
+            "player_condition": {
+                "type": "skilltree:none"
+            },
+            "player_multiplier": {
+                "type": "skilltree:none"
+            },
+            "type": "skilltree:attribute"
+        },
+        {
+            "amount": 200.0,
+            "attribute": "parcool:max_stamina",
+            "id": "11111111-0000-0000-0000-000000000016",
+            "name": "Gateway Stamina",
+            "operation": 0,
+            "player_condition": {
+                "type": "skilltree:none"
+            },
+            "player_multiplier": {
+                "type": "skilltree:none"
+            },
+            "type": "skilltree:attribute"
+        }
+    ],
+    "requirements": [
+        {
+            "minValue": 16000000,
+            "statTypeId": "minecraft:custom",
+            "statId": "minecraft:sprint_one_cm",
+            "type": "skilltree:stat_value"
+        }
+    ],
+    "directConnections": [
+        "customtree:pk_bl3_core",
+        "customtree:pk_d1"
+    ],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+    "iconTexture": "skilltree:textures/icons/potion_yellow_big.png",
+    "borderTexture": "skilltree:textures/tooltip/notable.png",
+    "positionX": -15.0,
+    "positionY": 315.0,
+    "buttonSize": 20,
+    "isStartingPoint": false
+}

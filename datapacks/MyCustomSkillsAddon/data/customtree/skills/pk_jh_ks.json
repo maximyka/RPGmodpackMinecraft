@@ -1,0 +1,67 @@
+{
+    "id": "customtree:pk_jh_ks",
+    "bonuses": [
+        {
+            "multiplier": 0.0625,
+            "player_condition": {
+                "type": "skilltree:none"
+            },
+            "type": "skilltree:jump_height"
+        },
+        {
+            "amount": 0.0252,
+            "attribute": "minecraft:generic.movement_speed",
+            "id": "11111111-0000-0000-0000-000000000045",
+            "name": "Keystone Speed",
+            "operation": 1,
+            "player_condition": {
+                "type": "skilltree:none"
+            },
+            "player_multiplier": {
+                "type": "skilltree:none"
+            },
+            "type": "skilltree:attribute"
+        },
+        {
+            "amount": -0.1,
+            "attribute": "minecraft:generic.armor",
+            "id": "11111111-0000-0000-0000-000000000046",
+            "name": "Keystone Armor Penalty",
+            "operation": 1,
+            "player_condition": {
+                "type": "skilltree:none"
+            },
+            "player_multiplier": {
+                "type": "skilltree:none"
+            },
+            "type": "skilltree:attribute"
+        }
+    ],
+    "requirements": [
+        {
+            "minValue": 150000,
+            "statTypeId": "minecraft:custom",
+            "statId": "minecraft:jump",
+            "type": "skilltree:stat_value"
+        },
+        {
+            "minValue": 16400000,
+            "statTypeId": "minecraft:custom",
+            "statId": "minecraft:sprint_one_cm",
+            "type": "skilltree:stat_value"
+        }
+    ],
+    "directConnections": [
+        "customtree:pk_jh_flat"
+    ],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+    "iconTexture": "skilltree:textures/icons/arrow_emerald.png",
+    "borderTexture": "skilltree:textures/tooltip/lesser.png",
+    "positionX": -300.0,
+    "positionY": -105.0,
+    "buttonSize": 32,
+    "isStartingPoint": false
+}

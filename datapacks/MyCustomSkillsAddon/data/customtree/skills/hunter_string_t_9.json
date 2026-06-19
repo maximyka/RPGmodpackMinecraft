@@ -1,0 +1,29 @@
+{
+    "id": "customtree:hunter_string_t_9",
+    "bonuses": [
+        {
+            "type": "skilltree:attribute",
+            "attribute": "attributeslib:draw_speed",
+            "id": "11c16d6f-aab1-4d61-b837-9f8b829e7171",
+            "name": "hunter_string_t_9",
+            "amount": 0.025,
+            "operation": 1
+        }
+    ],
+    "requirements": [],
+    "directConnections": [
+        "customtree:hunter_string_t_10",
+        "customtree:hunter_string_t_8"
+    ],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+    "iconTexture": "skilltree:textures/icons/potion_blue.png",
+    "borderTexture": "skilltree:textures/tooltip/lesser.png",
+    "positionX": 80,
+    "positionY": -106.36,
+    "buttonSize": 16,
+    "isStartingPoint": false,
+    "skillTree": "customtree:hunter_tree"
+}

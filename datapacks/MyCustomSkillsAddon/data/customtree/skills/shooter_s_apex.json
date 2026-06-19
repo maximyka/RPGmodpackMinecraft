@@ -1,0 +1,45 @@
+{
+    "id": "customtree:shooter_s_apex",
+    "bonuses": [
+        {
+            "type": "skilltree:attribute",
+            "attribute": "tacz_attributes:mg_damage",
+            "id": "a0531d8e-66a2-5a26-9f83-431a45e411ec",
+            "name": "Metal Storm MG Damage",
+            "amount": 0.4,
+            "operation": 1
+        },
+        {
+            "type": "skilltree:attribute",
+            "attribute": "furattributes:sprint_speed",
+            "id": "a28b690b-ef71-5978-ac2c-7df9d3c660f2",
+            "name": "Metal Storm Speed Penalty",
+            "amount": -0.15,
+            "operation": 1
+        }
+    ],
+    "requirements": [
+        {
+            "minValue": 30,
+            "statTypeId": "minecraft:custom",
+            "statId": "GunShots",
+            "type": "skilltree:stat_value"
+        }
+    ],
+    "directConnections": [
+        "customtree:shooter_s_lesser_4_l",
+        "customtree:shooter_s_lesser_4_r",
+        "customtree:shooter_s_notable_3"
+    ],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+    "iconTexture": "skilltree:textures/icons/chestplate_bronze_fur.png",
+    "borderTexture": "skilltree:textures/tooltip/keystone.png",
+    "titleColor": "",
+    "positionX": 0.0,
+    "positionY": 310.0,
+    "buttonSize": 32,
+    "isStartingPoint": false
+}

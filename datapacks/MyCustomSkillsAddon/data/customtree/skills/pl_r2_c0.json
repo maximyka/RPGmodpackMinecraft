@@ -1,0 +1,29 @@
+{
+  "id": "customtree:pl_r2_c0",
+  "bonuses": [
+    {
+      "type": "skilltree:healing",
+      "chance": 0.25,
+      "amount": 2.0,
+      "event_listener": {
+        "cooldown": 10,
+        "type": "skilltree:ticking"
+      },
+      "percentage_healing": false
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "customtree:pl_r3_c0"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/potion_yellow_big.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": 0.0,
+  "positionY": 84.0,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

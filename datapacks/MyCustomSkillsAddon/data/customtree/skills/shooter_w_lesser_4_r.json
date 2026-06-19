@@ -1,0 +1,29 @@
+{
+    "id": "customtree:shooter_w_lesser_4_r",
+    "bonuses": [
+        {
+            "type": "skilltree:attribute",
+            "attribute": "tacz_attributes:hip_fire_accuracy",
+            "id": "123e2f90-2d08-453f-9273-8ead22ce0673",
+            "name": "Skill",
+            "amount": 1.0,
+            "operation": 0
+        }
+    ],
+    "requirements": [],
+    "directConnections": [
+        "customtree:shooter_w_apex",
+        "customtree:shooter_w_notable_3"
+    ],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+    "iconTexture": "skilltree:textures/icons/arrow.png",
+    "borderTexture": "skilltree:textures/tooltip/lesser.png",
+    "titleColor": "",
+    "positionX": -270.0,
+    "positionY": 16.0,
+    "buttonSize": 16,
+    "isStartingPoint": false
+}

@@ -1,0 +1,37 @@
+{
+    "id": "customtree:hunter_string_b_6",
+    "bonuses": [
+        {
+            "type": "skilltree:attribute",
+            "attribute": "attributeslib:draw_speed",
+            "id": "7b59f3ab-a928-4c72-aa89-2a877029a9c1",
+            "name": "hunter_string_b_6",
+            "amount": 0.12,
+            "operation": 1
+        }
+    ],
+    "requirements": [
+        {
+            "minValue": 4000,
+            "statTypeId": "minecraft:used",
+            "statId": "minecraft:crossbow",
+            "type": "skilltree:stat_value"
+        }
+    ],
+    "directConnections": [
+        "customtree:hunter_reflect_1",
+        "customtree:hunter_string_b_5",
+        "customtree:hunter_string_b_7"
+    ],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+    "iconTexture": "skilltree:textures/icons/potion_blue.png",
+    "borderTexture": "skilltree:textures/tooltip/notable.png",
+    "positionX": 80,
+    "positionY": 212.73,
+    "buttonSize": 20,
+    "isStartingPoint": false,
+    "skillTree": "customtree:hunter_tree"
+}

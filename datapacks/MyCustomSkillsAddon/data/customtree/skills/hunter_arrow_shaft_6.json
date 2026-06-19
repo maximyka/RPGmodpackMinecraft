@@ -1,0 +1,29 @@
+{
+    "id": "customtree:hunter_arrow_shaft_6",
+    "bonuses": [
+        {
+            "type": "skilltree:attribute",
+            "attribute": "attributeslib:current_hp_damage",
+            "id": "cc75ae9d-bc5f-486b-b72b-49bc51ee0506",
+            "name": "hunter_arrow_shaft_6",
+            "amount": 0.01,
+            "operation": 0
+        }
+    ],
+    "requirements": [],
+    "directConnections": [
+        "customtree:hunter_arrow_shaft_5",
+        "customtree:hunter_arrow_shaft_7"
+    ],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+    "iconTexture": "skilltree:textures/icons/arrow_steel.png",
+    "borderTexture": "skilltree:textures/tooltip/lesser.png",
+    "positionX": 192,
+    "positionY": 0,
+    "buttonSize": 16,
+    "isStartingPoint": false,
+    "skillTree": "customtree:hunter_tree"
+}

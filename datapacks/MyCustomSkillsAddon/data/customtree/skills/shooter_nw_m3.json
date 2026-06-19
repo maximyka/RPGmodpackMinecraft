@@ -1,0 +1,31 @@
+{
+    "id": "customtree:shooter_nw_m3",
+    "bonuses": [
+        {
+            "type": "skilltree:attribute",
+            "attribute": "tacz_attributes:ads_speed",
+            "id": "7e0815ca-4313-4025-8739-6fff49886210",
+            "name": "Skill",
+            "amount": 1.2,
+            "operation": 0
+        }
+    ],
+    "requirements": [],
+    "directConnections": [
+        "customtree:shooter_arc_n_nw_230_2",
+        "customtree:shooter_arc_w_nw_230_2",
+        "customtree:shooter_nw_m4",
+        "customtree:shooter_nw_notable"
+    ],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+    "iconTexture": "skilltree:textures/icons/arrow_bronze.png",
+    "borderTexture": "skilltree:textures/tooltip/lesser.png",
+    "titleColor": "",
+    "positionX": -141.4,
+    "positionY": -141.4,
+    "buttonSize": 16,
+    "isStartingPoint": false
+}

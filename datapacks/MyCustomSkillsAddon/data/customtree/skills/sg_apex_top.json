@@ -1,0 +1,40 @@
+{
+  "id": "customtree:sg_apex_top",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:life_steal",
+      "id": "30000000-0000-0000-0000-000739010535",
+      "name": "Lifesteal",
+      "amount": 0.04,
+      "operation": 0
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "cc17b44e-e7f3-4cc0-a30e-d14e7c0b09a3",
+      "name": "Keystone Armor Penalty",
+      "amount": -0.05,
+      "operation": 1
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:custom",
+      "statId": "minecraft:damage_blocked_by_shield",
+      "minValue": 200000
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "skilltree:textures/icons/potion_red.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "positionX": 0.0,
+  "positionY": -480.0,
+  "buttonSize": 32,
+  "isStartingPoint": false
+}

@@ -1,0 +1,31 @@
+{
+    "id": "customtree:druid_leaf_r2",
+    "bonuses": [
+        {
+            "type": "skilltree:attribute",
+            "attribute": "irons_spellbooks:mana_regen",
+            "id": "261a1c26-e499-51f6-b08b-6ac03dae88bf",
+            "name": "Druid leaf_r2",
+            "amount": 0.03,
+            "operation": 1,
+            "player_condition": {
+                "type": "skilltree:none"
+            },
+            "player_multiplier": {
+                "type": "skilltree:none"
+            }
+        }
+    ],
+    "requirements": [],
+    "directConnections": [],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+    "iconTexture": "skilltree:textures/icons/potion_red.png",
+    "borderTexture": "skilltree:textures/tooltip/lesser.png",
+    "positionX": 120.0,
+    "positionY": -50.0,
+    "buttonSize": 16,
+    "isStartingPoint": false
+}

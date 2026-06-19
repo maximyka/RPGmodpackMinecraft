@@ -1,0 +1,27 @@
+{
+    "id": "customtree:mage_ice_main_16",
+    "bonuses": [
+        {
+            "type": "skilltree:attribute",
+            "attribute": "irons_spellbooks:ice_spell_power",
+            "id": "ab09b3ea-c441-489f-805a-481737927f25",
+            "name": "Lesser ice 16",
+            "amount": 0.02,
+            "operation": 0
+        }
+    ],
+    "requirements": [],
+    "directConnections": [
+        "customtree:mage_ice_main_17"
+    ],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+    "iconTexture": "skilltree:textures/icons/arrow_bronze.png",
+    "borderTexture": "skilltree:textures/tooltip/lesser.png",
+    "positionX": 72.53,
+    "positionY": -522.59,
+    "buttonSize": 16,
+    "isStartingPoint": false
+}

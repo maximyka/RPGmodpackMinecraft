@@ -1,0 +1,40 @@
+{
+    "id": "customtree:mage_holy_main_18",
+    "bonuses": [
+        {
+            "type": "skilltree:attribute",
+            "attribute": "irons_spellbooks:holy_spell_power",
+            "id": "57fff39a-cfe6-43a3-b19b-963606d57713",
+            "name": "Keystone holy",
+            "amount": 0.35,
+            "operation": 1
+        },
+        {
+            "type": "skilltree:attribute",
+            "attribute": "minecraft:generic.attack_damage",
+            "id": "71888ca8-eb57-4e31-ae88-0e262a994ed2",
+            "name": "Keystone Penalty holy",
+            "amount": -0.3,
+            "operation": 1
+        }
+    ],
+    "requirements": [
+        {
+            "minValue": 20000,
+            "statTypeId": "minecraft:custom",
+            "statId": "kubejs:mana_spent",
+            "type": "skilltree:stat_value"
+        }
+    ],
+    "directConnections": [],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+    "iconTexture": "skilltree:textures/icons/eye_green.png",
+    "borderTexture": "skilltree:textures/tooltip/keystone.png",
+    "positionX": 710.99,
+    "positionY": 4.3,
+    "buttonSize": 32,
+    "isStartingPoint": false
+}

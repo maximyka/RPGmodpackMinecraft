@@ -1,0 +1,32 @@
+{
+    "id": "customtree:mage_ice_subb_5",
+    "bonuses": [
+        {
+            "type": "skilltree:attribute",
+            "attribute": "irons_spellbooks:ice_magic_resist",
+            "id": "273cc7bf-013b-4bb0-afa5-2678d771471f",
+            "name": "Notable Resist ice subB",
+            "amount": 0.1,
+            "operation": 1
+        }
+    ],
+    "requirements": [
+        {
+            "minValue": 5000,
+            "statTypeId": "minecraft:custom",
+            "statId": "kubejs:mana_spent",
+            "type": "skilltree:stat_value"
+        }
+    ],
+    "directConnections": [],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+    "iconTexture": "skilltree:textures/icons/chestplate_fur.png",
+    "borderTexture": "skilltree:textures/tooltip/notable.png",
+    "positionX": 421.2,
+    "positionY": -251.55,
+    "buttonSize": 20,
+    "isStartingPoint": false
+}

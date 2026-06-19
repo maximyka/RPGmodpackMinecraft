@@ -1,0 +1,40 @@
+{
+    "id": "customtree:druid_branch_lu_4",
+    "bonuses": [
+        {
+            "type": "skilltree:attribute",
+            "attribute": "irons_spellbooks:summon_damage",
+            "id": "b3f9f9b2-0225-563e-a274-556a1c8d0528",
+            "name": "Druid branch_lu_4",
+            "amount": 0.12,
+            "operation": 1,
+            "player_condition": {
+                "type": "skilltree:none"
+            },
+            "player_multiplier": {
+                "type": "skilltree:none"
+            }
+        }
+    ],
+    "requirements": [
+        {
+            "minValue": 2000,
+            "statTypeId": "minecraft:custom",
+            "statId": "minecraft:mob_kills",
+            "type": "skilltree:stat_value"
+        }
+    ],
+    "directConnections": [
+        "customtree:druid_leaf_lu3"
+    ],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+    "iconTexture": "skilltree:textures/icons/glove_steel.png",
+    "borderTexture": "skilltree:textures/tooltip/notable.png",
+    "positionX": -140.0,
+    "positionY": -240.0,
+    "buttonSize": 20,
+    "isStartingPoint": false
+}

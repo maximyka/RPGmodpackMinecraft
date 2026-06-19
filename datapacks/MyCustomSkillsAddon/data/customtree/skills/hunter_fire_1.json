@@ -1,0 +1,29 @@
+{
+    "id": "customtree:hunter_fire_1",
+    "bonuses": [
+        {
+            "type": "skilltree:attribute",
+            "attribute": "attributeslib:prot_pierce",
+            "id": "1c314f75-ef7c-433b-8294-a3210a7b21a6",
+            "name": "hunter_fire_1",
+            "amount": 0.5,
+            "operation": 0
+        }
+    ],
+    "requirements": [],
+    "directConnections": [
+        "customtree:hunter_arrow_shaft_5",
+        "customtree:hunter_fire_2"
+    ],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+    "iconTexture": "skilltree:textures/icons/eye_green.png",
+    "borderTexture": "skilltree:textures/tooltip/lesser.png",
+    "positionX": 175,
+    "positionY": -70,
+    "buttonSize": 16,
+    "isStartingPoint": false,
+    "skillTree": "customtree:hunter_tree"
+}

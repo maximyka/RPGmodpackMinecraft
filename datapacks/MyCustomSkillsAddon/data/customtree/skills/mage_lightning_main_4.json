@@ -1,0 +1,27 @@
+{
+    "id": "customtree:mage_lightning_main_4",
+    "bonuses": [
+        {
+            "type": "skilltree:attribute",
+            "attribute": "irons_spellbooks:lightning_spell_power",
+            "id": "5df65fae-78c6-4096-970d-f065262bdc5a",
+            "name": "Lesser lightning 4",
+            "amount": 0.02,
+            "operation": 0
+        }
+    ],
+    "requirements": [],
+    "directConnections": [
+        "customtree:mage_lightning_main_5"
+    ],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+    "iconTexture": "skilltree:textures/icons/arrow_bronze.png",
+    "borderTexture": "skilltree:textures/tooltip/lesser.png",
+    "positionX": 69.92,
+    "positionY": 269.48,
+    "buttonSize": 16,
+    "isStartingPoint": false
+}

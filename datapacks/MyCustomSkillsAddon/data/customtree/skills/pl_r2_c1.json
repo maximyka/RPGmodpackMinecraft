@@ -1,0 +1,27 @@
+{
+  "id": "customtree:pl_r2_c1",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:mana_regen",
+      "id": "8a113a53-612e-41ad-86f1-078a22e1c948",
+      "name": "Mana Regen Small",
+      "amount": 0.04,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "customtree:pl_r3_c1"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/potion_blue.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": 50.304,
+  "positionY": 83.16,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

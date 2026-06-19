@@ -1,0 +1,35 @@
+{
+  "id": "customtree:pl_r3_cm2",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor_toughness",
+      "id": "5ff208c3-985a-4c00-b628-2bc314dc6c5c",
+      "name": "Notable Toughness AP Protection",
+      "amount": 0.15,
+      "operation": 1
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:custom",
+      "statId": "minecraft:damage_blocked_by_shield",
+      "minValue": 3000
+    }
+  ],
+  "directConnections": [
+    "customtree:pl_r4_cm2",
+    "customtree:pl_r3_cm3"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/chestplate_leather.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "positionX": -106.368,
+  "positionY": 120.96,
+  "buttonSize": 20,
+  "isStartingPoint": false
+}

@@ -1,0 +1,32 @@
+{
+  "id": "customtree:pl_r3_cm4",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "a9128c8a-de91-4992-afef-a409546bce57",
+      "name": "Shield Armor",
+      "amount": 1.0,
+      "operation": 0,
+      "player_condition": {
+        "item_condition": {
+          "equipment_type": "shield",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/chestplate_leather.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -212.736,
+  "positionY": 105.84,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

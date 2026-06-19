@@ -1,0 +1,32 @@
+{
+    "id": "customtree:mage_holy_subb_5",
+    "bonuses": [
+        {
+            "type": "skilltree:attribute",
+            "attribute": "irons_spellbooks:holy_magic_resist",
+            "id": "cac7683d-9bde-4296-b41c-beee6c5d1276",
+            "name": "Notable Resist holy subB",
+            "amount": 0.1,
+            "operation": 1
+        }
+    ],
+    "requirements": [
+        {
+            "minValue": 15000,
+            "statTypeId": "minecraft:custom",
+            "statId": "kubejs:mana_spent",
+            "type": "skilltree:stat_value"
+        }
+    ],
+    "directConnections": [],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+    "iconTexture": "skilltree:textures/icons/chestplate_fur.png",
+    "borderTexture": "skilltree:textures/tooltip/notable.png",
+    "positionX": 470.6,
+    "positionY": 411.3,
+    "buttonSize": 20,
+    "isStartingPoint": false
+}

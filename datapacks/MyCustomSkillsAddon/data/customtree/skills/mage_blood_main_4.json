@@ -1,0 +1,27 @@
+{
+    "id": "customtree:mage_blood_main_4",
+    "bonuses": [
+        {
+            "type": "skilltree:attribute",
+            "attribute": "irons_spellbooks:blood_spell_power",
+            "id": "d39b1a9b-5d75-4841-8035-4ab77a5e87f7",
+            "name": "Lesser blood 4",
+            "amount": 0.02,
+            "operation": 0
+        }
+    ],
+    "requirements": [],
+    "directConnections": [
+        "customtree:mage_blood_main_5"
+    ],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+    "iconTexture": "skilltree:textures/icons/arrow_bronze.png",
+    "borderTexture": "skilltree:textures/tooltip/lesser.png",
+    "positionX": -249.55,
+    "positionY": -205.38,
+    "buttonSize": 16,
+    "isStartingPoint": false
+}

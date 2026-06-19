@@ -1,0 +1,27 @@
+{
+  "id": "customtree:pl_r1_c0",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:max_mana",
+      "id": "00dbda53-2cb0-4d6b-b6c0-6c02f6f0607d",
+      "name": "Max Mana Small",
+      "amount": 10.0,
+      "operation": 0
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "customtree:pl_r2_c0"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/potion_blue.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": 0.0,
+  "positionY": 42.0,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

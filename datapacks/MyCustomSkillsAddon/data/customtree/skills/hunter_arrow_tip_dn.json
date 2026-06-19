@@ -1,0 +1,29 @@
+{
+    "id": "customtree:hunter_arrow_tip_dn",
+    "bonuses": [
+        {
+            "type": "skilltree:attribute",
+            "attribute": "attributeslib:arrow_damage",
+            "id": "a780f1df-3f1c-48d6-a63f-ee912a424ae5",
+            "name": "hunter_arrow_tip_dn",
+            "amount": 0.015,
+            "operation": 1
+        }
+    ],
+    "requirements": [],
+    "directConnections": [
+        "customtree:hunter_apex_sniper",
+        "customtree:hunter_arrow_shaft_10"
+    ],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+    "iconTexture": "skilltree:textures/icons/arrow_steel.png",
+    "borderTexture": "skilltree:textures/tooltip/lesser.png",
+    "positionX": 350,
+    "positionY": 35,
+    "buttonSize": 16,
+    "isStartingPoint": false,
+    "skillTree": "customtree:hunter_tree"
+}

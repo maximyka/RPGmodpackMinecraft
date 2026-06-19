@@ -1,0 +1,35 @@
+{
+    "id": "customtree:mage_holy_main_10",
+    "bonuses": [
+        {
+            "type": "skilltree:attribute",
+            "attribute": "irons_spellbooks:holy_spell_power",
+            "id": "576b047b-aa95-46f9-8532-3ff5ac557338",
+            "name": "Notable holy 10",
+            "amount": 0.08,
+            "operation": 1
+        }
+    ],
+    "requirements": [
+        {
+            "minValue": 7500,
+            "statTypeId": "minecraft:custom",
+            "statId": "kubejs:mana_spent",
+            "type": "skilltree:stat_value"
+        }
+    ],
+    "directConnections": [
+        "customtree:mage_holy_main_11",
+        "customtree:mage_holy_subb_1"
+    ],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+    "iconTexture": "skilltree:textures/icons/glove_gold.png",
+    "borderTexture": "skilltree:textures/tooltip/notable.png",
+    "positionX": 511.4,
+    "positionY": 60.76,
+    "buttonSize": 20,
+    "isStartingPoint": false
+}

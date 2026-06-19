@@ -1,0 +1,27 @@
+{
+    "id": "customtree:mage_holy_main_3",
+    "bonuses": [
+        {
+            "type": "skilltree:attribute",
+            "attribute": "irons_spellbooks:holy_spell_power",
+            "id": "7140031f-507d-4c08-b85c-7a6b52435dc7",
+            "name": "Lesser holy 3",
+            "amount": 0.02,
+            "operation": 0
+        }
+    ],
+    "requirements": [],
+    "directConnections": [
+        "customtree:mage_holy_main_4"
+    ],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+    "iconTexture": "skilltree:textures/icons/arrow_bronze.png",
+    "borderTexture": "skilltree:textures/tooltip/lesser.png",
+    "positionX": 339.36,
+    "positionY": 53.16,
+    "buttonSize": 16,
+    "isStartingPoint": false
+}

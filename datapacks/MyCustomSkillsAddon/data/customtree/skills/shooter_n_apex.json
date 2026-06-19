@@ -1,0 +1,45 @@
+{
+    "id": "customtree:shooter_n_apex",
+    "bonuses": [
+        {
+            "type": "skilltree:attribute",
+            "attribute": "tacz_attributes:headshot_multiplier",
+            "id": "f61c2b39-8356-5871-98ca-39f36506ba30",
+            "name": "Falcon Gaze HS Multiplier",
+            "amount": 0.4,
+            "operation": 0
+        },
+        {
+            "type": "skilltree:attribute",
+            "attribute": "minecraft:generic.max_health",
+            "id": "f559ead2-b563-5815-95d7-65426ffb057c",
+            "name": "Falcon Gaze Penalty",
+            "amount": -0.15,
+            "operation": 1
+        }
+    ],
+    "requirements": [
+        {
+            "minValue": 30,
+            "statTypeId": "minecraft:custom",
+            "statId": "GunShots",
+            "type": "skilltree:stat_value"
+        }
+    ],
+    "directConnections": [
+        "customtree:shooter_n_lesser_4_l",
+        "customtree:shooter_n_lesser_4_r",
+        "customtree:shooter_n_notable_3"
+    ],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+    "iconTexture": "skilltree:textures/icons/bow_diamond.png",
+    "borderTexture": "skilltree:textures/tooltip/keystone.png",
+    "titleColor": "",
+    "positionX": 0.0,
+    "positionY": -310.0,
+    "buttonSize": 32,
+    "isStartingPoint": false
+}

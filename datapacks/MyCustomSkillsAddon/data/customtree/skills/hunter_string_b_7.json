@@ -1,0 +1,29 @@
+{
+    "id": "customtree:hunter_string_b_7",
+    "bonuses": [
+        {
+            "type": "skilltree:attribute",
+            "attribute": "furattributes:proj_speed",
+            "id": "f575b4fa-22bb-4e49-82d6-bf73fec88b7e",
+            "name": "hunter_string_b_7",
+            "amount": 0.03,
+            "operation": 1
+        }
+    ],
+    "requirements": [],
+    "directConnections": [
+        "customtree:hunter_string_b_6",
+        "customtree:hunter_string_b_8"
+    ],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+    "iconTexture": "skilltree:textures/icons/potion_blue.png",
+    "borderTexture": "skilltree:textures/tooltip/lesser.png",
+    "positionX": 80,
+    "positionY": 177.27,
+    "buttonSize": 16,
+    "isStartingPoint": false,
+    "skillTree": "customtree:hunter_tree"
+}

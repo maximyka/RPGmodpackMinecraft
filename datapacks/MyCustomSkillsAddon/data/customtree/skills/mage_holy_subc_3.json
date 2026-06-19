@@ -1,0 +1,27 @@
+{
+    "id": "customtree:mage_holy_subc_3",
+    "bonuses": [
+        {
+            "type": "skilltree:attribute",
+            "attribute": "irons_spellbooks:holy_magic_resist",
+            "id": "3bb55c3c-b64c-42b8-838f-94a6020d1806",
+            "name": "Lesser Resist holy subC 3",
+            "amount": 0.02,
+            "operation": 0
+        }
+    ],
+    "requirements": [],
+    "directConnections": [
+        "customtree:mage_holy_subc_4"
+    ],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+    "iconTexture": "skilltree:textures/icons/arrow_bronze.png",
+    "borderTexture": "skilltree:textures/tooltip/lesser.png",
+    "positionX": 564.97,
+    "positionY": -419.19,
+    "buttonSize": 16,
+    "isStartingPoint": false
+}

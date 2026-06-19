@@ -1,0 +1,33 @@
+{
+    "id": "customtree:warrior_blade_l15",
+    "bonuses": [
+        {
+            "type": "skilltree:attribute",
+            "attribute": "minecraft:generic.attack_speed",
+            "id": "6d047ebf-e94f-50aa-950c-70fbdcd9026e",
+            "name": "Warrior blade_l15",
+            "amount": 0.03,
+            "operation": 1,
+            "player_condition": {
+                "type": "skilltree:none"
+            },
+            "player_multiplier": {
+                "type": "skilltree:none"
+            }
+        }
+    ],
+    "requirements": [],
+    "directConnections": [
+        "customtree:warrior_tip_l"
+    ],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+    "iconTexture": "skilltree:textures/icons/boots_leather.png",
+    "borderTexture": "skilltree:textures/tooltip/lesser.png",
+    "positionX": -35.0,
+    "positionY": -450.0,
+    "buttonSize": 16,
+    "isStartingPoint": false
+}

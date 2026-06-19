@@ -1,0 +1,50 @@
+{
+    "id": "customtree:shooter_s_notable_2",
+    "bonuses": [
+        {
+            "type": "skilltree:attribute",
+            "attribute": "tacz_attributes:mg_damage",
+            "id": "c7dcadf6-cf26-5d38-a8fa-e68c695d7efa",
+            "name": "Notable Heavy Damage shooter_s_notable_2",
+            "amount": 0.1,
+            "operation": 1
+        },
+        {
+            "type": "skilltree:attribute",
+            "attribute": "tacz_attributes:recoil",
+            "id": "8052a3d6-cd16-54e7-815e-16794f1a4809",
+            "name": "Notable Recoil Reduce shooter_s_notable_2",
+            "amount": -0.06,
+            "operation": 1
+        }
+    ],
+    "requirements": [
+        {
+            "minValue": 5,
+            "statTypeId": "minecraft:custom",
+            "statId": "GunShots",
+            "type": "skilltree:stat_value"
+        }
+    ],
+    "directConnections": [
+        "customtree:shooter_arc_s_se_150_1",
+        "customtree:shooter_arc_s_sw_150_1",
+        "customtree:shooter_s_lesser_2_l",
+        "customtree:shooter_s_lesser_2_r",
+        "customtree:shooter_s_lesser_3_l",
+        "customtree:shooter_s_lesser_3_r",
+        "customtree:shooter_s_notable_1",
+        "customtree:shooter_s_notable_3"
+    ],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+    "iconTexture": "skilltree:textures/icons/glove_steel.png",
+    "borderTexture": "skilltree:textures/tooltip/notable.png",
+    "titleColor": "",
+    "positionX": 0.5000006,
+    "positionY": 155.00491,
+    "buttonSize": 20,
+    "isStartingPoint": false
+}

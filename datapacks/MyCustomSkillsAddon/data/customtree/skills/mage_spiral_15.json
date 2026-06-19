@@ -1,0 +1,27 @@
+{
+    "id": "customtree:mage_spiral_15",
+    "bonuses": [
+        {
+            "type": "skilltree:attribute",
+            "attribute": "irons_spellbooks:max_mana",
+            "id": "20a77d65-ca3d-4937-b443-e34199ac75d1",
+            "name": "Mage Spiral 15",
+            "amount": 15.0,
+            "operation": 0
+        }
+    ],
+    "requirements": [],
+    "directConnections": [
+        "customtree:mage_spiral_16"
+    ],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+    "iconTexture": "skilltree:textures/icons/potion_blue.png",
+    "borderTexture": "skilltree:textures/tooltip/lesser.png",
+    "positionX": -0.0,
+    "positionY": -130.0,
+    "buttonSize": 16,
+    "isStartingPoint": false
+}

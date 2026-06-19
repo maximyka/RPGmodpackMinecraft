@@ -1,0 +1,45 @@
+{
+    "id": "customtree:shooter_w_apex",
+    "bonuses": [
+        {
+            "type": "skilltree:attribute",
+            "attribute": "tacz_attributes:rpm_multiplier",
+            "id": "b4f6991d-76ad-5e63-a33d-2d4cdd69314d",
+            "name": "PMC RPM Booster",
+            "amount": 0.35,
+            "operation": 1
+        },
+        {
+            "type": "skilltree:attribute",
+            "attribute": "tacz_attributes:reload_speed",
+            "id": "6648a87b-3eb3-56ef-b6e6-872d6a06c415",
+            "name": "PMC Reload Penalty",
+            "amount": -0.2,
+            "operation": 1
+        }
+    ],
+    "requirements": [
+        {
+            "minValue": 30,
+            "statTypeId": "minecraft:custom",
+            "statId": "GunShots",
+            "type": "skilltree:stat_value"
+        }
+    ],
+    "directConnections": [
+        "customtree:shooter_w_lesser_4_l",
+        "customtree:shooter_w_lesser_4_r",
+        "customtree:shooter_w_notable_3"
+    ],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+    "iconTexture": "skilltree:textures/icons/bow_diamond.png",
+    "borderTexture": "skilltree:textures/tooltip/keystone.png",
+    "titleColor": "",
+    "positionX": -310.0,
+    "positionY": 0.0,
+    "buttonSize": 32,
+    "isStartingPoint": false
+}

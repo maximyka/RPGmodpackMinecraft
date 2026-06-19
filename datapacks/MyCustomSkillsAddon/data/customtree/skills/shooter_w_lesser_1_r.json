@@ -1,0 +1,29 @@
+{
+    "id": "customtree:shooter_w_lesser_1_r",
+    "bonuses": [
+        {
+            "type": "skilltree:attribute",
+            "attribute": "tacz_attributes:reload_speed",
+            "id": "09151b02-c446-540f-8b91-9045c00f3cf3",
+            "name": "Lesser Reload shooter_w_lesser_1_r",
+            "amount": 0.02,
+            "operation": 0
+        }
+    ],
+    "requirements": [],
+    "directConnections": [
+        "customtree:shooter_start",
+        "customtree:shooter_w_notable_1"
+    ],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+    "iconTexture": "skilltree:textures/icons/arrow.png",
+    "borderTexture": "skilltree:textures/tooltip/lesser.png",
+    "titleColor": "",
+    "positionX": -35.0,
+    "positionY": 16.0,
+    "buttonSize": 16,
+    "isStartingPoint": false
+}

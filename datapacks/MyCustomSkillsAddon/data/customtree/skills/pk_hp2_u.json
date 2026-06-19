@@ -1,0 +1,46 @@
+{
+    "id": "customtree:pk_hp2_u",
+    "bonuses": [
+        {
+            "attacker_condition": {
+                "type": "skilltree:none"
+            },
+            "attacker_multiplier": {
+                "type": "skilltree:none"
+            },
+            "chance": 0.02,
+            "damage_condition": {
+                "type": "skilltree:none"
+            },
+            "player_condition": {
+                "type": "skilltree:none"
+            },
+            "player_multiplier": {
+                "type": "skilltree:none"
+            },
+            "type": "skilltree:damage_avoidance"
+        }
+    ],
+    "requirements": [
+        {
+            "minValue": 1150000,
+            "statTypeId": "minecraft:custom",
+            "statId": "minecraft:sprint_one_cm",
+            "type": "skilltree:stat_value"
+        }
+    ],
+    "directConnections": [
+        "customtree:pk_hp1_u",
+        "customtree:pk_hp3_u"
+    ],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+    "iconTexture": "skilltree:textures/icons/glove_bronze.png",
+    "borderTexture": "skilltree:textures/tooltip/notable.png",
+    "positionX": 73.0,
+    "positionY": -24.0,
+    "buttonSize": 20,
+    "isStartingPoint": false
+}

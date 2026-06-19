@@ -1,0 +1,33 @@
+{
+    "id": "customtree:warrior_grip_1",
+    "bonuses": [
+        {
+            "type": "skilltree:attribute",
+            "attribute": "minecraft:generic.max_health",
+            "id": "133fe74c-1da9-578f-a1d8-1dcf0b33ea4a",
+            "name": "Warrior grip_1",
+            "amount": 0.02,
+            "operation": 1,
+            "player_condition": {
+                "type": "skilltree:none"
+            },
+            "player_multiplier": {
+                "type": "skilltree:none"
+            }
+        }
+    ],
+    "requirements": [],
+    "directConnections": [
+        "customtree:warrior_pommel_4"
+    ],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+    "iconTexture": "skilltree:textures/icons/heart_red.png",
+    "borderTexture": "skilltree:textures/tooltip/lesser.png",
+    "positionX": 0.0,
+    "positionY": 90.0,
+    "buttonSize": 16,
+    "isStartingPoint": false
+}

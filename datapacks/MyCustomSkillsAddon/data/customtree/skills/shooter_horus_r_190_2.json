@@ -1,0 +1,29 @@
+{
+    "id": "customtree:shooter_horus_r_190_2",
+    "bonuses": [
+        {
+            "type": "skilltree:attribute",
+            "attribute": "tacz_attributes:draw_speed",
+            "id": "9147704a-f82d-478b-97dc-974a13f95713",
+            "name": "Skill",
+            "amount": 1.2,
+            "operation": 0
+        }
+    ],
+    "requirements": [],
+    "directConnections": [
+        "customtree:shooter_horus_r_190_1",
+        "customtree:shooter_horus_r_190_3"
+    ],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+    "iconTexture": "skilltree:textures/icons/arrow.png",
+    "borderTexture": "skilltree:textures/tooltip/lesser.png",
+    "titleColor": "",
+    "positionX": 67.77776,
+    "positionY": 177.39493,
+    "buttonSize": 16,
+    "isStartingPoint": false
+}

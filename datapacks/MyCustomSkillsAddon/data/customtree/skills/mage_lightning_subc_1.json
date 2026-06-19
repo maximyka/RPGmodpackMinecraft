@@ -1,0 +1,27 @@
+{
+    "id": "customtree:mage_lightning_subc_1",
+    "bonuses": [
+        {
+            "type": "skilltree:attribute",
+            "attribute": "irons_spellbooks:lightning_magic_resist",
+            "id": "3d855903-93a9-4ab4-be7c-d9b2299445af",
+            "name": "Lesser Resist lightning subC 1",
+            "amount": 0.02,
+            "operation": 0
+        }
+    ],
+    "requirements": [],
+    "directConnections": [
+        "customtree:mage_lightning_subc_2"
+    ],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+    "iconTexture": "skilltree:textures/icons/arrow_bronze.png",
+    "borderTexture": "skilltree:textures/tooltip/lesser.png",
+    "positionX": 421.51,
+    "positionY": 383.56,
+    "buttonSize": 16,
+    "isStartingPoint": false
+}

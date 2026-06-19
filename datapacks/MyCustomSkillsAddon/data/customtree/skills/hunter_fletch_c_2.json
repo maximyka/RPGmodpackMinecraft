@@ -1,0 +1,31 @@
+{
+    "id": "customtree:hunter_fletch_c_2",
+    "bonuses": [
+        {
+            "type": "skilltree:attribute",
+            "attribute": "puffish_attributes:repair_cost",
+            "id": "92bbdfb4-e1d1-46bc-a25e-f338b672a256",
+            "name": "hunter_fletch_c_2",
+            "amount": -0.03,
+            "operation": 1
+        }
+    ],
+    "requirements": [],
+    "directConnections": [
+        "customtree:hunter_fletch_c_1",
+        "customtree:hunter_fletch_c_3",
+        "customtree:hunter_fletch_d_2_1",
+        "customtree:hunter_fletch_u_2_1"
+    ],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+    "iconTexture": "skilltree:textures/icons/arrow_bronze.png",
+    "borderTexture": "skilltree:textures/tooltip/lesser.png",
+    "positionX": -60,
+    "positionY": 0,
+    "buttonSize": 16,
+    "isStartingPoint": false,
+    "skillTree": "customtree:hunter_tree"
+}

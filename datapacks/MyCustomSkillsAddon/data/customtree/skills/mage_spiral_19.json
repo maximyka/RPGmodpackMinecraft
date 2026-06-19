@@ -1,0 +1,27 @@
+{
+    "id": "customtree:mage_spiral_19",
+    "bonuses": [
+        {
+            "type": "skilltree:attribute",
+            "attribute": "irons_spellbooks:casting_movespeed",
+            "id": "549dd1a9-131c-4199-941e-a3c1efdf01e9",
+            "name": "Mage Spiral 19",
+            "amount": 0.02,
+            "operation": 0
+        }
+    ],
+    "requirements": [],
+    "directConnections": [
+        "customtree:mage_spiral_20"
+    ],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+    "iconTexture": "skilltree:textures/icons/potion_blue.png",
+    "borderTexture": "skilltree:textures/tooltip/lesser.png",
+    "positionX": 144.94,
+    "positionY": -47.09,
+    "buttonSize": 16,
+    "isStartingPoint": false
+}

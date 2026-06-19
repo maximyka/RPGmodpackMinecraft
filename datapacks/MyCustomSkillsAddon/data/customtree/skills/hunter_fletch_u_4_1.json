@@ -1,0 +1,29 @@
+{
+    "id": "customtree:hunter_fletch_u_4_1",
+    "bonuses": [
+        {
+            "type": "skilltree:attribute",
+            "attribute": "furattributes:loot_luck",
+            "id": "1e69ffc7-72ac-4228-986e-24b123a51b92",
+            "name": "hunter_fletch_u_4_1",
+            "amount": 0.02,
+            "operation": 1
+        }
+    ],
+    "requirements": [],
+    "directConnections": [
+        "customtree:hunter_fletch_c_4",
+        "customtree:hunter_fletch_u_4_2"
+    ],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+    "iconTexture": "skilltree:textures/icons/arrow_bronze.png",
+    "borderTexture": "skilltree:textures/tooltip/lesser.png",
+    "positionX": -140,
+    "positionY": -30,
+    "buttonSize": 16,
+    "isStartingPoint": false,
+    "skillTree": "customtree:hunter_tree"
+}

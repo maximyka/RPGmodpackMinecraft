@@ -1,0 +1,35 @@
+{
+  "id": "skilltree:sanguinar_tree_3",
+  "bonuses": [
+    {
+      "type": "skilltree:inflict_damage",
+      "chance": 0.1,
+      "damage": 4.0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "target": "enemy",
+        "type": "skilltree:block"
+      },
+      "damage_type": {
+        "type": "skilltree:magic"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:sanguinar_tree_4"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "minecolonies:textures/icons/grave_icon.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Кровь Врагов На Щите",
+  "positionX": 292.17953,
+  "positionY": -124.2564,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

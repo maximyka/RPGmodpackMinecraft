@@ -1,0 +1,28 @@
+{
+    "id": "customtree:shooter_pso_2",
+    "bonuses": [
+        {
+            "type": "skilltree:attribute",
+            "attribute": "tacz_attributes:ads_speed",
+            "id": "cf6ab00a-16c7-452d-b51b-afe06de4760f",
+            "name": "Skill",
+            "amount": 1.2,
+            "operation": 0
+        }
+    ],
+    "requirements": [],
+    "directConnections": [
+        "customtree:shooter_pso_1"
+    ],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+    "iconTexture": "skilltree:textures/icons/arrow_steel.png",
+    "borderTexture": "skilltree:textures/tooltip/lesser.png",
+    "titleColor": "",
+    "positionX": 57.99999,
+    "positionY": -201.7543,
+    "buttonSize": 16,
+    "isStartingPoint": false
+}

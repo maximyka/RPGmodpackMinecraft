@@ -1,0 +1,32 @@
+{
+    "id": "customtree:mage_blood_suba_5",
+    "bonuses": [
+        {
+            "type": "skilltree:attribute",
+            "attribute": "irons_spellbooks:blood_magic_resist",
+            "id": "d563d560-0bb3-4eb8-b270-3f214f752410",
+            "name": "Notable Resist blood subA",
+            "amount": 0.1,
+            "operation": 1
+        }
+    ],
+    "requirements": [
+        {
+            "minValue": 3000,
+            "statTypeId": "minecraft:custom",
+            "statId": "kubejs:mana_spent",
+            "type": "skilltree:stat_value"
+        }
+    ],
+    "directConnections": [],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+    "iconTexture": "skilltree:textures/icons/chestplate_fur.png",
+    "borderTexture": "skilltree:textures/tooltip/notable.png",
+    "positionX": -457.42,
+    "positionY": 15.94,
+    "buttonSize": 20,
+    "isStartingPoint": false
+}

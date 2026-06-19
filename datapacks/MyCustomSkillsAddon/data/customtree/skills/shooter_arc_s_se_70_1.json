@@ -1,0 +1,29 @@
+{
+    "id": "customtree:shooter_arc_s_se_70_1",
+    "bonuses": [
+        {
+            "type": "skilltree:attribute",
+            "attribute": "tacz_attributes:magazine_capacity",
+            "id": "b60d5de4-528d-529a-a63a-8954848d99df",
+            "name": "Lesser Magazine shooter_arc_s_se_70_1",
+            "amount": 0.04,
+            "operation": 0
+        }
+    ],
+    "requirements": [],
+    "directConnections": [
+        "customtree:shooter_s_notable_1",
+        "customtree:shooter_se_m2"
+    ],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+    "iconTexture": "skilltree:textures/icons/arrow_bronze.png",
+    "borderTexture": "skilltree:textures/tooltip/lesser.png",
+    "titleColor": "",
+    "positionX": 26.79,
+    "positionY": 64.67,
+    "buttonSize": 16,
+    "isStartingPoint": false
+}

@@ -1,0 +1,34 @@
+{
+    "id": "customtree:pk_jh4_u",
+    "bonuses": [
+        {
+            "multiplier": 0.03,
+            "player_condition": {
+                "type": "skilltree:none"
+            },
+            "type": "skilltree:jump_height"
+        }
+    ],
+    "requirements": [
+        {
+            "minValue": 8300000,
+            "statTypeId": "minecraft:custom",
+            "statId": "minecraft:sprint_one_cm",
+            "type": "skilltree:stat_value"
+        }
+    ],
+    "directConnections": [
+        "customtree:pk_jh3_u",
+        "customtree:pk_jh_flat"
+    ],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+    "iconTexture": "skilltree:textures/icons/glove_bronze.png",
+    "borderTexture": "skilltree:textures/tooltip/notable.png",
+    "positionX": -220.0,
+    "positionY": -130.0,
+    "buttonSize": 20,
+    "isStartingPoint": false
+}

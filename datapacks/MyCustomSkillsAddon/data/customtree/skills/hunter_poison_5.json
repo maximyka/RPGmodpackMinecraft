@@ -1,0 +1,29 @@
+{
+    "id": "customtree:hunter_poison_5",
+    "bonuses": [
+        {
+            "type": "skilltree:attribute",
+            "attribute": "puffish_attributes:resistance_shred",
+            "id": "4fa6828f-4d25-4e53-8b9b-35025d0f0a72",
+            "name": "hunter_poison_5",
+            "amount": 0.02,
+            "operation": 1
+        }
+    ],
+    "requirements": [],
+    "directConnections": [
+        "customtree:hunter_apex_poison",
+        "customtree:hunter_poison_4"
+    ],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+    "iconTexture": "skilltree:textures/icons/cross_green.png",
+    "borderTexture": "skilltree:textures/tooltip/lesser.png",
+    "positionX": -245,
+    "positionY": -300,
+    "buttonSize": 16,
+    "isStartingPoint": false,
+    "skillTree": "customtree:hunter_tree"
+}

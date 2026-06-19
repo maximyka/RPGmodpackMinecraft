@@ -1,0 +1,37 @@
+{
+    "id": "customtree:shooter_e_lesser_1_r",
+    "bonuses": [
+        {
+            "type": "skilltree:attribute",
+            "attribute": "furattributes:sprint_speed",
+            "id": "97505607-c7bc-5c41-8d31-bd9a3095a758",
+            "name": "Lesser Sprint shooter_e_lesser_1_r",
+            "amount": 0.015,
+            "operation": 1
+        },
+        {
+            "type": "skilltree:attribute",
+            "attribute": "parcool:max_stamina",
+            "id": "611708aa-5cc2-5238-8cad-440188fe9408",
+            "name": "Lesser Stamina shooter_e_lesser_1_r",
+            "amount": 20.0,
+            "operation": 0
+        }
+    ],
+    "requirements": [],
+    "directConnections": [
+        "customtree:shooter_e_notable_1",
+        "customtree:shooter_start"
+    ],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+    "iconTexture": "skilltree:textures/icons/arrow_bronze.png",
+    "borderTexture": "skilltree:textures/tooltip/lesser.png",
+    "titleColor": "",
+    "positionX": 35.0,
+    "positionY": -16.0,
+    "buttonSize": 16,
+    "isStartingPoint": false
+}

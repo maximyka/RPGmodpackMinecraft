@@ -1,0 +1,44 @@
+{
+    "id": "skilltree:shooter_tree_1",
+    "bonuses": [
+        {
+            "type": "skilltree:attribute",
+            "attribute": "tacz_attributes:gun_damage",
+            "id": "6564eb38-3030-4998-92b5-6eb57dd08597",
+            "name": "Skill",
+            "amount": 0.2,
+            "operation": 1
+        },
+        {
+            "type": "skilltree:attribute",
+            "attribute": "minecraft:generic.armor",
+            "id": "c94114f6-c5dc-4924-91db-0ab13ddd689d",
+            "name": "Skill",
+            "amount": -0.2,
+            "operation": 1
+        }
+    ],
+    "requirements": [
+        {
+            "minValue": 25,
+            "statTypeId": "minecraft:custom",
+            "statId": "GunShots",
+            "type": "skilltree:stat_value"
+        }
+    ],
+    "directConnections": [
+        "customtree:shooter_nw_m4"
+    ],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+    "iconTexture": "skilltree:textures/icons/bow_gold.png",
+    "borderTexture": "skilltree:textures/tooltip/keystone.png",
+    "title": "Слабые места (Общее)",
+    "titleColor": "",
+    "positionX": -202.07788,
+    "positionY": -202.4226,
+    "buttonSize": 32,
+    "isStartingPoint": false
+}

@@ -1,0 +1,33 @@
+{
+    "id": "customtree:druid_root_l4",
+    "bonuses": [
+        {
+            "type": "skilltree:attribute",
+            "attribute": "minecraft:generic.max_health",
+            "id": "1e5a7c1a-d8e6-5e7d-93bd-0f182b7276db",
+            "name": "Druid root_l4",
+            "amount": 0.02,
+            "operation": 1,
+            "player_condition": {
+                "type": "skilltree:none"
+            },
+            "player_multiplier": {
+                "type": "skilltree:none"
+            }
+        }
+    ],
+    "requirements": [],
+    "directConnections": [
+        "customtree:druid_root_l_deep"
+    ],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+    "iconTexture": "skilltree:textures/icons/heart_red.png",
+    "borderTexture": "skilltree:textures/tooltip/lesser.png",
+    "positionX": -45.0,
+    "positionY": 100.0,
+    "buttonSize": 16,
+    "isStartingPoint": false
+}

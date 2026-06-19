@@ -1,0 +1,38 @@
+{
+    "id": "customtree:hunter_fletch_c_4",
+    "bonuses": [
+        {
+            "type": "skilltree:attribute",
+            "attribute": "furattributes:loot_luck",
+            "id": "4f7ba2f2-fee5-417c-894a-aa02354ed812",
+            "name": "hunter_fletch_c_4",
+            "amount": 0.1,
+            "operation": 1
+        }
+    ],
+    "requirements": [
+        {
+            "minValue": 750,
+            "statTypeId": "minecraft:used",
+            "statId": "minecraft:bow",
+            "type": "skilltree:stat_value"
+        }
+    ],
+    "directConnections": [
+        "customtree:hunter_fletch_c_3",
+        "customtree:hunter_fletch_c_5",
+        "customtree:hunter_fletch_d_4_1",
+        "customtree:hunter_fletch_u_4_1"
+    ],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+    "iconTexture": "skilltree:textures/icons/arrow_bronze.png",
+    "borderTexture": "skilltree:textures/tooltip/notable.png",
+    "positionX": -120,
+    "positionY": 0,
+    "buttonSize": 20,
+    "isStartingPoint": false,
+    "skillTree": "customtree:hunter_tree"
+}

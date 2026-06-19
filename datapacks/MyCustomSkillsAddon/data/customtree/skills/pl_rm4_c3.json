@@ -1,0 +1,35 @@
+{
+  "id": "customtree:pl_rm4_c3",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.knockback_resistance",
+      "id": "ca517a64-f945-4748-8e0c-6c21df856482",
+      "name": "Shield Knockback",
+      "amount": 0.05,
+      "operation": 0,
+      "player_condition": {
+        "item_condition": {
+          "equipment_type": "shield",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "customtree:pl_rm5_c3",
+    "customtree:pl_rm4_c4"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/glove_iron.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": 171.648,
+  "positionY": -168.0,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

@@ -1,0 +1,52 @@
+{
+    "id": "customtree:druid_leaf_ru3",
+    "bonuses": [
+        {
+            "type": "skilltree:attribute",
+            "attribute": "irons_spellbooks:nature_spell_power",
+            "id": "f4921577-d6e6-541c-bf57-a81d681dd1af",
+            "name": "Druid leaf_ru3",
+            "amount": 0.08,
+            "operation": 1,
+            "player_condition": {
+                "type": "skilltree:none"
+            },
+            "player_multiplier": {
+                "type": "skilltree:none"
+            }
+        },
+        {
+            "type": "skilltree:attribute",
+            "attribute": "irons_spellbooks:cooldown_reduction",
+            "id": "d206da40-5642-5b7c-a415-09d701eeecc3",
+            "name": "Druid leaf_ru3",
+            "amount": 0.04,
+            "operation": 1,
+            "player_condition": {
+                "type": "skilltree:none"
+            },
+            "player_multiplier": {
+                "type": "skilltree:none"
+            }
+        }
+    ],
+    "requirements": [
+        {
+            "minValue": 3000,
+            "statTypeId": "minecraft:custom",
+            "statId": "minecraft:mob_kills",
+            "type": "skilltree:stat_value"
+        }
+    ],
+    "directConnections": [],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+    "iconTexture": "skilltree:textures/icons/eye_green.png",
+    "borderTexture": "skilltree:textures/tooltip/notable.png",
+    "positionX": 145.0,
+    "positionY": -280.0,
+    "buttonSize": 20,
+    "isStartingPoint": false
+}

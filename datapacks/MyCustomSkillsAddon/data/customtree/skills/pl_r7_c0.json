@@ -1,0 +1,40 @@
+{
+  "id": "customtree:pl_r7_c0",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:holy_spell_power",
+      "id": "bb32fc36-10d0-4bce-9adb-2756fa95151e",
+      "name": "Divine Wrath Holy Power",
+      "amount": 0.3,
+      "operation": 1
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.attack_speed",
+      "id": "3bee5a37-5506-42e5-9aef-26c531fe8cf8",
+      "name": "Divine Wrath Attack Penalty",
+      "amount": -0.15,
+      "operation": 1
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:custom",
+      "statId": "minecraft:damage_blocked_by_shield",
+      "minValue": 15000
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "skilltree:textures/icons/cross_green.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "positionX": 0.0,
+  "positionY": 294.0,
+  "buttonSize": 32,
+  "isStartingPoint": false
+}

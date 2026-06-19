@@ -1,0 +1,42 @@
+{
+  "id": "customtree:sg_apex_right_b",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:blood_spell_power",
+      "id": "30000000-0000-0000-0000-000325292688",
+      "name": "BloodPower",
+      "amount": 0.2,
+      "operation": 1
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "39c71466-c18c-450f-b669-929d4ab0d6b8",
+      "name": "Keystone Armor Penalty",
+      "amount": -0.05,
+      "operation": 1
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:custom",
+      "statId": "minecraft:damage_blocked_by_shield",
+      "minValue": 200000
+    }
+  ],
+  "directConnections": [
+    "customtree:sg_apex_right"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "skilltree:textures/icons/potion_red.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "positionX": 451.0,
+  "positionY": 165.0,
+  "buttonSize": 32,
+  "isStartingPoint": false
+}

@@ -1,0 +1,27 @@
+{
+    "id": "customtree:mage_spiral_18",
+    "bonuses": [
+        {
+            "type": "skilltree:attribute",
+            "attribute": "irons_spellbooks:cast_time_reduction",
+            "id": "86bccfd1-1557-4a39-a7bc-09497c28f966",
+            "name": "Mage Spiral 18",
+            "amount": 0.015,
+            "operation": 0
+        }
+    ],
+    "requirements": [],
+    "directConnections": [
+        "customtree:mage_spiral_19"
+    ],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+    "iconTexture": "skilltree:textures/icons/potion_blue.png",
+    "borderTexture": "skilltree:textures/tooltip/lesser.png",
+    "positionX": 118.76,
+    "positionY": -86.29,
+    "buttonSize": 16,
+    "isStartingPoint": false
+}

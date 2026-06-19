@@ -1,0 +1,3818 @@
+hash-format = "sha256"
+
+[[files]]
+path = "kubejs/README.txt"
+hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
+
+[[files]]
+path = "kubejs/assets/kubejs/textures/block/example_block.png"
+hash = "783d78bd1ee61d3b32273670dff9d82c34cd74c5ae899a10f104f473828d5bbc"
+
+[[files]]
+path = "kubejs/assets/kubejs/textures/item/example_item.png"
+hash = "45a5f56eba6066ad05c70988a32b72c50cfeb6e35857739bd582007011ea002b"
+
+[[files]]
+path = "kubejs/client_scripts/example.js"
+hash = "152019ed6e0410a82805a95ea10f1ad1a17beaf2b50864d89b8fa9d172129ac7"
+
+[[files]]
+path = "kubejs/config/client.properties"
+hash = "1d1bdbba1a5905eed82fd4f005e4c5dbb5e6d34382e5adef233ba087be84cc4c"
+
+[[files]]
+path = "kubejs/config/common.properties"
+hash = "8e4db9d5e87822d37d0b50d7b95483dba730c6c4b6b89b8ddf8302f3a9897694"
+
+[[files]]
+path = "kubejs/server_scripts/sync_stats.js"
+hash = "0aeb485e6df18e70ee13fee42c2df3a89b493e0e1f6decc1c54269229c4fb41c"
+
+[[files]]
+path = "kubejs/startup_scripts/example.js"
+hash = "395c96d3ddd178821db851f387e91560e606ea752177f66d2016f12bd0542b8f"
+
+[[files]]
+path = "kubejs/startup_scripts/register_stats.js"
+hash = "8b1bd941f5704095232873049d4a36370d1c9dccb436a07c2620b9ca1731da54"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/pack.mcmeta"
+hash = "33c8c7276848729d26ec93a934d1052aa66638890d410234ff4ff53eb7e65f40"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/functions/clean_attributes.mcfunction"
+hash = "46e8c06434e8bf27d5c657ba1c4eab6a5aaec3dbb424cea8bdee31e77f04d82e"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/functions/give_stats_book.mcfunction"
+hash = "63049d51d6d2dfee23af1d401db84328fa321b366623f5cf234e1a6f720e5faa"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/functions/init_scoreboards.mcfunction"
+hash = "159e3e88051258c6d1393ced373f7757f369d1c1689851de5f3055672eb4be9e"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/functions/tick.mcfunction"
+hash = "ff51a03198ea3b64ace97f689ca8798a29b704cf11cdef4968ad4d07ae7d1eb5"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/druid_branch_lu_1.json"
+hash = "8a84f43ffdaa3c61a52bf63cdbe8f4ba9e5df21c7a170827286a7105ad078fd4"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/druid_branch_lu_2.json"
+hash = "fd7610152c58778e81cf266bd0567c1f0785110e5aaca76a286507155eb14822"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/druid_branch_lu_3.json"
+hash = "e5810f9a56517f07edbf48edbe56e6d0240113e1515c25dc56de491fda2485ac"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/druid_branch_lu_4.json"
+hash = "0e5661e3fa45ee3c9b0e588a2043b666e47f6b111f4fda96c41af67cdcadf279"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/druid_branch_l_1.json"
+hash = "23b48d0833b8a5c4c4be27e5ec481d648ace8053f58e4afcd91615b9f3f0acfe"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/druid_branch_l_2.json"
+hash = "ed46a6ed6e73f43c19861b4f9df8c3e60edcdbb56a0e496b32e3f51241af74c3"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/druid_branch_l_3.json"
+hash = "85d9a24544e1da87e6998a1e465e933894aab7f9ddea058b212fabff1f0733ba"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/druid_branch_l_4.json"
+hash = "dced317db4f018f2b135f5c5d019deb14957337fb925fe396ba16267dddfeebd"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/druid_branch_ru_1.json"
+hash = "7a54dc5d34bdc05cd31dfccccf69cdc19a8e10c5e4b0d686614d5564ca50278d"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/druid_branch_ru_2.json"
+hash = "509a61b4aa6e57d77c2b23c096399bafb1e0274591c7b1951a7bdc9dd453f2f2"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/druid_branch_ru_3.json"
+hash = "ba3dda2fdda3d6310e42a8300ecd2cc3c34e3f73ec1bf620d7c0af3a7fd4887c"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/druid_branch_ru_4.json"
+hash = "fec9bf569a7480db1b2f38e71ffeaaf123c8c662e6ddf61767381525798dcf8a"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/druid_branch_r_1.json"
+hash = "e3b64872cb2fdc5b8bfcb1122e9d4002582257fa65834da5847956f767feedfd"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/druid_branch_r_2.json"
+hash = "9a227bb8bdd6b037ba501680f05e63f8f5ed14a21cd8b4c0a696b6fa83a85fce"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/druid_branch_r_3.json"
+hash = "0286dc48c09322b6a10f2946930e2ccf8a015cadbae87816224f597470926c43"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/druid_branch_r_4.json"
+hash = "4048415465cdc0c28b963edfdbc2e3839b172f481663eb6953c1af6742dc0fa7"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/druid_class.json"
+hash = "1f8555761a8cc5fd9b0830ae2030340f3ebe48e37649dc34444bfd4d5e1e0fe6"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/druid_crown_apex.json"
+hash = "afbbbdefe07d75456e7741c8a78d76624dbd82834d74ecd07df252f45a53db3f"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/druid_crown_c1.json"
+hash = "9f50f95f124931cccd041784596fe880932a7031e86582217b2697eba9ea3564"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/druid_crown_c2.json"
+hash = "d526563495926a33e62822992c3991cf76a65bee456187eb92ab0d51fd005744"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/druid_crown_c3.json"
+hash = "b5391b52d3751d60ad29804a5339e14e5be9a7e912940245f411338e0ba11cfa"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/druid_crown_c4.json"
+hash = "cba2fa8c6dc45767ac535cc3231d84a78f8a419a70c0470523be829e227f489a"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/druid_crown_l1.json"
+hash = "5ebb1b345ef6eee35551a6639f04ebe7b363933b8ba1cc2c1e54729d27754c06"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/druid_crown_l2.json"
+hash = "6e5d46c7a3626869223d5a4d850c8d545745922d3ecbedb171255b0d57705dd9"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/druid_crown_l3.json"
+hash = "367d66be5f38b045cb460b9ed280b843e8db98d4036267ecf0f0ba4d4855bba4"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/druid_crown_l4.json"
+hash = "ca0270e3fc6ad583f3b39197817d279be4713623cb53993a1ad8e8c18c19a1af"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/druid_crown_r1.json"
+hash = "f60f0b3d6e9db8eae4c0a4088672698aa742c6601103aa3023e02ee041bdd0ca"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/druid_crown_r2.json"
+hash = "af829530ab175cf1fdc5a970d60b1e321858c4cb9d17a7b354ec48dd6c91594a"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/druid_crown_r3.json"
+hash = "231d635f873a8885c1c9a1a4f149820b9cd1b8bc04f86e63edea2ee4f1983ffd"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/druid_crown_r4.json"
+hash = "73a79ef53d4f02dfee17f9b088b79db492402ed038d92319d7eaa7994fac1901"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/druid_crown_t1.json"
+hash = "b11e07a1c28305a9631bb4e4764ece5258a8907e48caed55366b3c66e8526a09"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/druid_crown_t2.json"
+hash = "e4502e90e61b50c14bedd20d02f44bf6ce325b0b806392e735efcdaf881d9465"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/druid_crown_t3.json"
+hash = "3eaea509b828c8b7cf8bd90b6f9b4f235c41dec469dacf6c5c5ffd0cda54ab52"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/druid_leaf_cl1.json"
+hash = "4b263bb21b9d6df13d6ea6be5fa88e9fffaf5efc382d102f05e9833672d8fa6a"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/druid_leaf_cl2.json"
+hash = "3e50d495e1aadd2fb2b504abab3b0a7146c2a39adb319afe62c81932e1a0fb71"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/druid_leaf_cl3.json"
+hash = "d685a60a2ce6e633cfb205ada8f834c3271680b08530a8f5877b86eac16e01bf"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/druid_leaf_cr1.json"
+hash = "9d6084833a8ccb10f2ebb716d5ee1c6fa86c5e9c8a3b3bfbf088f4cd9d0d87de"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/druid_leaf_cr2.json"
+hash = "7b22a7e825f97059c3ffb7bb7316bb45512f44477959a1ada14f1cb9a6a90401"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/druid_leaf_cr3.json"
+hash = "462564a38820cea7331953b0715db967f102214fdd562afb590751ae5812e649"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/druid_leaf_l1.json"
+hash = "990d08c3a73c50bd2509b81241253a28687e6032c2d60b21acb8ba851fefef67"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/druid_leaf_l2.json"
+hash = "7dd0b679d11bfaae0fd00645ca3bffb788696fab8c62b2080529ca0c00c56252"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/druid_leaf_l3.json"
+hash = "a555ae251bdbf617461d607c83c939deb69376d0ee9815e42c4caeeb20350a55"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/druid_leaf_lu1.json"
+hash = "7dea197678e30fe1f8b279ab9dcd66b35e140a0fa6d30a0dc18c2cb1331b760e"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/druid_leaf_lu2.json"
+hash = "e02f8ea86b9575483c99f5dea50dea216d006a9bfceb508021ce14336cbfd5f7"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/druid_leaf_lu3.json"
+hash = "0da05c9e3eccc31e567a359741a72c3b2561a7454addf648fd193e315fbbcddb"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/druid_leaf_r1.json"
+hash = "cbbda1d5824b4e2132148a243b996a5760f134df0ddb32daecefbdb4ff90e8ab"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/druid_leaf_r2.json"
+hash = "11c250acabdcf0754049d2938de9cf7bb8c2080726d508e2e4b8067d4cb9bab3"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/druid_leaf_r3.json"
+hash = "b38ffa5be17ee6a016dd1d5849447cc2819567a3c945b2efb362868b6677e50f"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/druid_leaf_ru1.json"
+hash = "ea76b8c445394246f953f7a2c9905c5b837d0c9ffdbc2d8c145e89e91355c633"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/druid_leaf_ru2.json"
+hash = "d98e5511f016e48a6fc87c556045b7f3b8ba2ebb10beaa90f47fde84887f3403"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/druid_leaf_ru3.json"
+hash = "5af55d6268b9ba073aa346105d59476dc4a46e059033e5143615571e760a8fae"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/druid_leaf_top_l.json"
+hash = "8a4d2065d6e62171e387fb74463a1b159fea61d252e6a89038e20ce7e13a7d77"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/druid_leaf_top_r.json"
+hash = "8fa23bc90b2ba8c2e8ff41b68f349ba22c3cf4413f30b4522ace7ba09934dff3"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/druid_root_c1.json"
+hash = "a44d8e6d8414bbf5804bf7c8ab25876b6db649f92d8d6ae6df242486ceec69ad"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/druid_root_c2.json"
+hash = "0eb530e158469234ce382f1623dcb10861bfb703d2f3e3723f5d1ac116a3f4cc"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/druid_root_c3.json"
+hash = "50b47c68d78c1870450126c2d30d683266aa3fe9b69a2c9cbf293de106f9ffb7"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/druid_root_c4.json"
+hash = "5e18edd3425131af63b887578199c8347aa57f29684fb0e6684f879160379b3a"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/druid_root_c_deep.json"
+hash = "a13d92ac6f3a4c5f5a150863ab58ac1429156720bfd477ae63cd7a4d9682663d"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/druid_root_l1.json"
+hash = "cdbaa51785a41c4a3b315d6bb895442dfc16f7c6e200fb054834cceb58ed34c9"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/druid_root_l2.json"
+hash = "7b995f1e327181fa418bb7ca31991f7b4841549f970417ceda4c92272ae76cde"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/druid_root_l3.json"
+hash = "21d6eda22d05f0dea9d2089cb71e6549722cc9f334772961c384a846bc73b72f"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/druid_root_l4.json"
+hash = "151c141f937751894599982554d3d17f5a9318f093927f334551d79ada9456a3"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/druid_root_l_deep.json"
+hash = "f2f186c993c1baeb5f21b145169d61adc250a4f177b05e2a60aa03fc85e1d2c1"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/druid_root_r1.json"
+hash = "1e29366cd3b7898930cb7de4c318c216d87850b2c12d7f770c126d2ab34ca61a"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/druid_root_r2.json"
+hash = "3dc7a3fcb4487738f1a29eac255a8b546ba25ac3406e0a3f8562cc5af5998322"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/druid_root_r3.json"
+hash = "83f5785fd90d0bb19f0c019c949e539641cae34628d7287804a2f5e38ad64838"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/druid_root_r4.json"
+hash = "78f7c1ef8768b7c881c18ca40754522e3acf70ac2332cfe79a9d272e0c78cced"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/druid_root_r_deep.json"
+hash = "9f5123bae5464a5529346c6d66ec8795a5513fdaf319eddfefe8143573270c7e"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/druid_trunk_1.json"
+hash = "029705aec24ac9c576503355fa302726bbf1ba8b4035586e55ad1b631d9ea32e"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/druid_trunk_2.json"
+hash = "704604a365a4c29d80ccb806827e80f97a431dc0b6c625d31b89742258547bd6"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/druid_trunk_3.json"
+hash = "c6b41145cb0178eb10613be962b5d8d1c8e00fd14d9595cf47a38a681e81c2bc"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/druid_trunk_4.json"
+hash = "563b250fe4eecfde702b8b781df83322ed79190ddf32788719c901f2a5cd0fa3"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_apex_beast.json"
+hash = "3d38a68fad1153e67c0e6b288939be17a41dff6af3e61eb0028d2d99111dcadf"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_apex_bottom.json"
+hash = "490dce1f4deac26346617f1e85af707f0d4f809f249ee35577213e7cc5610ae9"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_apex_fire.json"
+hash = "c89bad12d276f972228ec10a80a383cee7ed4fbed56006ef025aeb2924d9c457"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_apex_frost.json"
+hash = "f50524d8648336ed4206c35b38aa8105b25e5af9ebd9d8882b37300106a8ebde"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_apex_mount.json"
+hash = "27c8118c548d6eedb4aee8dbeb9a67e662559a06a6811b3c9bf5e950b96e3782"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_apex_poison.json"
+hash = "9eb9f223c7cf298d73f51f84fcc185d26f18c359323d39aa8f6b4ef5c1e1d6d2"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_apex_reflect.json"
+hash = "bfbd326a42d1f9d4793a117886a6ed1f0544052b8a06fd427a542464dbe4b8c8"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_apex_sniper.json"
+hash = "f340f30d9812decfdbb51eb5a87b83b5d0227d5c7a8e93934cf3ee901b1b99f4"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_apex_top.json"
+hash = "34a612b36ffd320cde725af88de170a9412ce4e89cca288cab4e9d8a14df6a10"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_arrow_shaft_1.json"
+hash = "3f845edd3fcc756a1c1dd2fd9a9c7803740214b5ec5ef2cd87fd9e3f8517a619"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_arrow_shaft_10.json"
+hash = "433adcd33b10f2c2724a300e686ee27797479c21fc1efa7b76fe6e71c57bdd88"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_arrow_shaft_2.json"
+hash = "f1fe01f741c0356e0d3a776e4f490d9eba125254fbd5de059844a94f9ce1622e"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_arrow_shaft_3.json"
+hash = "d720f1dc5d87a4262d5e5ccdecd59739640e643474b30bf6754c4919f7c5eb41"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_arrow_shaft_4.json"
+hash = "b1bcffbef34d54bca782e64daf205adaaaac52eae7b99f144afa746ef3fa06b9"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_arrow_shaft_5.json"
+hash = "cdc8a9f47cdbb65e209f702474d00aaf06f035eaeb1a54a1ba4669e61900f59a"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_arrow_shaft_6.json"
+hash = "5a0d4c6df6a2500a5284cdcddec7115069cce2f713e7c7eb4c436610bf9b85c1"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_arrow_shaft_7.json"
+hash = "847c73f43a9307b7a5efae450e4227e649015b5f57f7ca8bdf0a1d912d49488c"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_arrow_shaft_8.json"
+hash = "2898de5eb979d9758c988345298a78c0624f708174bdc9b3e0d13bca1773eb6e"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_arrow_shaft_9.json"
+hash = "28daaf0930aa9461d3b95aea08e67c0753a79c9caf8a80a3b338b6d416548b9e"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_arrow_tip_dn.json"
+hash = "4b54164012cb05cd95491b93e7059d329544ad33b5c163b1e3c58ccc886236cc"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_arrow_tip_up.json"
+hash = "bf827aa18e0d2ff3f994d8f26b248c660b1c2f13863027bd8e1af820cc79ca54"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_beast_1.json"
+hash = "90fa79457618c00c8e2a6758c4be6938e82fce5b35347ecfe169a40e4579a50f"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_beast_2.json"
+hash = "9a748f97f0b7ad48871ae7fbcab993b6aeb4e25c9ed55780360ac49f70d0baf8"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_beast_3.json"
+hash = "2966b0141c2b9b12982a68d7a5a25515bd0109a7133c67ccbe82b7c142dd4f97"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_beast_4.json"
+hash = "3995107728afa711bda73516308da35d94a2a6900a76477845de4ea68e3c3701"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_beast_5.json"
+hash = "a3026adca6642cc22eaf033a591766a284fb16f0878da933575db79607e5ab8e"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_fire_1.json"
+hash = "ac8baf77b5cfae2cf2d1ffc7fc10e86f2d7d5ee0bc2cbfcdc07acb8535b93f36"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_fire_2.json"
+hash = "a13c9a9b0991576b20aa9eb7eb07a9083a57d9423078bd3344b05ea43007311d"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_fire_3.json"
+hash = "ad75aea758bf9391cd7c8c0d036e3b084307bf5cf6bbd39f1e8c748ca89f0774"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_fire_4.json"
+hash = "c4bcd3ef58c9105485dc39c6d846907857356eaa3950491e6c08bf2cb5edc817"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_fire_5.json"
+hash = "8c6364a24d3b86a0e1f342cdd5c641ce49fb33262e60663dbe4a1459c1aacc23"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_fletch_c_1.json"
+hash = "c51ddb6dfc65f1e6d2c183794127f1375fa1cb1adcf92f576ad715a7d6a2aba8"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_fletch_c_2.json"
+hash = "538c30647d96a383eba29e9a038b5b5207776af7503bcc5ba62ddf21c0ed71f7"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_fletch_c_3.json"
+hash = "6d6a81517629ebfca520095a6925ab207f0fdc3eba993f7447da9003bfa71177"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_fletch_c_4.json"
+hash = "e123d2aad5d5d69c8c2c86425c7c457641944bdfd5d26d43de15a75667465dc5"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_fletch_c_5.json"
+hash = "d6a734322019d1533e8337b6b11df0dfd404e195e9bc59c893cae2fe4360dac4"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_fletch_d_2_1.json"
+hash = "b6ec3d58382f62cfba963af7d6e81fc38bd95856c5281beaac0312701727fd93"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_fletch_d_2_2.json"
+hash = "84bf91b5de96a74737594c024fbd08b48cef13b31a8f9a0cc5171b0918d25844"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_fletch_d_4_1.json"
+hash = "e515fcf1e8a5aaa626c8d606620bece56b380683237c4b4d12e91021a679fdac"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_fletch_d_4_2.json"
+hash = "8558fc15e7e498e621a43f4254dbee5588690570fa186fa1b547ae3c61e9cbe6"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_fletch_u_2_1.json"
+hash = "36089c2c4ec7c5e08011eab59f7692e73bd709a193e1ef14ac08ff4f93a23293"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_fletch_u_2_2.json"
+hash = "bada5eeff0f1a7bb62955eef0e275b42ca2214ffbb3261ec93a026846d073484"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_fletch_u_4_1.json"
+hash = "2d8f5abb683d09f6a17af9059516963af512726bbd6c9d08b9b0f172baf0298c"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_fletch_u_4_2.json"
+hash = "68b28412844f4be8933cd33d2ac30360f53a2f6a81d705bc1b9126500eff3b0f"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_frost_1.json"
+hash = "cc89f06c129c68929c0acd6ce4f204e088089ea95b1b31b176f7dbab1f042eba"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_frost_2.json"
+hash = "63c64188407b41386082b6e2c60168931895673be4193f79c3e79bd6df4cc4a9"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_frost_3.json"
+hash = "d3993ec0f918b10980c8962c159117a672034f265c2f4333f20cab2a7c24fdb5"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_frost_4.json"
+hash = "246ffa172bc63e24e074f1e4c7b63bf5002be2aa041776ead94ca56fde016e60"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_frost_5.json"
+hash = "4e5a6977f244d11413310397f2a34f0a37b3e756f5223b75097218838637b880"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_limb_bi_1.json"
+hash = "80fa540acf580e317fc39606bb7a99fb2d5b0f63ae19a8878132bd3c03e781f9"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_limb_bi_10.json"
+hash = "eb03cbe5651c496837cc843975dfb3cf430ce599ef984f072d6e2bcc008aac7b"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_limb_bi_2.json"
+hash = "8ba473f64fb7cb5ff537e85342e4f4c40bded1a09b9257c2623ff6c0ae1bd18b"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_limb_bi_3.json"
+hash = "ea76a6215908ee05fef95fcbe54973092e2edd03581568a860da5fffdfbd49d9"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_limb_bi_4.json"
+hash = "19105333acaae13ff41a5f5a7817404f79efafcbca34c151c9cd631a546b5781"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_limb_bi_5.json"
+hash = "71b3a9456f7ac4313c8edbd51a6d682eaf8cc268b5f235170bd5dec1704fb608"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_limb_bi_6.json"
+hash = "39debdc353c5e476aeddde4655025cd56083a9f52f24da92bb20185ecc09a512"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_limb_bi_7.json"
+hash = "ad3edfe25c1d439858ed51cf945b16dbb70a7ff15f005182816c86b8add492ad"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_limb_bi_8.json"
+hash = "6d64ceac063420c7e9e1f92415a54baa31cb65bc825f5d05b7b6fa3bb3d55a58"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_limb_bi_9.json"
+hash = "27a7e7efa8ccd8264944f32d0c91db7e034b4233e5e324cbfe05a07b50fd57ed"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_limb_bo_1.json"
+hash = "c32a02a023d64c037ae043e877a59f92cac53d4916db6db185908bb122bbfab3"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_limb_bo_10.json"
+hash = "125415f3140810150f5ef1a93b774a307e6a3f597ab2ff3fdb72e80a5944208f"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_limb_bo_2.json"
+hash = "45c69f5160230e72545a0835aad83e33b2beae0ee437c54d17950af869a01fd2"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_limb_bo_3.json"
+hash = "8efff27047798d405e23d3981ed0e364fcf4dc18596f6ec7861db2971bbd6412"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_limb_bo_4.json"
+hash = "acd8900b898218c70573b999f480475ec59d8f44b40681d613e8ddc81daf3abd"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_limb_bo_5.json"
+hash = "5c29a6d5cc0a8794635b5e476b9fc60179c80d9fe346b2e6c92ff7f05b3c90a2"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_limb_bo_6.json"
+hash = "deae5443ed183a1bee6f627da26f4e88c2b0f445758d141049cb2638ee2e3248"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_limb_bo_7.json"
+hash = "9847bd03edc1c292188391e157246408809727a99ba04eea9112c416f7442ce3"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_limb_bo_8.json"
+hash = "6ccd298d9222bd9f8d70e66f28dd02bbffc3690b30b5d778c6af825d1dc20b8c"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_limb_bo_9.json"
+hash = "4aec73c55a9ef3c1684dd8bd1a0dbd9c896f09888c7eeb54ddb187d24b759e55"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_limb_ti_1.json"
+hash = "b65b6d05dec2bdd773bd833a9b59311a080506b5348b5a031a52cc3a1eea3646"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_limb_ti_10.json"
+hash = "d9f3aafe787791b3d9b5fd01ea64063c1cd8020112f1b49efbb08cb90a7caed2"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_limb_ti_2.json"
+hash = "629cb0510e3becddec70ac70cfa7e9c6f287ce40a53b11436192690fe6d46eb1"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_limb_ti_3.json"
+hash = "f6c01c6eab98b04ede0a6c285fc67b9e8d68832129a5fe94cbdc3d2a1ca9549b"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_limb_ti_4.json"
+hash = "095a8408204561119f8759f0a560c59f4b1ee90a6f28e2b7bd60eb6c05bb7747"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_limb_ti_5.json"
+hash = "cb720635a8e3dc0497467d8d51e0fcb433424629e62ba5d49306acbfdf02f59c"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_limb_ti_6.json"
+hash = "6f363754ce8d964069f74d3b7eb1fb9ff42b9032097e4aae531bd1792b7e16e1"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_limb_ti_7.json"
+hash = "920fffb6dca2c6aff15e2981ec0bacd8885b9189a129fb6872dd5a9a6f1f0f96"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_limb_ti_8.json"
+hash = "1d7b5e0a251f0f9c63f558332ecd0db61df18ad9c83c909047255b8c27b28a5b"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_limb_ti_9.json"
+hash = "8b08d90e214e9579adf3197fe3283d84b4b12d6f5c75e8da5e3bfd5a0094c948"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_limb_to_1.json"
+hash = "8a941866187f80864ccb03f1b84831f43329323e568dc787c1b6488eab5d0d4c"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_limb_to_10.json"
+hash = "78986d60fe1fd062060b7b5e083b254cbbaf176d8eef6bfc203f9403fe1e3cd2"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_limb_to_2.json"
+hash = "343c76c0cba11cc2958971d90cb038e2e6983a7aaee14c9d65587937dde101d8"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_limb_to_3.json"
+hash = "0934f077297412e59da873c07e38bf85fc4023617bdf6d0ea40aca61ee53a16f"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_limb_to_4.json"
+hash = "15222e376ad7f36fe0e9e0037320eee7d03edc8b6b39b8bc950337f296f624b8"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_limb_to_5.json"
+hash = "7061c765fb220e6400a4e3af751e87f2841ac263163839cf15d7703053f8afc7"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_limb_to_6.json"
+hash = "b90710abff1beedf2a49d91536c3da1c600cbfc1fdcf9a6164f23005b075c7f5"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_limb_to_7.json"
+hash = "29520c18dbfe078b556b8e5483bcf2fe16b478ae85b8fa3448b814ea3b17beb4"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_limb_to_8.json"
+hash = "d80cba55355ec80f6436cd98067ae3b3c032fa3141c265781017df1878ac4cfe"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_limb_to_9.json"
+hash = "4f5c58c6846f4324e28a5cb78d6e141c8c860e4dc99141537eafb91e4fcc2144"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_mount_1.json"
+hash = "10dfa0fa4601f1913c199d1003518ee25ec66a64e114c94707a88d9af29cea64"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_mount_2.json"
+hash = "b1a4a1760a53b04b385953ca41a0389bfa7be280f0f6811927de472c4262a4fe"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_mount_3.json"
+hash = "ab7655a4fbba321d7ce6b3347bfbbba439c698be39e97a01c625465b08516005"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_poison_1.json"
+hash = "c97eb9fe245bfab287662bb94319845ad25a50fa38dfba3fc2c39bce6ed027de"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_poison_2.json"
+hash = "f6840455a0311c240c54f3c9750f09dc370c36c3a558a7e990c3d97cba3cb803"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_poison_3.json"
+hash = "b9e0881428d8fbeb0d25f733297fab5335e62674438a9a0fedca82c7d17e4a55"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_poison_4.json"
+hash = "cf39e80d6c025b06d5e77cbd1f3963b62b0e94abc864439ab67ff456c6aa2ef4"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_poison_5.json"
+hash = "67fd6cf76a2c4c05a97dbddae063f1ddaa15b96bbacd1c061373e070494a31d1"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_reflect_1.json"
+hash = "bbbd63669dff75ba279ae5154c248b228d935d7dcd1aab5f427399923fbad452"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_reflect_2.json"
+hash = "8d58fa5f882816fa309598f87ce496f623547498d76d05019044a09b4535c921"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_reflect_3.json"
+hash = "a7aebaf0df61528db4aac6d7559402ba79990aa7e0a9032492bb1f1ddf96b4c9"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_start.json"
+hash = "5a1d676b6374aecfba7a1ce2875db3e4be09fc6ed7eaef5ccfb8bdc86cbb83d4"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_string_b_1.json"
+hash = "e73e54b6ab4fd7e56a41b09df7148b1f1e65b2269f5f44ee8d65c36c1042ddc9"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_string_b_10.json"
+hash = "b694c112914cc5da2da3b0f4f5a51292730cc9848b681bc41788a7fa76a11b3f"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_string_b_11.json"
+hash = "2e76441f50304fe3bb39e295432f6d59315ffed4a26b19aea3cd5e8bac2266a4"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_string_b_2.json"
+hash = "0bf4931e90e0cdf524abef8cd95573970d1e41705ada2e752ab3d2035b9d4c2b"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_string_b_3.json"
+hash = "7fc3670e003b8529c7d8459731d999f922463561a2d03c38d76c62b5d97484bc"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_string_b_4.json"
+hash = "f4df9b2f61b7e6e7e8b328d8eeb5965d67db85c56951ef08a4b217f5a90b1655"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_string_b_5.json"
+hash = "756cf8fb57eb8366fdba8963e62ad25cdca53aff340f4b91e3832bd245618d04"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_string_b_6.json"
+hash = "e0fc2452a1b9e9aaf0c9e9b02ccd21ef95c8fac3ec465633c67bdd3b7690066b"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_string_b_7.json"
+hash = "db1ab11b3c46edbff3ac8c735509348264a49659ebfdf405e6b6887e401e0038"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_string_b_8.json"
+hash = "feb0daeea4b68a3067ddaf0cf1f2f719db9530f3f36eb8b5b55824af1a5cf5c1"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_string_b_9.json"
+hash = "873a901bd5b588ca5ef0bf68948affd0405becb2cf297df87d3d7d210d84c7a7"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_string_t_1.json"
+hash = "5e58598054cccf913699ce6f9b91b33b02c2cf5e8efd7bd26eb268241f7d5847"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_string_t_10.json"
+hash = "d16f4b7aaf6f40f038cb6d7674e5f9e515823e6522061ecf00dbc66ce5c632a5"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_string_t_11.json"
+hash = "d85f9cc2009fec2296c337eff43e601c2213c5b0b146dfbf0d804b920d63812a"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_string_t_2.json"
+hash = "dfc9382264a4224d05aebb08258fd01d1def7851328bdfd00618752296d7832f"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_string_t_3.json"
+hash = "72deab2076aa3150b7bc45f0cc97aa9c44f8512a8b673f282144988bf0a38cbd"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_string_t_4.json"
+hash = "4f76d9c6659d641797565698eb82ed2a448db2b8262556b0d4d4bde210dd507e"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_string_t_5.json"
+hash = "8a2aa28a7d902561011c5eb9b6584f22bb584151056b17b6f5278658bef03c5d"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_string_t_6.json"
+hash = "91a92b16dbd1427321c8853df6b934b8846be064dc546bc1aaab09c32e3e1b57"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_string_t_7.json"
+hash = "71879ec0b8232333c800a95a978db083dd908e758722b8f39abbcaaf7510964d"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_string_t_8.json"
+hash = "3da9f6dd6ea7f1a209cc494610bafb4202feeb5943f2a5157deaca2dd24a2ea7"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/hunter_string_t_9.json"
+hash = "fbe0ae9ea2d30e413ab0dd1200ef08cb87e43c57340f58f2e284fa01a62f0fc1"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_blood_main_1.json"
+hash = "fc6c3ad681470aab15a9823143714b11efda475f72abd652bff527ae9186124e"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_blood_main_10.json"
+hash = "0df0542c7120552cf050eb695c81f4c2be400bbfcc18389a12b065e876edc261"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_blood_main_11.json"
+hash = "3ff6db8d40dad94d6861134b194a773126e573cefe4b050aa9d1f0b22033354e"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_blood_main_12.json"
+hash = "60dbdeec91313ce6fd42627b94980d9c7a7a60921b7650c4af3563487fdb57f6"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_blood_main_13.json"
+hash = "f0a8d824de072c57c34a2e77975325e9e3e05b850d1c1d60ef32284ec8feb506"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_blood_main_14.json"
+hash = "f76175d7e0f0268c624cc21ad9225f6cd7c005abc2d7c86b9de63089b289c11b"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_blood_main_15.json"
+hash = "8b450a7cb387d260be1aa9505069adc63a650b99fde973d52c07116728c6ac1d"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_blood_main_16.json"
+hash = "286ba4277b8e17349d4785e30f7738ffc334d350f1bac255a83d17304bb0febc"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_blood_main_17.json"
+hash = "111fd7fe09bcefa384cf41bda93fe12b286cdb6bc7eb3c27f7a7fbe80335b38a"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_blood_main_18.json"
+hash = "3e26b1000ed06fe0c4394b69a546626f6dc02f6ad14dec5b03a413027ab04c3c"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_blood_main_2.json"
+hash = "591731c370e982123f8aa6eb211dc257e4406f66b07c0c8119f4ca7d68d20b2c"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_blood_main_3.json"
+hash = "9597e4cb71571cdd7306a1399900fdbf7725b6f0428d5f24bd8b0267c66523f7"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_blood_main_4.json"
+hash = "5160c9fc83757f2267522df577f8e35a5afead96657d8671319ca9a89a7b79a1"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_blood_main_5.json"
+hash = "2c41def05ab9367c4e0dad7ebf79e5b2731afdc6a024a6d951260ad64ada67b1"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_blood_main_6.json"
+hash = "200615538c0b519dbca4acf45882db6bf887a530d90dc2419d6e9ac7d8c2f1e0"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_blood_main_7.json"
+hash = "2ff9196954dd3a469f617d96ff639c5ef2286d8236060b7f68c5c426afa977f2"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_blood_main_8.json"
+hash = "631f9fe8cd4d155aca88649e440d32c408bcadd75b4c7df7f709b604585d9321"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_blood_main_9.json"
+hash = "c5d05733b48cbfc17f748a6877746e5bb8c42ee590945ee25ec725dfee39c9b3"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_blood_suba_1.json"
+hash = "53170c8104326ca889965405c3c7f5817be0d40ad76e1d1aefa2b1359feaa14f"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_blood_suba_2.json"
+hash = "48ca5a4ff6cd9d4156f726cbabef49efefa600cbc7b5c3fb354682a26963d2fd"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_blood_suba_3.json"
+hash = "85dd60d74cfcdbd2e7988ba02e88d4d8692ee01b61d7982f65228a91d5a43635"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_blood_suba_4.json"
+hash = "fe40e1bc1f22c1b819605460f44d2505b51a5103906aabe32f27a07b42c069b1"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_blood_suba_5.json"
+hash = "eaee99a1baffc487b3e4b83f021ca1ca1a1ccb645cfbf9eb2b31574b851b35b7"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_blood_subb_1.json"
+hash = "ff722b46af7fd212f8c29f6daa3656aa8c95c6cc905bad457ddd8d31ff8c90ca"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_blood_subb_2.json"
+hash = "706d875f6bfded0cda1d8fb0f1c25a88527508f8541dc8768bd91a43d50f9211"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_blood_subb_3.json"
+hash = "c2082a3f85924d1419207eb6d51b82af9d669850607eaf729772fd74f2284946"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_blood_subb_4.json"
+hash = "982405d2d6ea3f4f010ff9a6238408f0781c517a60b56ae3f2eaf1d8752efb21"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_blood_subb_5.json"
+hash = "75cb35b2ed99969830e4525b8c274ba9314c03de7b7d6637be139d03001d8eac"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_blood_subc_1.json"
+hash = "1ef10aee53614e2cfc493a468e8263b23d54a7943168d12fa5b6441c2a11d730"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_blood_subc_2.json"
+hash = "5dd7874ce6a1fac3756c111fed6999f3ccdd32dbff66d4a5056cc38c1af09b2b"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_blood_subc_3.json"
+hash = "84ad43e94b2618fbb89cb7ce5cc34fd8d0af7250292eedfc369777f7dfca97c4"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_blood_subc_4.json"
+hash = "5bf55ba3f42f7b51552f1e7b1cb6c212edf8db020e10203221937496216d9a87"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_blood_subc_5.json"
+hash = "253644e6db3079ab730e39937679de92ae38df261512921ea264f904267b70d1"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_fire_main_1.json"
+hash = "d89d91cc18ef4ad4610bf1a0016d1b30fcb07feb611fe4131a5277677ff9de1c"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_fire_main_10.json"
+hash = "1c7d3134b6dcc2f5f84fd7386c7924c3952d8dd3872c04bae14f576aa596cc37"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_fire_main_11.json"
+hash = "79b67c7019bda915f98305dc8c6810d678935b9aa59005a52954b51bbada54a7"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_fire_main_12.json"
+hash = "c04f43b0dda189c39d839899fe524992fd6903e184e5220636ac08df3d800c6a"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_fire_main_13.json"
+hash = "a89cc5ebd66e7903050d7e215fd9213ba9d656aa5ad145a49228cf6ac29e1e92"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_fire_main_14.json"
+hash = "b1825333057f64da875590e1f68229726c3892dab7a6bb8fa5b895e7e7a3de6e"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_fire_main_15.json"
+hash = "3d8b14e30080d48e35f4eb174ddc578ed4d440769f711c68d45ec96b3777ecf3"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_fire_main_16.json"
+hash = "d4dfffbff190d0c2b40d68d95e0badf13e661f90fc7741c637c8db58778702aa"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_fire_main_17.json"
+hash = "f42fd78f2b39810f2b89dbe22fac09e9f923ebceeb688340eddd74f097a65ccc"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_fire_main_18.json"
+hash = "ba919d8e25a76aaf588b9144e1fbe9fb27f430792397a250fce67149b7948f07"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_fire_main_2.json"
+hash = "d30e8ec35e3b4de0733e5accb9d12f436534e433df57b3193aa44eb2a608037c"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_fire_main_3.json"
+hash = "d69c96bd8441bb523daa54fabc1ed15e326437806755ed5279058918edf35518"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_fire_main_4.json"
+hash = "68123cbfea318c95e88a82a1e8087c52544bfadd5de9fab88a02b82ea807dc9b"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_fire_main_5.json"
+hash = "cd0d7000fe8d2e89183a54db3259dbd55a027348c480f991167d8d625896772a"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_fire_main_6.json"
+hash = "6b7ca43692da91754f292744d271e75331948d6747584d546470501b137a07b2"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_fire_main_7.json"
+hash = "b615cb4cf99d3b8c8292474ffc24575744d2fafd32cf05607b23703db6dcd6c4"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_fire_main_8.json"
+hash = "d61999cf2feae3fa43ef57659d879114b8436ea63ade32a1c0996fc8d964ac75"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_fire_main_9.json"
+hash = "00a9ba0600445fc31290412936c4b147e8b985221aa3b44ae2793494a6978488"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_fire_suba_1.json"
+hash = "941a24bdc86a907f805534a280cd26c9fbd94ec8556228646517429beb78febb"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_fire_suba_2.json"
+hash = "23af4169f8e3d5f1754a2e76eb4f1e4969fc2e651cc4fac19756e2dc3a1fb8a7"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_fire_suba_3.json"
+hash = "03959062caa52e5c8c4ea4183ecf3ec7e4f48e6e3913507b7848b0d0a8dca515"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_fire_suba_4.json"
+hash = "55dbe34317108d21a620eb90939b01a94adc305e8636d73a1316c34d31095cf4"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_fire_suba_5.json"
+hash = "410c5453bc5f4dde8a9b1ceea40fe3c881c31325d645d5b4d8bf602a476edba3"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_fire_subb_1.json"
+hash = "db8b261aab11eec69c799b88fc4d526404a55d39830971d5fac0aa20d8fd961a"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_fire_subb_2.json"
+hash = "6ad9cfb5f0de3c16e1ebdd4e9c8f819513106ff4ab94cb0fbbac1bdb0dea4b1c"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_fire_subb_3.json"
+hash = "dc557a3a3f4df8a1268f3105149d97e1476b9e51bb663a986ccc595d26dac654"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_fire_subb_4.json"
+hash = "47d5b98b6f68be6224194cc481bd0ed08ea802e76a7c81c7c459c39f9ddd2c85"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_fire_subb_5.json"
+hash = "06a93c63e022f0422b791a129947143c53aca6737145c37bcdd37c9af858a659"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_fire_subc_1.json"
+hash = "1ecf77f458776553704e3fe925d2046982116d67f800ba4d89ef6dca576670df"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_fire_subc_2.json"
+hash = "01c85981f622d054fbe7e9f97bede1ca577699ee2f38f4e62efaafbe8dbc3cf3"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_fire_subc_3.json"
+hash = "7a39ef9d4ed0a7e30279a662b54f5fa7478fd15dc1d2b5592193ef938d5cdc98"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_fire_subc_4.json"
+hash = "0fb4a9298e07da635d83b17982d2274522afd03efa7866c0d503366225754afa"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_fire_subc_5.json"
+hash = "e91e92cdc9decdf1584bb539c62c165330099dbaebe2b626b7cd20f8d1e43210"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_holy_main_1.json"
+hash = "bc947008d7c29aadfa64d9e29f2b26b586f93367311075ff2c549889b79671b5"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_holy_main_10.json"
+hash = "e8d5577394a8e446b4cd28bfd9ddcbe5b1bbab1f3da6c9dbf7460fdd35bae5cb"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_holy_main_11.json"
+hash = "69292305538e18cf93e0bdd8e3d838b58fac6cde9adc75d5fc0f6a3fa944a7bb"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_holy_main_12.json"
+hash = "f0632c72d66522301ba2e081db2c5ef148ab817dfa7d03c5cf7b47d3d97448fe"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_holy_main_13.json"
+hash = "3a062211ba2858ade4c5a60529a1eee80952600157f77f8480e6275e301a351b"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_holy_main_14.json"
+hash = "d7b137f60d481930e7eb2e5d8e8773e0c4077343594a0897a2238e0038b3e14c"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_holy_main_15.json"
+hash = "a1d1329e5b85c72716567a3a07d94f2ad4bb4552ea53665a7ef96a7ab47d14ba"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_holy_main_16.json"
+hash = "865e4c1c301120b063c073ab0f93c3fb31f9f98acc6df89b06955aeab60d3396"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_holy_main_17.json"
+hash = "e17ae6203dc744cc5b675e146be1eb219ee1928cfe9f9f7b4e66133415fc0452"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_holy_main_18.json"
+hash = "e02b70102f50d2a97c7e763ee2ecc44f9f23d62f558956be6622055b1c458b70"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_holy_main_2.json"
+hash = "0d0083721a377318af6c3574ef33c556a20a9f1edcfd8af3ba0c2a84cd29c00d"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_holy_main_3.json"
+hash = "68854701dd2465dfe5fe20f889b0b4d877554a1ba75a3d74882808359f2ce152"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_holy_main_4.json"
+hash = "39fcdb6c70f45517b927a982ca9ea419e00dcef1a7850eeecc8ab7da3aabdc1c"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_holy_main_5.json"
+hash = "69fa2d60072aa9d456d69f13c12991f1c5cac74fc4204fb5014d2c5192380f91"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_holy_main_6.json"
+hash = "b9569f66318cc2f90d592929e718ee1848ee65f0e37f63dc57c4dfb72579c135"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_holy_main_7.json"
+hash = "b1095a0bffcc04ea3a90815141380ce80037b9576ca392d4c3830842a3f31445"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_holy_main_8.json"
+hash = "1ca88d330dab4319b214f017c19caa88b5bdb8bf25d3fd2b9eb5c825ce854f96"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_holy_main_9.json"
+hash = "429308a6ca5d0a108281dff2813c218e1eea7d33611e8bb4bacf8bcde6a9306c"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_holy_suba_1.json"
+hash = "589317af669a81f563407565637e66c5e0da562aa889123975eac0b4ba5d162a"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_holy_suba_2.json"
+hash = "d8b6ef83989928e932a4aa822ecfcbb5efab221a3149752c7453cbde0327a771"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_holy_suba_3.json"
+hash = "5fee888669d65cc7c35c90ac464159a8d67a68d265331e274297db76f5d4208b"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_holy_suba_4.json"
+hash = "feff17f6433f8d29839c9b4001b8bfbe964ed1dd7a1ecc76013be9224787dc5a"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_holy_suba_5.json"
+hash = "383c06c6f72a5a42333c97c25b353a2778b9357eb39bbd5752ee6fd24de93374"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_holy_subb_1.json"
+hash = "d23c9c73afb051366e116d9195a005c8d47d68a7160f28a6baaf6e8535594e1d"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_holy_subb_2.json"
+hash = "1dde87f312018d712013cf50128e2149dc6f222e958bd09b3a9e2ef04cb26948"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_holy_subb_3.json"
+hash = "c612c91d287ceba22aa21647eaefd58f60429fcea294bf78ffc82dd3432defcb"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_holy_subb_4.json"
+hash = "3ac57bc641c336ef2dee2d7ed13152f19deaacd9a0a94aaec78f05f8b8c97805"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_holy_subb_5.json"
+hash = "92ea2fb009b809eb9a85c2d8a46c0c9a2aad75dc05408291c8f2a3f73d9c8c7f"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_holy_subc_1.json"
+hash = "584f092df4034d6f4567fb6157cef59fb951d4ae0c46465dd431e4ec107c552b"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_holy_subc_2.json"
+hash = "026eaa4fddba1d09584a247e94cb44ea34967e45f11751eab714f4aa51979188"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_holy_subc_3.json"
+hash = "1ed87643aaa90f51be5dee8ad7203c384c5f637194b7c6f454f89cadf2927c8a"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_holy_subc_4.json"
+hash = "a5a75b26bbe2632b0017831fadf033b4107c4b96837aba0d8633c924d46570fe"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_holy_subc_5.json"
+hash = "a21228b7ff0bab371254f5fa06484f98f131619d0e74f8505dca47caab513df6"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_ice_main_1.json"
+hash = "f6f8a17df37313601ac9910e565cbdaecbd83fb2efbc5d5ddf8fb288a803a517"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_ice_main_10.json"
+hash = "55a737eca2fbd85b6c7e8c90495db5228cf0b3be4ed3a5ad0deb7fb960b41dc7"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_ice_main_11.json"
+hash = "07b54c492e0fec7b60027ecc786159bba86da862557a868c873c411205b02fef"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_ice_main_12.json"
+hash = "9e1309c0008a653e67d274d2d00f7477f419a6d90d2da5b1d6fb6ffa0456d0ca"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_ice_main_13.json"
+hash = "4028f012ea3d55b98871410dd9a892f07b5991e2af3065012759c11c6eef7c03"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_ice_main_14.json"
+hash = "b7fd8661b522546a0937f9efa379f8fbdf2b24dfd08458449da1f436faffc8b7"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_ice_main_15.json"
+hash = "e3215b19db59d22277f47578ac60fbd244360f51b96da8e23a479146b7f661d1"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_ice_main_16.json"
+hash = "ccc1250e56b270d9449ff781149ab5094c24140e359db606cd5e865b27c8c6de"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_ice_main_17.json"
+hash = "821046a56796913a1360747861754534b888054d62d3d4b683a9667f81b0939d"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_ice_main_18.json"
+hash = "910a9a0f1a42af8774509e3e05a6a56165b4025d69ffc24a145deb0bf17a2824"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_ice_main_2.json"
+hash = "b3f8cacfa417d80e1a4cc1dd1a3eb26ef187d12718dbff08141fc41397fc7740"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_ice_main_3.json"
+hash = "3a126d16f4fab7a10c728ce3839bf05f6f3b70fd372f73cd35642a25bd29de72"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_ice_main_4.json"
+hash = "0a9c0cdbaaa6e5ce94ea8a932a364cc333c1ccaff5765156b5c5835a0b315178"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_ice_main_5.json"
+hash = "078c8a8b83763eccc61280d358304fa81da3cef1c687ad9706c430cb46284584"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_ice_main_6.json"
+hash = "5475c8ea61ed89e1fc18888b13efa8e7cf43a45fe26451c6b629e900e8fa8cfc"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_ice_main_7.json"
+hash = "419a75afdfee41cce88d2b43009a0293bad237d54d15cb5da5b71278fa802f8e"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_ice_main_8.json"
+hash = "5dea700a19d9ddc46009589051f1144d28bb99b823cdf375d0205d13cd480253"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_ice_main_9.json"
+hash = "3270cf6e22dafa17b09446c5024004b0c90e188cef5a412d220d74bd6bf32822"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_ice_suba_1.json"
+hash = "90b6b115585506a0eaedbad27038d12cf4fd492f57324d019a4a567e9fbca4ba"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_ice_suba_2.json"
+hash = "75a954f418b5eb0504c9600772f900b29022ec2763d926d6cee83de6b3405f65"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_ice_suba_3.json"
+hash = "a85ce5373dad62887e387353d512034c66f0175f69215eace42d76443af7ff72"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_ice_suba_4.json"
+hash = "de9a98fbae792fd9b07ecac39a2d2fe53905026f4ee9890f625fe18acf42649c"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_ice_suba_5.json"
+hash = "96652cb5d509d0ed7c6fed625594f49dc3694b0b465647c007f403da81dffe71"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_ice_subb_1.json"
+hash = "254ffbb5794dae4cea134a8ddd751de9439e42de518c95e2203f2d22bf53017e"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_ice_subb_2.json"
+hash = "73be5227a221af5d0e430f4d76856dc631becf6106ebe86b877d271aeb7df93f"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_ice_subb_3.json"
+hash = "4d601541a10c7417cf735faa7413e87b92f99266ace6c0bc33b6ddf3c7bc6f88"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_ice_subb_4.json"
+hash = "b75e4b3e7da917c2afa56985723af1f68c21991b9d1f07d9f0e81a89438dc4fd"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_ice_subb_5.json"
+hash = "516271fb40689111c961dcd83da87616ddeb8fa0a7a44ccb510d7d6af47a8d74"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_ice_subc_1.json"
+hash = "c913a3047fe97c62c37328edbea6675a8656f131aae3f730f69a9f7b416484f4"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_ice_subc_2.json"
+hash = "35c70fd82e5407bcdc3b4202da8b8b2b3820ef8136f09de98267ccb14aca80a1"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_ice_subc_3.json"
+hash = "d41aff8dd4f158275740eca0cd0cc0de600ea1988b83d02660b2b13fc910756b"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_ice_subc_4.json"
+hash = "39a2e40b50029067da03743f498bd26f3272882ef20509286fb60948fa303c5e"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_ice_subc_5.json"
+hash = "5efe5b4c04522eac31e8817baec09dd6c3747ce963db603d7a5f0f72e26f4772"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_lightning_main_1.json"
+hash = "ec5db94683c224992bced3f63ea2bfa1cc425f7a090e92147b1994f0259fcca0"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_lightning_main_10.json"
+hash = "e936de6c067dd42a4a1e5a3136fd1a009084e50c84c66af3c5e7297e551ca562"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_lightning_main_11.json"
+hash = "c0393aa9267a218faba322183cc6ab40b41619ddc39254e29a26959abfdad977"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_lightning_main_12.json"
+hash = "374d285fc135f7e6f24f8b285a21506a3ed6b45f7509090e54f2197d92b8dbf7"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_lightning_main_13.json"
+hash = "26aaf051e2e2b52d5eedc48c76a3d50eb31dc04822e95e9b709a5a068054c20d"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_lightning_main_14.json"
+hash = "64510dbf3181d73aac7b590e5bd2c89bf3608f8bfd7d1abda0ab48f1d8209cf3"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_lightning_main_15.json"
+hash = "b5521efc520dbb73891e413f507a5f66014c69da2958414bea0983daece1789c"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_lightning_main_16.json"
+hash = "36b0b0f3f3c8b6f9e24f576d62e60c47b6224c292f13f1461b161d81f3f5f9e9"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_lightning_main_17.json"
+hash = "317753c3dda7317e8273c35a509bf7c6b1359b283750e82cf9a8271989a7fe66"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_lightning_main_18.json"
+hash = "ccea98c8ec57cd28ea0151d18123efdae1072a680bb99801d6eb08dca8d76009"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_lightning_main_2.json"
+hash = "a4a7ec2e128bced529ba4bba7a1648e588af2b898871aa49a8f0878370368605"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_lightning_main_3.json"
+hash = "cdf55179308b66fccc25359ead7677805574a3449102d9f3e23ed2ae9375f5cb"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_lightning_main_4.json"
+hash = "b3020175e8891bd161c6e736fc857edf7d4a16af161ed80853147967af3ce8aa"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_lightning_main_5.json"
+hash = "ea5e129fe9dcd3f27e1c59079f00c375232f90c8416fb2e5c6527c07a7bcec5c"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_lightning_main_6.json"
+hash = "90a5894c5a5f479aece0ea6c92db5a98963b28de2a331ededc974da3ccb9ee79"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_lightning_main_7.json"
+hash = "2dc7a4c2a693ade9f129ec76af07ab4e7760b5a369c94d9ec677e8dbac84039c"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_lightning_main_8.json"
+hash = "fd402f91c801ce625ece025f7ca655684f498cb36e5d265b8f6e490b4f74ceba"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_lightning_main_9.json"
+hash = "5efddacbc8c0cd968dadad53f162d57d6c942f859e67fad51ed0dc905ff7de61"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_lightning_suba_1.json"
+hash = "f762e34cd8650c0eb167ef9e54d005b01ce2bec4adfd77110fb0c7ddb7cce704"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_lightning_suba_2.json"
+hash = "c7ba6d6eb9a4b27ef6281a4aacfc98f1bd8aab84b6bb639f98ff157fee41b941"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_lightning_suba_3.json"
+hash = "c814cf3764e95ca5a69ca28dcfc47a2b865bb6f6d705f51d70e4d280000a4d63"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_lightning_suba_4.json"
+hash = "c89b1499610e62acdbdabb1b1050333ab8c5f6f6d8c10ee241b0c2c5e5153396"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_lightning_suba_5.json"
+hash = "86219f9bd8d9127c5154f0cf67974f6aebde30dea719a6d786e8c694c07bbbc4"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_lightning_subb_1.json"
+hash = "28656aa8a9ed9b19f9a426e73e4d2cc713aeef7de9d921ba0f275cd60aa726a8"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_lightning_subb_2.json"
+hash = "37e5ad7ca6ee9af5a448d12a7481d57dba6533f3367cc00567c4ca9ea739cf51"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_lightning_subb_3.json"
+hash = "e40be0f86954653e413cb4af76417e8b8a23fa8a2f513f0fb7af9e9317eea8a0"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_lightning_subb_4.json"
+hash = "257ca00877c7284bcf560ea23454b58ae994710c2ee079756bc01701c449b0d3"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_lightning_subb_5.json"
+hash = "6f093af427e42b73532838b1f4dfdfdf593740c32a4ca3a9745b30786c06ce64"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_lightning_subc_1.json"
+hash = "70b62fe437b6cd557f185888a40ac4286fb1ddd918e51027e22ca4a2a7e341e3"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_lightning_subc_2.json"
+hash = "e1c3d94f1d93b8864c9d4d35bac57a29baa3675ebd6b65c994e225e85e8c4ea6"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_lightning_subc_3.json"
+hash = "9a0169ab275b00212b09c605d3e3ba9436827d479f418eaadd8fed4382901508"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_lightning_subc_4.json"
+hash = "21ebee994d5c73bd98cf6ececcc587fde9aadbd3c018820755728cbb14aad806"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_lightning_subc_5.json"
+hash = "1cee54bb38271aa957d21add9ba116eb7ffbfd2c2729b3c615ceed226477a1b5"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_spiral_1.json"
+hash = "deb9591724b6a717a254b8f6f24d07e385750bdfdc16cdddce520698dbbc8a35"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_spiral_10.json"
+hash = "b4ea96ea9ebd34e61e01360e7fb600ea8ccdf61bfb461f0e4a91b1ce811bfe5f"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_spiral_11.json"
+hash = "80d282e4868fa9dcdbf029eb4f8993d78cd65d02fd922fdc391cda412858108f"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_spiral_12.json"
+hash = "00904a0ad046cf1dfa5ce641a3534502354e41076d6020a6b0ec1be2ab217702"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_spiral_13.json"
+hash = "7f06c7a5d228dcc42c9d7f553a620a4eeb1796e006af21a0cd8fbc39b777d1c3"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_spiral_14.json"
+hash = "29a353f181c60de1ce773545972cdb0713122e186f58ca0b62aabdc1816e9b5f"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_spiral_15.json"
+hash = "073f8411ca66f14f970901a64c488b6213affac54f7719594dcff2199047d53e"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_spiral_16.json"
+hash = "ef7e25907bea200dc655bf211148f8bf9dba3d3e8b298e787fc0583fd7256467"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_spiral_17.json"
+hash = "9b10563f0b11a9928c8ea006e5d5c196f43a779250af7730530a378f6053548d"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_spiral_18.json"
+hash = "c243967d878904c04379c37e8701ccf82c1c8e1c7df18012880ec7f291f88ee6"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_spiral_19.json"
+hash = "93f4c670dc9e239d2fd411c180deed03a0ddc645a90c1e3aef7d35e7c378f200"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_spiral_2.json"
+hash = "d3ee24e4256cf2742834e4e0ec5a4786bfe1b4e3be27f23feb25599963b3ba6a"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_spiral_20.json"
+hash = "c6f6156a1b169cf31b0d1bd354b35e655d4bd2039ebd146a3e2bb73b8a47cc16"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_spiral_21.json"
+hash = "43aa6764616f83bc7cc9030cda5d40d6a9ed490396bf0add4cd1884a60ffc923"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_spiral_22.json"
+hash = "81ffdb1e27d08d8310253e0edc69e7e6377999faf369427564efe8b76c5af80b"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_spiral_23.json"
+hash = "9697e3cd4031eb0ed49f7f9b36af41fecfc5c2558025a097bda55363d02b944a"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_spiral_24.json"
+hash = "51fc700933eb2c4c399e6234f7874c6dd95a6270e4a84755ed5433a946ef4f7f"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_spiral_25.json"
+hash = "1ebbff491b43b9c6bc8006d4db753d20a2e7fa396ee1584214df60708f9b6258"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_spiral_26.json"
+hash = "bbd3078f45e7f332767e7139f52eca62a858af33c0b99c4f4cb88722586ef284"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_spiral_27.json"
+hash = "87f8fc41c9c5874af58fb59041a0228561cf85f481e9a2b9df3cc0589f92a6b6"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_spiral_28.json"
+hash = "657006af194e60dfec10a6dacf7154c32bbd8771924cdfc2ffa83bc1236f657d"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_spiral_29.json"
+hash = "04f2152b6ab1ca271df9eacd540751adb350d68dd38b526af13473dd559ec29c"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_spiral_3.json"
+hash = "1e37aef5c348574ed8fea2b1e900dc3c9852e12ef5c32a71d136585df4927eb8"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_spiral_30.json"
+hash = "65f8dd4c6cc3b1f196f824650b77b7512b0221b81a4190312091a1c1f98bcb7f"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_spiral_31.json"
+hash = "dd72c39c82a0f2464904326bcc5a3d566db97217b64a10d12fd02e3481d24de9"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_spiral_32.json"
+hash = "3e64e0e19d4252af3746031363a0bc210ea2b8b4b9eeb9da8aacff0296392994"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_spiral_33.json"
+hash = "86b8932c0df0acdadb8a3c95080f6d789c2f82783b0a113399531af15729fce5"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_spiral_34.json"
+hash = "1a6e15ffb104c23a193ff67c698b9a6bb3c11f397641f0d4ad56d6e977f6a8e3"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_spiral_35.json"
+hash = "161f448008c04e85f0ca5b45ccdf21c13faf2f442f6ad640d011a45977fd3a33"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_spiral_36.json"
+hash = "c4d478788d1de3f0a4c377eda94d27ca42d1139dab57ebd293a6f5880c17b1f4"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_spiral_37.json"
+hash = "aa3cc8b07324f65988745a8388ba695814b9121988ad2eae196d2b691d6bfa3f"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_spiral_38.json"
+hash = "a135ba05cb8dc6573a8f889d76f8d7f7e905e2709332bb3b083f640e50e99458"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_spiral_39.json"
+hash = "f0d84402f754ad958b0e7ba482f9c605bad959853f16573019a7aa7b541795f7"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_spiral_4.json"
+hash = "4ab3ed22a82332134f8a649fc70994b33e0a7701d0c189c98d7240e060fce5be"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_spiral_40.json"
+hash = "d0d5f94735b4a8fbccdbdaf86895144baf69cfb15b4f7e50cd3ef9d8306c08af"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_spiral_5.json"
+hash = "8fdff8b4a40fe2dea95be0d3242e3292682a6040c89b2e2d4e6e851aa7aadb50"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_spiral_6.json"
+hash = "8c9a5f663a3c5593f4257ffb2615fbf7975bab450b2fe44218cd47d2db7cd4d7"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_spiral_7.json"
+hash = "8d0b1b4a4ce51b76e94a4c292d1d9512b617da93c4100d9d3899c643cf4162b9"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_spiral_8.json"
+hash = "1a32c63094c9d58eb8736baf8a7d909bc94a7d8c2a0e8dd1e9ad289f18313809"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_spiral_9.json"
+hash = "c99034e00b64374e818de3afac0a057ea0e772b29eaa2546ca9795112c38c76c"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/mage_start.json"
+hash = "19a9bca53f7c7831625600acae33a6fa51f321a0ecda52a3e3626ee8e23248d7"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/paladin_start.json"
+hash = "d2d4aa5654b00a834b5c7b0c99865a137cdcfac9c235e1511b2db5978c2ab1a3"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pk_0_0.json"
+hash = "3488490d035e6df77874cc3cf2a97b24280c1f0e2d68b16e9594c499a3f2b6bb"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pk_apex_ks.json"
+hash = "f22bd05ec8bbc9683543bfe41e64668763f915396f9ac8a476a79b680b151692"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pk_base_ks.json"
+hash = "19b8ff0ab24fa680b12ffa602d30f6c1ce0e4760f4513566fa46624f81256b3c"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pk_bl1.json"
+hash = "c6d1b95b07559d6d9c9c96a2d942ae510bef7cd1788b225cfe358eb6c30ceb68"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pk_bl1_core.json"
+hash = "a6694c0bff46b1b1c113a05a9fe58a59f21bb10da8c361de98c96953179d6f40"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pk_bl2.json"
+hash = "9bc8ebca24f17365dd77e381eed46d691ddbfb9a83d893264710de1d466b263d"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pk_bl2_core.json"
+hash = "db21dabffeec11e01d715f147567f674bc18a3cb54182dcb2e4918a52563e319"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pk_bl3.json"
+hash = "bb5913c429adfcaaa47bb5a09764d406b81859e3320760d97333ac1fa0be3690"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pk_bl3_core.json"
+hash = "cba498086740539f22120a731f20e74074d0479f34671125e93af4db566f6d91"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pk_bl4.json"
+hash = "e7281676977abb3da1936297e44d5cf50be5b3fe4dc19e6db33707f278565858"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pk_bl_flat.json"
+hash = "aa7e336ea71c44a66904e7d96bccd2322028b1b51d3ecfd8e30e4680f25c635a"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pk_br1.json"
+hash = "aa95882099f807b7b8f347c9ea771445351aef6e762461276bec5dc9b617bb32"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pk_br2.json"
+hash = "86786d6c0fe51417f6cc73012ddc8c32a925c00e2893e8fadb9ecb88adc69d89"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pk_br3.json"
+hash = "60f46bd14a6ab3dd8ed74dee34339909a191c982857d95cdddb41d1131c30502"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pk_br4.json"
+hash = "1165c2991ba0dd0361e011cb44308b67206fd01ad5a67a9f7b46e3db18c5e994"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pk_br_flat.json"
+hash = "6256dda4c6f25af928971a3bb79c9cc87f45f39bc27954f70adc7fd5b18f3f79"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pk_c1.json"
+hash = "7acfb28244a39bcab69c543eaee4ca3dcbc84ec5bc6dede7501922ad5197ac49"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pk_c2.json"
+hash = "733e11bd7e6c8d696384c2689af7be2d31f0acef6b75ff2c016170998ac06e71"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pk_d1.json"
+hash = "b08f79ddcf8993e2c340729bb0b880b1e0b73aa38401666f2c67f42451e7ec32"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pk_d2.json"
+hash = "e7806d0e7a295afa573d0e4181ba751ec9c17a679f1a2ef58d3c9f77bfc86155"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pk_d3.json"
+hash = "1e71321aca4c0ea28b5fa1dd29111b875614c9b9ad437e40f5ec31563fd129bf"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pk_d4.json"
+hash = "6d1cbcda0bb95ab28d8dbe3d4fde7209ea69b4bd64704d545e982c91e243fc60"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pk_d5.json"
+hash = "2b3d89dd9f61a60640c59b32c60382a50bfc915420d37d4379a9c3169e406bc3"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pk_d_flat.json"
+hash = "6acc457bb0dff812dbd5b2dc83a71b106ada3445dbb207e031f405990d12a546"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pk_fd1_d.json"
+hash = "b2e757008e73b602ee476d74343cf69cd22b36704eefad1df1ccb73c00c24d3c"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pk_fd1_u.json"
+hash = "ab558a3d1823f4d149d08bb68f3b8f6006ebd0d8e434b2fb74069abee3e1f585"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pk_fd2_d.json"
+hash = "89343e9dd59a12521fe9d94d74a7661dc4f12bc45d34d3a6eb8bccbd6c24a18f"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pk_fd2_u.json"
+hash = "6e8946e565248d849c09882846cc8dfe80ac70d97b1452eba39da7cc9a57d671"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pk_fd3_d.json"
+hash = "7ea1d1e7910839a04db8b3062ab2ed585425292fa91b25852811001cbb85ca2b"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pk_fd3_u.json"
+hash = "4f92c6d7f744ee0a6df8aba40ae3ddd6e02bf1921d5a7db446b6dfd368c828fa"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pk_fd4_d.json"
+hash = "797ea2a3b78223008f8799d67cb1f50d4db56dc0a52d3a5f499d84b432b18cfd"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pk_fd4_u.json"
+hash = "3c82e5ff20ee2f731d8844fdb10b015ffd6396fa15023c369692cbdc20e501f7"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pk_fd_flat.json"
+hash = "6fbaff12fc2a9b0a3b4c1cba99eb848ec03db91b5eaafe2a5e4e2c3b6015323d"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pk_fd_ks.json"
+hash = "f3f44231f0f40e4bab4bc66e7aacf1e4f43a4502958d88312c359fd292a611a0"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pk_ghost_ks.json"
+hash = "8b9bb824b43f42bfbc246c2d9bad5076f49db7e5b71fe2cf13e4b1817647380f"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pk_hp1_d.json"
+hash = "e0ca3e0b5c021e7419ad61c574afe7400ab4ed1dda9f49603e53f016f6df91b8"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pk_hp1_u.json"
+hash = "f28871505b31b727323cb2e7d84acef571745b6eb5a88b6bf771e6d3bc34d4c0"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pk_hp2_d.json"
+hash = "79348ae096ca0db90572a3067597cef94d7a9d4ed8ff61ab3cdfbe3dd273bcdf"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pk_hp2_u.json"
+hash = "e5dee9f110064843c77e252eb3ded575d12cd79059aab8ad386bdaefe61eb170"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pk_hp3_d.json"
+hash = "57a4e4ff1d694689e7f840faa3a2a3acaac39c76f80d8237d1cfc8585eb37b63"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pk_hp3_u.json"
+hash = "7d037e1650152a65ff3d6a8108dad9b7aa9be4536f2e137630b255db8f6df2e5"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pk_hp4_d.json"
+hash = "7b726eee2fd46be09fb29314352cc45d0b9451f5938f9d72582fe17e099775f8"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pk_hp4_u.json"
+hash = "c599f1d0f5831a201ee8720bb31a6cbeb2933f7379a70e0cc4c770931cd52605"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pk_hp_flat.json"
+hash = "74012ab753a96e114f7293fb549118a1d200d552c31d6742f08a1e69086bbb86"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pk_jh1_d.json"
+hash = "7e3e46674fad04f92ce87ed3ddf2c12f64730ee305a7be0b77f7a33e82a1693a"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pk_jh1_u.json"
+hash = "f5bae89305d03431dbb40d95d4e9efe1b9467ebc7a513ddefec70c891a1b750f"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pk_jh2_d.json"
+hash = "85f8afbc2d55dbda0bd611da040f950e5e60877aad0ed5698bf15e11358be6f4"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pk_jh2_u.json"
+hash = "f1fe7b3c493550bee8dcee6999092aa287cdf8fb7ccd070a3beda0ebd3af3897"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pk_jh3_d.json"
+hash = "2e60a774dd719c88e8862e7bdc9f4a0cbaa5cae36f347b76eb202580395d3eab"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pk_jh3_u.json"
+hash = "3f086eb41cd0fec6add4f1f958a01ad12930990ee5ad43d895f78ebb3391473b"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pk_jh4_d.json"
+hash = "24db626b460d63646d62e23c1355aeb7b349e737821227ddbf19dae7ee6202a2"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pk_jh4_u.json"
+hash = "6bd35016e59d848694a8140f0caac1e5a7b2cf1a2438deb7e56ec3f756929e64"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pk_jh_flat.json"
+hash = "806170d72ed68a074a5df1f700dc6308fda172e09fb301ba8d34429903e1dc30"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pk_jh_ks.json"
+hash = "a06b7a4962f751a7f170090fd7c88a80a470e669c166d791866c3e0c00619678"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pk_regen_1.json"
+hash = "4372db7b6e745d7846fa67e917bab91dab7f388df17769e7ed7c8b06277c4117"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pk_regen_2.json"
+hash = "dece08b19925b1f9aae7ccde858831c39a121ca858315e63cc88fe70bfcc68fb"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pk_regen_3.json"
+hash = "7eda31f07e79970e36f57623b02f02073e36d30c22f9315d69a3d72a6bb9dd08"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pk_regen_4.json"
+hash = "649ae55e7da54a4565e104f052443de6f86d2d5053510511624c5a3e68ef6ec0"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pk_regen_5.json"
+hash = "f575044f1eaab51843a22a0d42c8dc5733097d44ad5ded130d34dcf627e86aec"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pk_st1_d.json"
+hash = "3772122193b19f33959bafeb40eacd67b1840f5508b26a63ae8fd3590496ee2c"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pk_st1_u.json"
+hash = "0ae46403804f846ec214e64bd76d95eee187f58fafe39038dc2486b7bcabf1fc"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pk_st2_d.json"
+hash = "41a5a42e2b13660a9ba2ce3d876542f2028f8e6e73176999fd3f6ebf39aa8862"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pk_st2_u.json"
+hash = "370a422d30b70db5b494ae3db8a071cc6da94f36106f6ab385c5e40bf563a906"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pk_st3_d.json"
+hash = "aa70c5620a53fb6e08dafc764c04e17ee3eb1b3d811f776ccc5a3750915e3794"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pk_st3_u.json"
+hash = "2485884aa0d5a6a792867355d472c9fbd14343f847dd7906502d739ad868de7c"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pk_st4_d.json"
+hash = "c81f3fb3a211df8e3a1e219291fb3a227514bb51f9120637568810b988eecea6"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pk_st4_u.json"
+hash = "4e7eff7d67459bee91547e482e0f6cf0a760d6b09fb50be6fdb1b3341a5895d9"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pk_step_1.json"
+hash = "6de4574dde72e8ba346003d669f40bb66da981e8cf97990d96f9467819d3ed7b"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pk_step_2.json"
+hash = "23f9552b6be886fc04a51cfa673c8f123a6706ba5c4504a7be848ab072b8c9c0"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pk_st_flat.json"
+hash = "c2471a329bcd52cceb1f623119f5cb951d045b3730d603a1da34de689f0569a6"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pk_surge_ks.json"
+hash = "cf337acd98c0a98d53e4ac808dba682d5cb5c764a1b630e46d75d6089d348b1f"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pk_u1.json"
+hash = "581ec2e76228626eaa3dd95497cb641ded03f99013348af84cd7bbc436360f6e"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pk_u2.json"
+hash = "dca4e46788deb4170d536de8e191b3c4ddd4e16071b42ec69d43561b89a96caa"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pk_u3.json"
+hash = "14ab952a8dbfabe733bcdf8b15f720afd0c53ce451164535347ba7035e73294d"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pk_u4.json"
+hash = "40d7432d24913f1a67d0e91329af6b42ef4eb667c469306c521f932e1f0b57a0"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pk_u5.json"
+hash = "23e829ef9fdd8a78fe96b480ac1b1fba9594f319ff487ce4635c84de7f5fb2ed"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pk_u_flat.json"
+hash = "2d182ff026c293996dac1c36810ba20c11bec56cfdf0bcd857a454af41194c5d"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_r0_c1.json"
+hash = "b74a0f9bee13e736d6abc46f58cf1cf716facb1b5a63d6f1d7afacd107385263"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_r0_c2.json"
+hash = "2b5b3b73d4acd091fc2758c5852759bdfd7741a6802c91a29d3b2fd82cdaf009"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_r0_c3.json"
+hash = "9535940993f8f367764f4c2ecf427261165e07673b5522cb303062ab4735d683"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_r0_c4.json"
+hash = "4efbf4f41e723f6316dedd5ba092b9b0e55cf0e40d0f0ed87279bf70d77da0ae"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_r0_c5.json"
+hash = "a8749d3ad7699364d4cbe3b722f7a1044c6de67e0e2b42f0d4a776b9fd72cc2c"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_r0_cm1.json"
+hash = "f5564cdac47f4188759701e1b5a7430ff2b0c95404e7493919604f91b319aec7"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_r0_cm2.json"
+hash = "75a3c5fcb24fee4b61784048af95a139cddcdfe9798659a8eb759314331acd9e"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_r0_cm3.json"
+hash = "b7b617fad039ac3bff02f425cbbcc4900fa6181b541b219530c1964e0f1ae24d"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_r0_cm4.json"
+hash = "99966806f04012c00e845cefaab129e4e64dd7ba2c873c425f8bb66ef51073af"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_r0_cm5.json"
+hash = "f4c5b35bad9d31cf0d545eeb5069fd99e29d856e4c807cea096a387ea869ca8f"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_r1_c0.json"
+hash = "112375917bf86b14d3d8e19a03f1f6b755138ac9d311b9d737bcdce08393cb52"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_r1_c1.json"
+hash = "53ab768df375e5588cbf5d58bad7fedc14a3f4b2b6ac70afd4d408a42a975f15"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_r1_c2.json"
+hash = "ad7e1cee112e2be44d6266bfd9d1c4d633df377a80280b68efc0aecebff10201"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_r1_c3.json"
+hash = "e4fb9f2418974080d46b6c85fa34101d593a67c9c532cca24d6d16509e8698fd"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_r1_c4.json"
+hash = "cd9464744c83d1ee148e5cc45e854ab550638fab65d7100364ca849384716ce6"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_r1_c5.json"
+hash = "933c71e7082feaeb79088eaf211338a87f27d12db604b0a0cbf38d90fa420af1"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_r1_cm1.json"
+hash = "4033457f5f418de08db4e4b90380d675d43e1220b70626b3e23ebfce85c88f7d"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_r1_cm2.json"
+hash = "d14afc1c39326cb4d47396113aac4a8d784765b036f254c32e88e7eae04fddf5"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_r1_cm3.json"
+hash = "d196e52793238cae257478255fdb67e736289b319210f7f411cc8c6b2d83ab33"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_r1_cm4.json"
+hash = "53ef217b6b218198b00a984635e97d05721558f72f630653b7a11145624605c8"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_r1_cm5.json"
+hash = "5d4018ebbb6f7bd83eaaf2581e3be1adb188d075a849caa8acd6bcc893573d64"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_r2_c0.json"
+hash = "b8cca51432518186005f11759c204b03fca78eebd5799d040341f992a4031b85"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_r2_c1.json"
+hash = "5b9f3c996bb3361c3d9b3f93701c086056f0bb0eccce9ceae3154c27cdcb3201"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_r2_c2.json"
+hash = "ec8c1f7f18eb345f17a537d823ba8c4053c0785d7e00773d8feadb868c776ca3"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_r2_c3.json"
+hash = "86c6effe0e275d3e07302068ac9e7e6640d2b7b7f733b71fb8c1a3b8249978c0"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_r2_c4.json"
+hash = "8d6c3e0ffa591f90928eb18c335240547a727a7a2b8a646ecf64a374b238cf82"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_r2_c5.json"
+hash = "bf60e5249c3e3aebbb869b9f4ccfb246dbb040b5095cf53a9093231134db2962"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_r2_cm1.json"
+hash = "299132b3dd3c4400de2f2cd3dfab94710245008c5ca7adb7a8b061d3ebbd8114"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_r2_cm2.json"
+hash = "d7257bd877138fdf14ac87c6c025aae3443836be5b75a54c85dff201d7dc2183"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_r2_cm3.json"
+hash = "3858598ab822b25bebc53c838f6e787bd047df212c95580b55ba7aecd93bf276"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_r2_cm4.json"
+hash = "029aabe32fd26b8ac8061cb638054b737c1ec59f65f7e5879b9394116b51eff7"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_r2_cm5.json"
+hash = "91c632c28f36de4a967c6219df4fbda600cdf0591dee2677c89f256d148c88ec"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_r3_c0.json"
+hash = "c1146df6dbefd937e26b3c4acbcd1bdbeb1d5aa84cffbdcc4d4c6957c49ac08e"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_r3_c1.json"
+hash = "ca726a3d1196595a37052c0baf9d66f9e604920f037e26a46a3af29ce3ae546d"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_r3_c2.json"
+hash = "f33d653f8e62789cf0bd3637cb10396b3f12f6d042e692c768763e5cc4f7f8c1"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_r3_c3.json"
+hash = "016f20fca530d83af5748990f319724e921a05e4c41e5a9ee994dc15fd177109"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_r3_c4.json"
+hash = "6b76913881ca80a77da0c016f63d3b24e60b54dd17e14ed7e323a5cb98c1480c"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_r3_cm1.json"
+hash = "29af3a1ddf888f406ef4c7facabdd81462cb3210c985e1293d71f0ab379a4ec1"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_r3_cm2.json"
+hash = "ced9c79e0c783b734aa0b0747f0563beff3c0ab4649ec3439c4a42b4852055cf"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_r3_cm3.json"
+hash = "8f6a65f07badbadfec4526df0c036c5ecf976fc6c6fdb62757a791c5db1558e4"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_r3_cm4.json"
+hash = "84e3ec9dec80d1b5a936876fc7402870ebbc55d3dbe9d6ee01019e7f86258f8f"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_r4_c0.json"
+hash = "620c6caa3fd61f4b47ba79b4f285393bd6b8f30800ab56c3ca9e8602f2738739"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_r4_c1.json"
+hash = "f387883d4896113582ac296df085d1f00688d7bbe4dbcc6d80573cd1cf676b71"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_r4_c2.json"
+hash = "42ad8aa885423ec9ac2b4da0ad89d0556ee9fe1df4e7eeefbdb142732203bc43"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_r4_cm1.json"
+hash = "e6cd11b722e3f1449c1434f307bfafc18823dd502d8d71eb178e509b3878ca4e"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_r4_cm2.json"
+hash = "a4f419cd63257b5d2db59588dcd1fd99a13379d1d24ad16187d16e8a84e56489"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_r5_c0.json"
+hash = "63d3a5cc5695c1ac59bea5cf571b6246715de3bb0a81d873dde1ea56c87eb98b"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_r5_c1.json"
+hash = "e651ab36b768a673a4ff8735f54448e6aa37a5fdea709fc243179c3f3c10e26f"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_r5_c2.json"
+hash = "4497712b9b468a89c76fc825e97f67ec7559759ecc108ada5b3227d17138776f"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_r5_cm1.json"
+hash = "aa474dba0bc31de32dff0ef3b0ef1bd3ae8070636edf30f42a4bca04aeaedf34"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_r5_cm2.json"
+hash = "7f49f1852252305eb4e5062f8e851399423bd6b91abfe582835de3f62b6b4163"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_r6_c0.json"
+hash = "91e4cbfb471087097f9747e27e01c7e407df06c02ba3e6431b4ecdc845d97d90"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_r6_c1.json"
+hash = "cadf7cd483a1927a6622a5fe9b05a6c293462b07351a312479e00406b5af3a6d"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_r6_cm1.json"
+hash = "0200d88401ccf0d2296851a33e35e16477ae0d8320a310ec2489a63373fad618"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_r7_c0.json"
+hash = "0edf1612282c6f3a3be525a817ff25cd09ed4cd1fede3a48b1b3e0a3660abdeb"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_rm1_c0.json"
+hash = "5f88c85bed49aa0aec3ee495e838f48db7d32b0cfe6011d2e3f1c25b2b5599ef"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_rm1_c1.json"
+hash = "6038125b149d5106248aebe01b7f7909c3e548e952a98261b5d6247ba2ac9f4e"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_rm1_c2.json"
+hash = "4121da37c7e49a40b1ee5ea5ec1e81582ba903cd1d1f4d8bb2204ae487807f9c"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_rm1_c3.json"
+hash = "0da4839cb6b0202676251642be4a4624eac66bb36254ed3f0c960de757b5c409"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_rm1_c4.json"
+hash = "c1d3bc34216884ad4d2a476b25be3e5ed335b0977381fd2b0e8326f6741411b6"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_rm1_c5.json"
+hash = "533d832eecaa0c4b9a14f6d7a7f553aecaf25ff89097ed942a65db62da6ef182"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_rm1_cm1.json"
+hash = "26bdeaf8863f9ce95dac99e91454ab9ab4dceafc6fb1d4c89f9b697272b6b951"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_rm1_cm2.json"
+hash = "2cd837c6d05b4fbda9e891784a538db429a8877d95a4a2d9fcfafa721eac8505"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_rm1_cm3.json"
+hash = "9a7bc7c545e506b55695994342554109d34f8c7526ae2bf81d24a8daff3e9253"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_rm1_cm4.json"
+hash = "d6309121dee088987fda5edb5d7fd674c8fdeee1f0387b2767c27283dcb2a9b7"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_rm1_cm5.json"
+hash = "2dcf6bd80fcb021a00f14c7f2bdcc60a2629a22b8485a08f4328faf5b20153d2"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_rm2_c0.json"
+hash = "953e5ce8e4433dd5b7b680f33880f53c868d29d95f5fb072f1d0877aff925af2"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_rm2_c1.json"
+hash = "2fa565adb210392b1ef14394280994db51bd96cb7a702dea45393ab1c32dbd56"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_rm2_c2.json"
+hash = "430ccd84c867569afcfed6a7112c55bdc6b7d5eee9cac3ad5531f585cd23c49a"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_rm2_c3.json"
+hash = "64ce9a80971d8555b19ca231d3ab81b1c47f266d27ce70a21ccd223b22344f93"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_rm2_c4.json"
+hash = "031e1bb4b74922de01e27f2f552b638861ed35fa560a05a3b57ec4029ce225e0"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_rm2_c5.json"
+hash = "b6ae35b90a5109e51b66cbdd3acea5429ee23ef1e609baaf8ecb10e5628a096a"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_rm2_cm1.json"
+hash = "2fa08610f353785d0a0931de4490658381ad68d002bdf6fbcbd42fa6a82ecdec"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_rm2_cm2.json"
+hash = "46991f37898c92eb630a3c7ebc7bf3b5aea434aa8eb252ab8f865090e083db84"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_rm2_cm3.json"
+hash = "584c070d68c4347a3635b0fd7988138f29fea9fff7544e7f05a954697bbab108"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_rm2_cm4.json"
+hash = "10b5120180968744b51b0c514e71de5fa8abbf998b5f638dbedefa9ec2d00cce"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_rm2_cm5.json"
+hash = "2b8a058fa2e0a87ff6c29d827d40750e3c01bbab925cb443ab7c05ba9f038799"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_rm3_c0.json"
+hash = "75e2fa3fea055f41a798692fd328e87a2ca5253885d54a23b3a8afa5add56589"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_rm3_c1.json"
+hash = "9ead12f951cd79aa43b8fa63a6e68f3f98da22b8454057a68135c3d4a81d4805"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_rm3_c2.json"
+hash = "8ae164b5a769a53b761bab1287b2cabc1b3bc858406935d8ab84f92a8a1a927d"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_rm3_c3.json"
+hash = "a922a5715c40533bc81dcbf5f23ceaaff369a843f25dc61aaef558db0887b80f"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_rm3_c4.json"
+hash = "341fab0c4e57c3d6e35ba27be773515923570f0b430fca274aa2caf3a7f3cdb0"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_rm3_c5.json"
+hash = "aa886abf8dff06e8896a112f4841c649df9bbbf087c74b0ba4ecd1da4feb7447"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_rm3_cm1.json"
+hash = "ff75f5b8018e301d3036154daf995d39f556480fa0d39d071ba0d9787334b436"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_rm3_cm2.json"
+hash = "274dfe604c8b0a3b3ac5bd76d7327fe6835959ed2e458b7b404337583be609ff"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_rm3_cm3.json"
+hash = "a6b37f0a97c18c66d755f92d729671aca64d9ad5c7754253cb0bf3cceb5f751f"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_rm3_cm4.json"
+hash = "23f9e9269a6291eace1e2b13d5a21dd1bfdabe373a6aa0962b014c64f8dd7115"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_rm3_cm5.json"
+hash = "a382f3e7f2795e760c8c902807e391e88a4d48ca3f31c8ebd220ccef6f956a8d"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_rm4_c0.json"
+hash = "305702f2abb857f3ebd8aca3891e142929453eb4265e3beed8b9be422b33739c"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_rm4_c1.json"
+hash = "8ca78be8c51c5ded56a8eb75a1e1f6d7fe42219053dce7398a6c53b86a13711c"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_rm4_c2.json"
+hash = "8b8a3dd30e023ca90cc12cdf424aec710edce18b6798fa842782dba94dab568e"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_rm4_c3.json"
+hash = "6c7d003ba4d61ad45e3a9207f922a89a299258dc9422d0f7ffda8d3ae9b3e075"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_rm4_c4.json"
+hash = "160a4f65d0d0d58e11171eeafd091992b9d35a76c6e9daad705add68604d285b"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_rm4_c5.json"
+hash = "3813b4ff6fbce7ce3045463ce02ee0f73e1c3f11518b320d2f57edf53a916477"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_rm4_cm1.json"
+hash = "dd7b79514fb2154c73928fab9bfcadcc02a2e8e7633a5d4448c1b1ac55357ee3"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_rm4_cm2.json"
+hash = "da6b04e950f6825ec57bb1206eca7efad0b18909a06d55ae87d8a35b086b4350"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_rm4_cm3.json"
+hash = "707de0294dcc63cadb162ebec39e7492642737352844dcd3ef1574286d1750b6"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_rm4_cm4.json"
+hash = "3becc5ae1b62a72ba515380b4f4ebfeb5d6062cfdcb2d6c4baa83f94fd52809b"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_rm4_cm5.json"
+hash = "e520108aaa2e2a56b4a8af41ed76bf7f5e1c877aa49c6d20ab3e5a898a862e8d"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_rm5_c0.json"
+hash = "2239a769c42fc709d39f8d400d529cdc9b0d26f55762f9f70d764e3f801581f1"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_rm5_c1.json"
+hash = "0e4e9c838bca2063be981d3351fd5487cc1185a9149dbd94bb898b71168dce93"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_rm5_c2.json"
+hash = "65f58e53226916a744c2d42971657cf5cd9490a1469a00a7e389b4a8ea6b9e06"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_rm5_c3.json"
+hash = "49d22e9c5da9092c6c8896e2900116c3c9b7194125d4ffecb0a7adfd849ca741"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_rm5_c4.json"
+hash = "3a432c4647124e3046d1abbe2af87300c7a4cad00d18e13f13a078cdac973566"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_rm5_cm1.json"
+hash = "e390c69a2ee068844d4d0dc4f7e2c74f9f682223f22e1fd126eb3f0655220e25"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_rm5_cm2.json"
+hash = "8c8ebb888609d55d13b84b6f772844da519af5366b707cbb3fa1954590e46c82"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_rm5_cm3.json"
+hash = "de9fb0fd97cd5ceedb408d286a1bbc97fa6f1a844c783f5d803738b4b0175033"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_rm5_cm4.json"
+hash = "7b85af74206c95362a929acfb1033b459ac56823203c394ac6c1241bf552f888"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_rm6_c0.json"
+hash = "2990b838d2472d731af84d855cb01d21392da67c169207cab8b1c10827f78549"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_rm6_c1.json"
+hash = "687c8a32ed33073fbaf3f0c0ee8aa118372f6e8ffc2e834e74e2d408cf4f7825"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_rm6_c2.json"
+hash = "795d5a93b89d52de98894108fef9d029e1abde094cb4090139a983fe11c65c88"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_rm6_cm1.json"
+hash = "5b78299a928b72594f477ae8416ab23bee02749b6f3aaa1bc917f7f61a3787b2"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_rm6_cm2.json"
+hash = "bc4ed8b40aa661a4031be7564c211b6e5fcce335ad72760585fc55678b8b1f41"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/pl_rm7_c0.json"
+hash = "3893b6ee9be4912c5e6c5dfa3977d741fbbfd78e89ef1e30a9d78e6e94fa518d"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sanguinar_start.json"
+hash = "b31f413e749179e882037d0086048a3ccdb749c7751ca2f76240ff0ab2eb9bf3"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_1_1.json"
+hash = "fc2ce61b255c54d3665b37d6112d84805b8ea8f1729f166ee155d2cb1b4bfeb9"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_1_2.json"
+hash = "02ec0176f9b2890ae346c1bb0a2356ec148e9864158be31ffdfa489769b8811b"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_1_3.json"
+hash = "ed025120a02d134dbcc89416849261657ac7289d73fd4208835c46b03541baf5"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_1_4.json"
+hash = "cd064ee05ab80b9effa4354610f9990581b93c0b482315dee5f240d5e0dc98a3"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_1_5.json"
+hash = "c93f5ceb3417df698a883dd87bb99faaae35a5f7b81d6fdad74ce67610cf5a01"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_1_6.json"
+hash = "b644cbeac2f2d0f3c9428e276e0579729dc94636a5031b7feb3a6c4471ca8e04"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_2_1a.json"
+hash = "f9bff431e78599db7b7a17a0c4ee617615238345721d50ccc604e699fed3d8d9"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_2_1b.json"
+hash = "9876d61d8af42655072dc00bb08aaf3326e124f2008642cadcfbb55e4694c0f5"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_2_1c.json"
+hash = "18d615991b479d42a3f3c30bf51e8e6dc80f981623629038b2ae842e7d766dc3"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_2_2a.json"
+hash = "01e13a8777f9e7ee3e33cf0bd82711585819137235f737a4f1e5ec1d969be775"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_2_2b.json"
+hash = "0ebd264a056695942bf4c9869bf1b1d989dd3d8eebc3ec93e6cd372264fbbcab"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_2_2c.json"
+hash = "7223c60fb90f512298606f69faf949c9f019fb49e3e23838dcfa1f9014a22d42"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_2_3a.json"
+hash = "b37ce3846f0429ebbc88a305c59655ff42101b7f9cbbaedfe9702ecc5713de42"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_2_3b.json"
+hash = "daaf2ae7e3e73c2c89277aac6477fc3a5242d42383bbeeed9ba74082f7dbe13f"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_2_3c.json"
+hash = "473d8e4dcb3a27f7decdba8e2c798bed27bc1ba4e6d1743358036836d7a9a3eb"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_2_4a.json"
+hash = "2326da27702ec4f97b658c9975b97e404ebcb9342c07160f1ef3c660c27e1f66"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_2_4b.json"
+hash = "87111800819ba0e86f489ee86aa5fd38e3c02340f5edd257db94d5b0b3932182"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_2_4c.json"
+hash = "5f32337a0952a5c493a94cf352da3c4ce5c148f71d16912b4b3270f4d5f3ada0"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_2_5a.json"
+hash = "401345557ff99f31342ca8b47cb75b78ada3312f84956a7cd08533be3da44293"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_2_5b.json"
+hash = "7af78196dd8dcd33b549ce609a40599634c7c1b0926f524b0f9d8d6972668446"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_2_5c.json"
+hash = "c3480bad71e6ad47e1da67bea8436bd5164876b0a71ca14a9845c2f9abf6775d"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_2_6a.json"
+hash = "83f04cc7ba529e99dbeddc6bde24d6bd8a41e03fca072e62e081826985d19945"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_2_6b.json"
+hash = "df306dc930c296948a5f70fca03e63acf29ac4a01a6bca548d82bad239103d03"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_2_6c.json"
+hash = "1cf6a79676148497b1b2b821beafc19a7adda73aa179b07b6f6b0c8a154ff344"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_3_1a.json"
+hash = "a69955a6b528b479a3341fba95881e00f933b051f4bca8ed210936ba96f33d8f"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_3_1b.json"
+hash = "f774ed2bee4cbbe4641efb4bb7a59c2db47cc5f3bdb839a3becec6e9a286f8f4"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_3_1c.json"
+hash = "c0376abfed749e79fbc8c0743da9f9f1ee1702362d8dd1f1b3b8d5fe62c72d8f"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_3_1d.json"
+hash = "f69f7adbc7137aac5880f0b55a56352f8d4faf4b44c4df01189bc8e215c1f5c3"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_3_2a.json"
+hash = "292748e5269c8ab68673da5005e3a6d0e78f6f9d574bc1ad3e6dee2718920d57"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_3_2b.json"
+hash = "3aa7f4e497360a7467f70fd3c6162b1c44571e1d7e900851cb5152ca250fd370"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_3_2c.json"
+hash = "31dd61372404e755e5df2ab579b75d3e64ee08770d254fddf6ec0228746dda54"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_3_2d.json"
+hash = "1b8bbb4ed895773ff52d601a4dfc6ee157ee58756f1ce64216d36e37143f770b"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_3_3a.json"
+hash = "9f014f4772027c44b0323898cc16df40709a5e8b62b836c18dbfd84457f4a4bb"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_3_3b.json"
+hash = "0e0ddc00beb590a374ea9d096c86f9ba6c8e2fbd96f185ddfc5d266fb427a6a6"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_3_3c.json"
+hash = "1f1e300b31e14aa1662941a89e4aff88de3bd48a43a4cce2b414257ba9da3eb9"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_3_3d.json"
+hash = "6560d66e19fc710aeeb45444ffce9dc76ac6ec3c4369cca40c85d06e6ba64ce6"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_3_4a.json"
+hash = "56832079a9efccd4b26d3a8a3456ec8dbbd45b4999085a3735944b28d38e476b"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_3_4b.json"
+hash = "8925c21e6b3cac0af6a571e8105849de4b1d72df1fbc4d877b891ec4171c5e01"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_3_4c.json"
+hash = "0d43064fae5ac04cda8eb9624d3c4803b8a0af07655be6278ffbba32994c467f"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_3_4d.json"
+hash = "be474b04de2d9943763c0b1512e09ae34435145eb60a2e0f84a1db73e871ce1a"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_3_5a.json"
+hash = "737b83d2d1b3dbc72ccb7af39a7c47662b22253d15c706ba1495a8c0f906bbaf"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_3_5b.json"
+hash = "4d998a6cca1a251368f41a7d59888f6f6a4f7d06d96609142d10148c86ef1a4d"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_3_5c.json"
+hash = "78289ad9275811c4e5ef9b33664ad987ab64dc7c8eb0f9409131a49ec6262cd2"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_3_5d.json"
+hash = "113343e9f8fb24e32914534b434dd25aeb42215b5aa37a314129c2b585a5528b"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_3_6a.json"
+hash = "4ae06ed1be72690d64177816afa369885fe2b7f0d67e9d93a8a551346a2b18d7"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_3_6b.json"
+hash = "c46b535ad188a3e06989f2117ab678f0599f621bf8780400cc6ce9118082df35"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_3_6c.json"
+hash = "16f084ffe5c35bcc1ea91615a4a898e5699ccf98f32f926313f28dd5a9051e99"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_3_6d.json"
+hash = "89abd3290a1b722e54a8cb37f0c2c8357491d17565ba6f7c02ac9b0296b747d3"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_4_1a.json"
+hash = "f09128561b088fa18eb947c37d47fe12e7012aad6a2c757261cd9f35e3766ad0"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_4_1b.json"
+hash = "885bd631aab3e6bb2983f69b49bfe8e854457b3ff0a0455429d49868226c2709"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_4_1d.json"
+hash = "d5c09339b38f2cb3520717dd452de187a3c6c4733a413c1e848e819e6e96f39d"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_4_2a.json"
+hash = "662b7debe60d59368e7b4f5ab994f5267bb563d34c387f8bc818b6313b884e38"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_4_2b.json"
+hash = "4bd2eb790f109f6b68988e7ae9ad01220ea7ebfc4f7d28a670aed28bf04192fd"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_4_2c.json"
+hash = "328f9cd00a70d1a9bc8d57a3e0cdf0b13dc2553970a18b718f6459fc6d8a3c2d"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_4_3a.json"
+hash = "2aeaa82bbc58b9ca00a5ef922895643bd87db6a87db20825b257b392b04d6f49"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_4_3b.json"
+hash = "6141d1ef036f8a7bd89328332fb296ddf8ce61a6907d3656f40b394b1225757e"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_4_3d.json"
+hash = "e8d36ca6d1e1defc470a35be1f9b7901f5a5e43f80a2c25b5e38fe5d2b256b67"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_4_4a.json"
+hash = "53d13b99a647fb241bff52aa2d5179ce69d8f019a17974e6778aea9588744205"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_4_4b.json"
+hash = "cc0529c797876040133741f8a796dd5fcf407437e2ce3dba45bf0727fd9e766d"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_4_4d.json"
+hash = "71b8d0e5063645d00c563e4aa8c5697c239b546fb7cf3045abded1fcdc9228c4"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_4_5a.json"
+hash = "cbedb15a810a12ee35a761b88fd430a57e04f0dfd686177f1c6cee5eda456f5d"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_4_5b.json"
+hash = "c516e9b579fd2f81b42fd83db1374d606b0d7ce60c2a391193f1c780d73e170f"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_4_5d.json"
+hash = "d79304a62cb2e96332b1bfb0f2bb09dad487767977e95b473fac0e7851c831b3"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_4_6a.json"
+hash = "3c2fa1621c54271e342ed577abefa3716385c075c3307b85e6d3b163fbe0856f"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_4_6b.json"
+hash = "1cf73780568f11ec16b08b9bcb5e1cb22fbb101e047a40e3113c9122291f5474"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_4_6d.json"
+hash = "c58b2e9a5af9cee2d19439291c6e782d415ba5b2a04c66ab6ca4af3230de890d"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_apex_bl.json"
+hash = "cc8147a4467ee9e93d42419a5a758c1fc9ff0c7fcb0b6f34c8783696cfd39c6d"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_apex_bottom.json"
+hash = "0fffd113e89f4333e869967a9d03c7113b0bdc0f7ed3cab9066f856181cefd89"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_apex_br.json"
+hash = "1cda8323dfec0e77c152e9fa356036f50e1416f006ba5cb8d79c92f61d0123af"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_apex_left.json"
+hash = "039e624cacc6ccb469d66f52c5437a59a1e5efd3d26334c71cc83cbdf5a53856"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_apex_left_b.json"
+hash = "59fdbca226f6e9f9cbacd49ef2936d574f8e8cf51570772b7ebcc45fb210b638"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_apex_left_t.json"
+hash = "b37a0d063edf0b10413649a5be17d88189dea5702aed368407eee3359f605ffc"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_apex_right.json"
+hash = "fa3eeb36ee345b4e0e5c3cdf0ce0103b89a21274e1a8c57db26580a2b44c440a"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_apex_right_b.json"
+hash = "6091469a52b074fd9e412c8b34469f534280e353fae4a8328ac7ce17de674ff4"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_apex_right_t.json"
+hash = "7ff463b4a94d72c0204328d63e19d685fe3675d16a1bb56153e458110eb3d6a9"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_apex_top.json"
+hash = "708308635447634bc4161eb94216eb180f08bd37cec10cd00e3c7fc1b2bbc320"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_apex_top_l.json"
+hash = "b8f7b27b07e70c7133faf046fb6859aae066ffecf50246394d313bc44d023141"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_apex_top_r.json"
+hash = "5d9d148d99301f8801e84ef468f6ac729a1a1179e5c5c356b42f9531ff3e8eb0"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_notable_bl.json"
+hash = "83199be6499ea8c99176541fad10a7fb7272a47bf3c5e09f07aefe7f407a4bca"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_notable_bottom.json"
+hash = "f3ed83c15822766c96b69a60879eb6c2f402033fe930deb91efa5d0cf14625d3"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_notable_br.json"
+hash = "b8964050b6e2575a38426ec2633b469115e8422ba74a3d118b259fd9480b1a15"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_notable_left.json"
+hash = "9987f9ea4513b1d4adc9ba7dcc2760fab9ee2c3a33043a0115cfeec03596f44d"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_notable_right.json"
+hash = "d45b2308e3d2212d87e8f9f625f26eb806c47e9ef89c8116a50940956365014e"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/sg_notable_top.json"
+hash = "c3cec26b558c0da78879391a4cd49355a1f2c7e4e16234d46c5b9106b9c1d1e9"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_arc_e_ne_150_1.json"
+hash = "800dd8590b72c77797ce2d757c46d8d25d22e4c437043875ed651a2c5a2cfd97"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_arc_e_ne_150_2.json"
+hash = "0aa0b5c7e78c499003efe68f42ef8e00e2c604fde992aed85db42d050cac4922"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_arc_e_ne_230_1.json"
+hash = "6d00f9c4a1c3c4f3c93bba291060a5d8c7683274a7c70199dcccc9d7c942d9e4"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_arc_e_ne_230_2.json"
+hash = "5fee9386dd50899bfca52f62e323b7de6cd48f166a2d2d8389d3e0342da80e7a"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_arc_e_ne_70_1.json"
+hash = "5090408b0c5f280f2a48399d36a57b833d68ab72a31f505457ec2f067038118f"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_arc_e_se_150_1.json"
+hash = "57a12b5e93565d339a77af1a852bd9b1935827b6d364758c5f5e4de2460e1246"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_arc_e_se_150_2.json"
+hash = "47c20cb77d438d1696f8c61e93a6a8cb84922d7bc849bc70f2efac54e40752d3"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_arc_e_se_230_1.json"
+hash = "942e9c9f869775e80bb955956681bc5afd827b507ae69dac0f3055564562c190"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_arc_e_se_230_2.json"
+hash = "c0069d6f5a3a62098b161c970a9fe44af9496f28e9b394b4a5eb6c1b56daf071"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_arc_e_se_70_1.json"
+hash = "eccdc7d133a4029d61314675098cd4932271d8c4368b1a4feac909bf60c9faa7"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_arc_n_ne_150_1.json"
+hash = "738efb6615a4207286a19cde58c7503faeb3d867197a3fbcc36b5fb8a64c5b69"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_arc_n_ne_150_2.json"
+hash = "dd84d6ac6e8602f307d0b37ee62863af35223320c1a06b63ea74099c825e4ecb"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_arc_n_ne_230_1.json"
+hash = "14d7e5a3dce7355ffeec7bf6d45cbb6174052e1f88823c0f6c9acc50be46d130"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_arc_n_ne_230_2.json"
+hash = "c576b9c68094cf1437cbc40b3499352f6cca5986ed01c84914c832944a0ed081"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_arc_n_ne_70_1.json"
+hash = "643845a8b1024fd5de0a8b16004a2369a9dfc2842288bc40ff9cb80978e386ef"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_arc_n_nw_150_1.json"
+hash = "5f70cc0b484e1d7c25608249ab50a4fcba673f2959ad617ae23fc6dc9acc03e1"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_arc_n_nw_150_2.json"
+hash = "9045a3df22a03e88c71039338857181d72caffdc98a62e6102e6914f3b59eb4d"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_arc_n_nw_230_1.json"
+hash = "c8e64599ba38c025fc1ef801e388b6db8a5716c728cd857a37ff0db376fc0787"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_arc_n_nw_230_2.json"
+hash = "ca1c2fbf0e8bb7f8047b9dda8ca9303c5b32e42180c1fa18ecb36a64353b89dd"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_arc_n_nw_70_1.json"
+hash = "aba667a27864fdc6925a2b049012ca496344db8dba53c955662f39d71ff84300"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_arc_s_se_150_1.json"
+hash = "7caea1d4548b8840c232f924ba25defb2b37f5b42d463813bef0d5d806b674b1"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_arc_s_se_150_2.json"
+hash = "a4e56aeca4025222c94a46d775f4ac14c9f7ec836d1b31dbc4ec074ead2426fc"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_arc_s_se_230_1.json"
+hash = "061f2887852a28f09dd0aef4befa21ba4beb1e53dcd72948256cbbf7592710ce"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_arc_s_se_230_2.json"
+hash = "79375f87a56e3d956f0f5d7ed318b84fa15f572b6b5949cb3e560dda87dfde97"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_arc_s_se_70_1.json"
+hash = "13b37d52243e985965fc2f58b472f90a9bec2ff127f7baedbe9d474a42267ae7"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_arc_s_sw_150_1.json"
+hash = "6fca4a5993cffac549b4a4a6510a5f47c2e82481d80b7eca8eb292eaedfdddb0"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_arc_s_sw_150_2.json"
+hash = "3f9c5f0ce1904599339e72136962595a430d2abf02e27b38efb97220cf5201b4"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_arc_s_sw_230_1.json"
+hash = "d4253dd5dcfb08ea5010b42cc47b9407610b335f24fa21172bba7e1e0c00fd71"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_arc_s_sw_230_2.json"
+hash = "b27eee3e83d1f69a99dad573029c63e37554ec2c023bd406f18845216cc74454"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_arc_s_sw_70_1.json"
+hash = "add1d12a7e46a65382e3b40878b6a0a12522a097f2ee77c052f80aed0efcb785"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_arc_w_nw_150_1.json"
+hash = "1c2e4f79854fefc27b8916155928cc69df5d8abb3200df894770a54f2d1deff9"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_arc_w_nw_150_2.json"
+hash = "edc777b410171f7a4def2bdeb4c5779f7653f1769f16ffdc8fc7ddab6472d37c"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_arc_w_nw_230_1.json"
+hash = "376e4f9086073b1f2db2bcf855748d830f4f0f10aeed113ba1e7c90bccbb2e21"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_arc_w_nw_230_2.json"
+hash = "fe4b43571b33d667aa57c122c8fb0388bd62ee7b856a14fd17fa2e71e62a26a4"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_arc_w_nw_70_1.json"
+hash = "f1489e71685120a221af681827af9dd070b72503e18e9fcf5261fc3aba701b87"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_arc_w_sw_150_1.json"
+hash = "700e4bb72ac192df919d2a347ef193221ce4b883134fd308aa4290795467793d"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_arc_w_sw_150_2.json"
+hash = "49aa20fea33e26c90c96446bdecfa7922583d2b77e45627ef29b62e84f199860"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_arc_w_sw_230_1.json"
+hash = "f590f8785ebc947c57cbdbd8daeebc27b293f45f83976efa67292b08f5759a4c"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_arc_w_sw_230_2.json"
+hash = "207f1261c44f446592468b3986f8fefb0b514ddd607c793320641b0d88b0d9fd"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_arc_w_sw_70_1.json"
+hash = "7ad73675f30c44666839752fff5e9c6b9f1a926767d2f433ccae355dc596ee8b"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_e_apex.json"
+hash = "938ff7771007c656bec5aea9bbe2e043bb821d8473707b4ae7f5e55645031597"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_e_lesser_1_l.json"
+hash = "3a9d56de722de44fbc854b8ee37c4f19755cf908f001f1dfab909634048e3e62"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_e_lesser_1_r.json"
+hash = "f432c7f464ce5cc8df8edbe8ebcd96c3c44879fca56c8eaeaff76818235ad3e4"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_e_lesser_2_l.json"
+hash = "5d8238d6a4f3634e5dc1ffe2e4f5849fe75486ea70f7a1a291b32e78cb873129"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_e_lesser_2_r.json"
+hash = "0aef75d86340948609b089064c9ad1596a0cb462c942091ee65a1d4b62121675"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_e_lesser_3_l.json"
+hash = "c0efa93520812d740efccf683f2022bc644efafade6f6bd93a766eec83e70871"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_e_lesser_3_r.json"
+hash = "3b1c09e188a00c03e5e797aa66c4d1603520ea6a30cc599112def055b3562cf7"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_e_lesser_4_l.json"
+hash = "ddc9512ece81561a3a27a1ca73c03115328e826e70e605144b81d1ec40d76078"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_e_lesser_4_r.json"
+hash = "31ddc091790169a30c983427e74520432c721c20f1f6923323afa327ac9fdd35"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_e_notable_1.json"
+hash = "0af826a7a64476df154e1dd5bbfe7f8ecafdb876cd0563555d11e46e78ae6b58"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_e_notable_2.json"
+hash = "151f8d2f0e09b0bbb9bcefaee0e9d566c123d72357f0a5454f81b39d63284029"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_e_notable_3.json"
+hash = "1aa85e06bda74aa37fb47435a9a5fccc60b5f44d121eeb5694d584a272064670"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_horus_l_110_1.json"
+hash = "2bf47eee4bdb7e859706ac3e3f9b81e1834dd10f1d3326985f4204cd95d11a7f"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_horus_l_110_2.json"
+hash = "59114264bd1948dede8f86a286d805edcad15101ab0b6473e5b270f12723b919"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_horus_l_190_1.json"
+hash = "444cf4d623f52181cd8e36df5fc5cca50ed4cdf3fbd2ab701fb43e614a081a5a"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_horus_l_190_2.json"
+hash = "576bb4e8ca4867329e9eb15326752eb93d3bbac8f515649627d0f502a8a8be3f"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_horus_l_190_3.json"
+hash = "721c19af5ffe2351c3c16fbbd61e6dfd1e8089ecfea85d8f7de21aef167fbcb5"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_horus_r_110_1.json"
+hash = "2a427e34e2d69b42062bfe24ce1eb7b24781d41a059bc80f3830660f74d44b00"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_horus_r_110_2.json"
+hash = "054f250cfd52a339ae66d322379ca0026900abaffc918729aee45586670a8f85"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_horus_r_190_1.json"
+hash = "6e9b50eab1244f6352e3576a618fb4b0ed96f8bffc82ae8b5fe02c1a49123294"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_horus_r_190_2.json"
+hash = "b233fc731c716928989806b49662928953b2216cadcda3d0118b05ce37563591"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_horus_r_190_3.json"
+hash = "7d5c8e137cc7b77a6f6c8cb33358d40a66d312fb8dfb7682e85175bd53986992"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_ne_m1.json"
+hash = "b8c730e2159f52d050a351803aa9680045123888c3ce6ee4831687fa92ff945c"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_ne_m2.json"
+hash = "771c700be127c85f919cd5995532afc6060483d9e82b0afb24de8c1015828c3a"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_ne_m3.json"
+hash = "66ce5d1943d168847805dd952677d99093a4a539e513b44c988d59a32fa3a409"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_ne_m4.json"
+hash = "3b04f679ace1c9d0735583e236ed8375117340d57e0dcf2d2171fae055d0e5c7"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_ne_notable.json"
+hash = "ed6e763f2214fedfdb638207a1c1d41a83b429fd2a98cb628b0e02039e36aca1"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_nw_m1.json"
+hash = "34dd13c2de088fa7897a26a5ed2c3d93097f3841ba1c8f672eea9ca0081fce3d"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_nw_m2.json"
+hash = "245b94f27dfad91dd2f397e37bd0e063ff99ed01bd96358d9d1b52c14ba08271"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_nw_m3.json"
+hash = "9bf2c1840bfd816c38dc4365b7c67f9d853b2bcaeb2ee559bfe33bd4822bc96a"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_nw_m4.json"
+hash = "dc5eb6400b5d1883d036c3e0921f97614855ac262ef46fd01e9d2178dca4a43e"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_nw_notable.json"
+hash = "dfe8da2abce6b01b057142b821311cb67d25eb5e5fe407cb407dbad2056d45a3"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_n_apex.json"
+hash = "5f647dd34247e67090a6a0d8631eea9a947c0b440a9e07c97cc7c433d767e2d9"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_n_lesser_1_l.json"
+hash = "5d5bd996d8afeda94455ac547ad2781a43a0f029da15163f8fa96b3cd7b60ce2"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_n_lesser_1_r.json"
+hash = "cfa958408b94a4ca6cc730f4d3ca6bc3a65e8c7d784c4a5c546e88ccb89030cc"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_n_lesser_2_l.json"
+hash = "e158d75f8579c56520bb714c5560eeafd0e037b0c949275e92e4cf9068af5fa3"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_n_lesser_2_r.json"
+hash = "6ca8e75cc6ec542c156afa358f485e737b5943716c7cf6e60eb051a6dad1f8cf"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_n_lesser_3_l.json"
+hash = "958bf1838dd1bc5a989ae72c36bb616bf66a40fbf7ada83168160a29bea94693"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_n_lesser_3_r.json"
+hash = "2a34803d85d514fc1358a30c48fbf76944ddd09282cc4be3c999df64e7ae7414"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_n_lesser_4_l.json"
+hash = "1405eb464e2eb56e6d427373015db579aa19792f0fe0f06954d980e1a098ff21"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_n_lesser_4_r.json"
+hash = "dc4f390eb2558c8b40e3d502a00e35ca32e15f2f6fae65e02384fe302159cf3d"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_n_notable_1.json"
+hash = "eba2211ee57f6cf185bcff8a091b942766768c0f3796e86d38d734da3b12710e"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_n_notable_2.json"
+hash = "0ca5a10327a6a5d7a8851ebd7868a65d76a4f3f5a2c1a3d617f74656f4f4be7d"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_n_notable_3.json"
+hash = "2a799b4705c2e33d816964671edadd9d921d01726e8fbcfa37fce837b8dbfb57"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_pso_1.json"
+hash = "4ff429af218cc3fb4d8a169002961b6cbae6c253efcae8423c6018b54de36c6b"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_pso_2.json"
+hash = "cfcfcd0c7c8e8760828f6364237853ca5ba0324d103746ff19ec1dd7491178e8"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_pso_3.json"
+hash = "4a86e4482b8a6daee07df89873a9e951c38110eeb87bc32f5516f5bbf3ee695d"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_pso_4.json"
+hash = "70d44eb14cf102f940d96e46566c14c91c487be5c741e5cf2d9ccdc0d7f8392a"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_pso_5.json"
+hash = "88bfbf6b9a654fe934f2a88c1a6407ac663f6d76c49cae330f44197b674bb1be"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_se_m1.json"
+hash = "0a835a62bb148baeeaf35627c3bbb38d8ed26c5b64e7410186c40598bb0039e0"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_se_m2.json"
+hash = "55dd249075280394d5c2288a2e41fff36ce4ac130079c432b70e455c2e2ada96"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_se_m3.json"
+hash = "919b7a4f9f877ff352329ff41c6607ecd36f32b6c78b8f6c42c80f501660462c"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_se_m4.json"
+hash = "3b3efcd45eec7c355a4b73004d9a9ba7e85b99000237f9af074d4fd2b7f2f011"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_se_notable.json"
+hash = "fb27c935cd6a0457e6cfd4abb6a3d68a0edd2164bee3b9f256b3effe066506a7"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_start.json"
+hash = "ad6fa51be76521aa75711eceff440a86b4e20cbfaa4b6ce0966b390526955da3"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_sw_m1.json"
+hash = "86f5e99298422d4cf30ec12db747d851200186b126192dd6ab0a7aa1135a0137"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_sw_m2.json"
+hash = "6199483b76a25874f1adaabe94623101f2279f0465e8dbbbfc6557dde721e0fc"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_sw_m3.json"
+hash = "414ae33ef0de0b6acbea5fd51631e84e86cca150857ef60f95f575dedcf99a69"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_sw_m4.json"
+hash = "e41c79236f72694819ce9224f1a8fa7c604bd86278f8ab5e6e5ecdce70ca0273"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_sw_notable.json"
+hash = "facc33742d9847ab2083f31c11116bec11c3ffabf0ae3e332e325db7f314f5f6"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_s_apex.json"
+hash = "678f82af2e47fcfce9a359b76ed6b85a582198064d74716d87c0b925fc4bef88"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_s_lesser_1_l.json"
+hash = "6c81e976e781daccb6f942159cf7fd9c17c151420702ac46db3a3d0b724b5924"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_s_lesser_1_r.json"
+hash = "97e1287e075e946188f328e060405fa885617083b23865ebc207864da7ca6da2"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_s_lesser_2_l.json"
+hash = "150c01736c326f7f0cd734e5c897e8d8c772bf20b5e909783e605ec0a53aa143"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_s_lesser_2_r.json"
+hash = "6ac70b400fa4f52bdf3d55599861e7e4a61c20db5089a0e787f3bccad28d9b55"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_s_lesser_3_l.json"
+hash = "58f3842aa3894a8b9df77fa46ff8338be31bdbb596093abfb24a63d50623ace4"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_s_lesser_3_r.json"
+hash = "9950da493f6e4c11c4f119d6656ca4f39101f07e7a46ec25719583c1523e6850"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_s_lesser_4_l.json"
+hash = "ddd66856350cdc3a8f401c727e5a32d701c7c4160100a7c069675120354055bf"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_s_lesser_4_r.json"
+hash = "cf2369938a74103145a08dee90cca925a94b6ac4203fe68434363ffe0707381a"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_s_notable_1.json"
+hash = "0c363e9455f97a6d8a53bc03835d084d6ee17ce325c1c626c523105a5dfb2599"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_s_notable_2.json"
+hash = "9fc58b2092f483a56a79f0066b91c21952e333b77c10f8f9dc1adcbf478229ab"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_s_notable_3.json"
+hash = "1ee59a729473baa05e784fcc1afe751d1cea57306746a4b3c0f5392406f7af83"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_w_apex.json"
+hash = "6ff47294433129869cae314c4c622d8e4bf4e094006d58e48288de1f1e8a2623"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_w_lesser_1_l.json"
+hash = "71a1d5e4bc804d49b43fcbdc3fb594ea2584137ca00c169b71225199141056db"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_w_lesser_1_r.json"
+hash = "79e4e6b98f8f95ddb678b7b7c375877c1e27aea98319ead9763cb3fd04134c0b"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_w_lesser_2_l.json"
+hash = "5d58558df0804006dd2dceeb9c750fec48b2093f487fb81e521775f296725acc"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_w_lesser_2_r.json"
+hash = "916cd1294cbdbdbe9bcef5869e15dd6ea9fabd2503e1a3962f4537dba749ae7b"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_w_lesser_3_l.json"
+hash = "bd4428c26d901c981fbe2cecbce4eb577ea8ad4f816d245a1367eb26d5eccf87"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_w_lesser_3_r.json"
+hash = "2076284619c27daf27e9ff74bca427dab48cf8063aacb307732c396f98a77d6d"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_w_lesser_4_l.json"
+hash = "771a818e4a311525a1be56e7566e7399244efabab517d61f1bb16cae6cf1dd94"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_w_lesser_4_r.json"
+hash = "160f73572ca5672ae24ff282b74e387c57be9e6bf6dff5c74380c6b090bb2816"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_w_notable_1.json"
+hash = "90f81b36857c109dbdc06a16aaec2f0dd9ca739a6ff61ba542858838093b35cf"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_w_notable_2.json"
+hash = "946f062fbb3cc2240ee44cc819494389953883dc29a8063f94ba9f768e7a29ff"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/shooter_w_notable_3.json"
+hash = "d7362a6bac064e96c979c3f2f9e461a7af68b6f9ea32f1e6879597aba852c47a"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/warrior_blade_c1.json"
+hash = "2dd920749d77cd32f67395bd6e4a0b5b7f999ca37c9444b38b94667c1e7b04d4"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/warrior_blade_c10.json"
+hash = "aaa08d52c6ffad5ace6074610757e9a5b675f0167cfd97e7cdbeb46c897293f2"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/warrior_blade_c11.json"
+hash = "9300c04fb276e87210dbe2d4511b25d28c6e0dfc5ba61a730baa9a1de8400796"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/warrior_blade_c12.json"
+hash = "beac498a59b6724253c5ad26a252a237bfef6a24d973675b8aa77120a6ca134e"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/warrior_blade_c13.json"
+hash = "c5ed02e1523d9ca77baa94fe35b2ecc5b060ffcec791c2b98ec9a2648feb9e9c"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/warrior_blade_c14.json"
+hash = "e2b818555be7e237cc1e6f96f3b50ae073032c82d12722c775a6c25d39b2c166"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/warrior_blade_c15.json"
+hash = "61cc1b8c242fbd8ed36bf2cade408c01db85e22a83cb0c56c87fc8527e20dd91"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/warrior_blade_c2.json"
+hash = "1432d6183c3735c195b63de24d98551b01646745d8c95556b3d1f12c6035ce96"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/warrior_blade_c3.json"
+hash = "d83d567353f201f1e93f2828cd3a46dbbc763968b27136b79d3bf9f2472a9117"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/warrior_blade_c4.json"
+hash = "eeff9464a9d6fe134c6effc84a76714041f5a22331e8e880c9bf07a99007da53"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/warrior_blade_c5.json"
+hash = "3b23fa9384d843e051f7c387ee1eef39c3a5bc52ae9804a1432e9ca21dee65fb"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/warrior_blade_c6.json"
+hash = "f49cd18fc5e94159c44984f1be13ea2da6fbe7fda693cf10ff1e5ded84b55114"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/warrior_blade_c7.json"
+hash = "e0e0b81705b9f9200681b70e6252a6cf7d7037ae58eba5ec9079fda5fb235250"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/warrior_blade_c8.json"
+hash = "e9049fe7de425e05e1bdb5043cc3538306d18e6a19aa1627366cc9e009e1650c"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/warrior_blade_c9.json"
+hash = "d72b50423ad1548ec2edfea4fa5da27b39f9d4ada7c2aeb37a0eec5948f27ad3"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/warrior_blade_l1.json"
+hash = "d4043c5a0456476eaa544dc7327805c24586adeba14b097a56630fdbfd43987b"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/warrior_blade_l10.json"
+hash = "bee53c2a054ff7a4e0825558ec5a4e26194796f2f46c4dd33607226f697a5aeb"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/warrior_blade_l11.json"
+hash = "934a971ca5c8691a0abe88a397901dfb4a1a37c56d99eeeb3fab9f3c5dcf6565"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/warrior_blade_l12.json"
+hash = "803993f1f8c9b12651d39710a68624e25c60a312de35ffdf3309283d12fb3133"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/warrior_blade_l13.json"
+hash = "23201d165b5833f235f983258bb5c894e095b92efdca160550d24f553b4cece7"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/warrior_blade_l14.json"
+hash = "f1ee7896f9ff21b8981a19223a8db56aad9b5af71f8a89f5c28c1505bfd99e5c"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/warrior_blade_l15.json"
+hash = "af1e1791b5f0528cc845042bf16a3823a9d77c24de2a0667b3210d935b7d6ff8"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/warrior_blade_l2.json"
+hash = "674410edd8a297905f833e05f13d8285e03d6dd0d864bf70ddde745ca7b08e56"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/warrior_blade_l3.json"
+hash = "c78321418df93dec7def4aa4e472704fe6111981e0c6d3d6aafffe82f3fbc2db"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/warrior_blade_l4.json"
+hash = "3026dddfba5c8dd0f01a4fb0f181d7ef0c75b4f67ae9306b313a21ad33d8770e"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/warrior_blade_l5.json"
+hash = "7e2aa0d072ade6f23f13fa4680f92f4afbbccbd78a87830dde4113d5b893b70d"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/warrior_blade_l6.json"
+hash = "dae1dc73cda1ae42fde2a5d9f422c0baee51612ec2c681137af29be0174a8597"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/warrior_blade_l7.json"
+hash = "3d865d35138621642b6c094694f8791bf61ceac316bc114db1b4718c34e9ecdd"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/warrior_blade_l8.json"
+hash = "d0494a0933d750fe7ff7049d3066c78bda5ed2b51fdef60dd1b2379347292837"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/warrior_blade_l9.json"
+hash = "03669f6f441e60dd1b57cde606354a34c40b81a4d4edee340a9d188f03eff8ac"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/warrior_blade_r1.json"
+hash = "2b263a4aaaa0dc489d9fec8c9d0339a0b33e3908224946323cd267e786d36b58"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/warrior_blade_r10.json"
+hash = "e8fceab22ef65bb3d573af1348b31ae3f72531925c8b94cd7491d914684fbac8"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/warrior_blade_r11.json"
+hash = "7d0425709b6077fad8366cb482c56629b7c32be1f50cbb6043de6e2e669fa6e7"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/warrior_blade_r12.json"
+hash = "b2b556fe20ea5beb574da55950d6a6fbb1257490e9564c0fea5005146082b673"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/warrior_blade_r13.json"
+hash = "3b42fe8b88e4c227332639c9e6c81b5f35a469d3ccc57720a800f3e400008544"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/warrior_blade_r14.json"
+hash = "ec2e7fcf57a08dc5a940227f7e5c65827214f8d423c36fb72a2af3bcfe6a15cf"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/warrior_blade_r15.json"
+hash = "53e517b6b5f1453bf7effeef984c3209abf2570656923935faf5cd607e3cd651"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/warrior_blade_r2.json"
+hash = "c4349ceb581feea5e68057f597a9f6c87f4cb100892ad5bfbc7dc58c706fa2da"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/warrior_blade_r3.json"
+hash = "74252badab403f109cb83cc01ffd0088977fec65b8ef52d8df8b11e00753718e"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/warrior_blade_r4.json"
+hash = "c1bdc68ff89b3834d4f175cac5a953e394c6018747243fd7676df6432a32a555"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/warrior_blade_r5.json"
+hash = "deab2e659408f19a05b6a9ff9776c976249450f85b506fef97c0561f9d355b63"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/warrior_blade_r6.json"
+hash = "61f2995dc4caf161cc4e147bfc5ff6983aee640db697de2de09d8e3d9acec11b"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/warrior_blade_r7.json"
+hash = "cef392109548c54039b9e49891072b7a413364006667fda5ac0fcedf6fa8fd95"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/warrior_blade_r8.json"
+hash = "ddba39a3af666c9eee5db05a6606580135c02e9c67d45a9835bbc336613effd5"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/warrior_blade_r9.json"
+hash = "3651376d49e4dbbf26bbc3f7f557f2a7e1b7f8fe4394e12f61b0135d2a34159d"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/warrior_class.json"
+hash = "4a071886590cb60465177d7b672eefafa0d9976c5e72e07b4eff7b75ce460eea"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/warrior_grip_1.json"
+hash = "aa49e8e9e444905f5598a518d23bbeccc377b6b8c9f10175085d2189d7664f4e"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/warrior_grip_2.json"
+hash = "3f9c049bdd43e84d9c73781f88b13ae8b9c115f61fcf9f80e3e027ad7bee05b2"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/warrior_grip_3.json"
+hash = "722e05e075a7070fd74851813cf70df86d24cad565663a6446faf33eca484670"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/warrior_guard_l1.json"
+hash = "43d2e69e7b0c75622635e56557bb23ab60daf7db0fe41a0d52f50ef9e9c3aacf"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/warrior_guard_l2.json"
+hash = "9e31b7bc55365282e0e919c7ef5c2037ec149ef6b0cfb19a84cf93c25803a1fb"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/warrior_guard_l3.json"
+hash = "7d05463ecf6333ebd1d797193a292220c30b12f93a1bbd246486aa0a02154603"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/warrior_guard_l4.json"
+hash = "8c8d0ca8eff705c1a611a91d213fa45c98e87c0725062b0d815e188470b2cf33"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/warrior_guard_l5.json"
+hash = "2af0037e496957daff0a5cf083c253980fadb58a3a918bcfb5bbd41cdb95cf49"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/warrior_guard_l6.json"
+hash = "21f44eb7c6d362447065df09cf9208b4d1b128d1ab8da011085f45e36258ea4c"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/warrior_guard_l_dn1.json"
+hash = "5a8731b3dac9ec55ea039f2558d23d4df2e4531d96cfac4b80bec1382cef6e7d"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/warrior_guard_l_dn2.json"
+hash = "7fcc230e01918530dc53610c9d0d3e51c2b1b947b0f7edf10d78fdc3cf67f4a9"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/warrior_guard_l_up1.json"
+hash = "7cf5ae9de3622b4dba1b82345aceacb99ad396eed6b2296dafd44b99a60bc704"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/warrior_guard_l_up2.json"
+hash = "f3eacea42b209f8e0f77ccfde5b7d363d71499bdca0723e6c136877ebb083c4f"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/warrior_guard_r1.json"
+hash = "36b252c3d5222596f55fe865c4dc0af0a9e230d012a66f39d07f8d118e38f1fc"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/warrior_guard_r2.json"
+hash = "621798e00f00d5bdf44c949e191393b40803e4d48b7491bc06be8d6d8bfaffeb"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/warrior_guard_r3.json"
+hash = "33822d2f208398db914dd9e09c1ff59016c36be8c41aaca466362ae21052dcb7"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/warrior_guard_r4.json"
+hash = "7e1500ac023f57bfc5425a84a8e47f9fd0360b69552c2079bd25c1f28c12e736"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/warrior_guard_r5.json"
+hash = "91b1a29dffc81d9880ea56b3508d1da80b7aa9d2384a520a337648e4b8b7005d"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/warrior_guard_r6.json"
+hash = "0a02f0848d32f627ab355ffc3a71b621fa5b832aa46759226f7e20e5c4de9591"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/warrior_guard_r_dn1.json"
+hash = "6dd09993d462ed5b6837a5689510ca12cc9af39fec2fbc86beb94a09d56d0088"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/warrior_guard_r_dn2.json"
+hash = "5e2b2eabc6267271f20b1638d3c30cc4b3575e4a9f477b98b8f1555e7951143e"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/warrior_guard_r_up1.json"
+hash = "4877f97554ee966ecf1ae567afdee8d0e21cd5954059db5aa7250390beb5b60e"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/warrior_guard_r_up2.json"
+hash = "ea03f84f25a8200d1326084f99012f1b36a803425d87d50f0a2ac260386f20ed"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/warrior_pommel_1.json"
+hash = "0521157151c0e598e70a55e3dbb712a1fa4e3638815a33a7d38a64e889c9c1bf"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/warrior_pommel_2.json"
+hash = "1657c6b4c46e09a0701ee42546dd22629bd5c9dae6fa40e1f5b200bfac5d9e48"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/warrior_pommel_3.json"
+hash = "3cc6dfeb0809cd62e018c966275ca6624d67e839071fa5931aec7905c7a93a39"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/warrior_pommel_4.json"
+hash = "358a52d8fe70b4b5cc1e1cfdb83500ebcd807a5f8fa99d20703a23ac39abacd7"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/warrior_sustain_1.json"
+hash = "a4999e310b08c2e0159576d2127efa918c8d892d63ec2839f0a0964d83fcfc2f"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/warrior_sustain_2.json"
+hash = "af9e44cdbbc3ff4ca823f76f3bf0d1fa2391518be8b172bc77fb507bf580143c"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/warrior_sustain_3.json"
+hash = "72ff70462c1a155622c2ff307b6df0c2d92b88986605ba4ccb94a77c70646ef7"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/warrior_tip_apex.json"
+hash = "8f2eed1138439b2b4751fa78e7f94e7142b8ebb5fa7751320c429355b35fd551"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/warrior_tip_l.json"
+hash = "32bf09433a2c5397360558284db84d0e7c75f09419c44cf80eeb5a6540d6ed0d"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skills/warrior_tip_r.json"
+hash = "f906db22ef2e5eea20e3eeb7fb3524fca51b5afd4713a99062173a54091ce83b"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skill_trees/druid_tree.json"
+hash = "93c7f369010dd46f99ac6d517cf4210d9b9aa9df0ce4e0509126794e1af4ab8a"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skill_trees/hunter_tree.json"
+hash = "bf5b7508f54637a66d4033e0f97bc3035443284c4443f4bbe9beb0cb50c35e00"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skill_trees/mage_tree.json"
+hash = "92d2c10e5ac8854e009bfaf25ca2efe054368e7e5b306bfc521862d6c8d6576d"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skill_trees/paladin_tree.json"
+hash = "4bc8f8992c830c30c8710465513a8a670dc19a0a6c96856a0d277f53106d56e0"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skill_trees/parkour_tree.json"
+hash = "354cdb926b65057f5759c805c70d9935ab6fe86767e66012e37b9738ee16938a"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skill_trees/sanguinar_tree.json"
+hash = "bb4124d2d3001bccef4bad6649014d384b1ca594c9dcc97288838f97c85e53dc"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skill_trees/shooter_tree.json"
+hash = "0b923a81226ab0ad6670e8d3bce26929c3c4f2395c000eda1d8e3a7d0c7d58a5"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/skill_trees/warrior_tree.json"
+hash = "883a10bf0dcf0462c271d02ce8b0e15aaf98f4fee9a5bf5298318e533c2f94d2"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/tags/items/armors.json"
+hash = "9859bbc6450347c056dbc58547b6546b0c0bc980e53bcf8025aa2a95f2f79e29"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/tags/items/boots.json"
+hash = "08fd4b7558ff12585ca008a321e7e28e977cdad5a4530d24318c670bce85b53a"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/tags/items/chestplates.json"
+hash = "aeb9ddb188897bdd2a23cb9906faab8c04bd119fe4b6a00c846fa36de6b8b4d7"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/tags/items/helmets.json"
+hash = "8fda3b04a0ab59c0524487244c0d58dce933ab684494ba0e999ba08b8dad5cac"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/customtree/tags/items/leggings.json"
+hash = "c38ce2ac272e025bbd307147b17a71f3105db4fee1f5c9f523707cac445f633d"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/minecraft/tags/functions/load.json"
+hash = "af242e31c4caad3972aeaa30ab5dbd327b5aff47f95863674288c8b997cb6abb"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/minecraft/tags/functions/tick.json"
+hash = "bf964c153c7337982914193b5705c0e8a646364a1f8a9aa3b7881dee8b4add81"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/skilltree/skills/sanguinar_tree_1.json"
+hash = "fe2e3a9944249c4e3cc6d7592415001f3b55cdb1bb40bcca46f4d67db33a2a77"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/skilltree/skills/sanguinar_tree_10.json"
+hash = "d42c32f6b33ace7d8a9d35b5944f8b19a8c1bc1c9602788be97e77bd0d65601f"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/skilltree/skills/sanguinar_tree_2.json"
+hash = "762dcddebe4d0ebd7a598d49cda753b87dbe17c0b24c1d57f52de4c445ea3e22"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/skilltree/skills/sanguinar_tree_3.json"
+hash = "b015bddf9aa525eb69c3882b7f90e3a69c603175e128f69d316f28dcde4c407d"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/skilltree/skills/sanguinar_tree_4.json"
+hash = "ea1cd337844a27a2c50a4ca7fd04e47359350f465b281a782c33d04d61ee1660"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/skilltree/skills/sanguinar_tree_5.json"
+hash = "1b7213d23c7a0abf2ea65d33664a7ffeb057d85df1e8dbb574d3898df5d679f0"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/skilltree/skills/sanguinar_tree_6.json"
+hash = "b797e6ea895d7a8f3e60f6aad4382c85c7af1082470e54e5c737258ad81cc4ad"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/skilltree/skills/sanguinar_tree_7.json"
+hash = "7430e64d7f2ae56d1c5c07f9811491ca9ef813b4d051aee62be0eba7785065c0"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/skilltree/skills/sanguinar_tree_8.json"
+hash = "4d3409c612e3c5b4b06f0f03fbf31dfc953c9b2788714527cdf77fb25bcdfea9"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/skilltree/skills/sanguinar_tree_9.json"
+hash = "291b0114512a5e38127103b1ef3dbdb67a561619b8d03a7d79688763126792ec"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/skilltree/skills/shooter_tree_1.json"
+hash = "68415b7f4fd1c418c985d961d2f5f24e9aa2ee492cb40979223060f9a6419f65"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/skilltree/skills/shooter_tree_2.json"
+hash = "1107e30f3026be85cd88cada576beb718a1b4dedc20491d29060aec55c9886a9"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/skilltree/skills/shooter_tree_3.json"
+hash = "4608087c88c88dbbaf28a713e94193022d4794b9941ed99aeed62e25459aa289"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/skilltree/skills/shooter_tree_4.json"
+hash = "5e29c9e7d95ca84069858b4e0f76efbf2a54dd3747ba7ec427511e8b9060f219"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/skilltree/skill_trees/alchemist.json"
+hash = "ac9be14caee48299b067c5a1cfe435ba882cca73d964f97934ef225fbef23f8e"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/skilltree/skill_trees/hunter.json"
+hash = "67ae0e0af80f2f954d6809e3151d7cfa7124619bb99347073694960209683700"
+
+[[files]]
+path = "datapacks/MyCustomSkillsAddon/data/skilltree/tags/items/ranged_weapon.json"
+hash = "6f96459166681873942bbab252a049a2cb728cbcc7254a014c8ab8d8f6840234"
+
+[[files]]
+path = "resourcepacks/MyCustomSkillsAddon/pack.mcmeta"
+hash = "33c8c7276848729d26ec93a934d1052aa66638890d410234ff4ff53eb7e65f40"
+
+[[files]]
+path = "resourcepacks/MyCustomSkillsAddon/assets/attributeslib/lang/en_us.json"
+hash = "05b5d91d1ca4763a6526f740bcd30d02e56ca5bf0f7ef3ff3812e425525e1efc"
+
+[[files]]
+path = "resourcepacks/MyCustomSkillsAddon/assets/attributeslib/lang/ru_ru.json"
+hash = "79964814b2256e829f2893adca8121fc06e7a5900f7083ffe4a4dff073751b3e"
+
+[[files]]
+path = "resourcepacks/MyCustomSkillsAddon/assets/cataclysm/lang/en_us.json"
+hash = "d02afcb2f7f0e71c108dcb804a49f8b512a0e23048a7d35fbe168b5ed31293ce"
+
+[[files]]
+path = "resourcepacks/MyCustomSkillsAddon/assets/cataclysm/lang/ru_ru.json"
+hash = "afbbb0b1814718e47ff97f2086b2bc859a37783f0633db650d4253ebb7300334"
+
+[[files]]
+path = "resourcepacks/MyCustomSkillsAddon/assets/customtree/lang/en_us.json"
+hash = "37afcf1b0087f168fee336571ab263736311a7d7b65524ff7d8719587964704f"
+
+[[files]]
+path = "resourcepacks/MyCustomSkillsAddon/assets/customtree/lang/ru_ru.json"
+hash = "219b3d8b1da056f10b3b5456b9733ae507412f6c014fe6afa9eaa02f72f17e6e"
+
+[[files]]
+path = "resourcepacks/MyCustomSkillsAddon/assets/customtree/textures/icons/skill_tree/druid_tree.png"
+hash = "173725ea370d5a5a78087a7c5f0254b2a5b476fa7312efe8d58e378b595d706f"
+
+[[files]]
+path = "resourcepacks/MyCustomSkillsAddon/assets/customtree/textures/icons/skill_tree/hunter_tree.png"
+hash = "c089f5951bfcc2662a3178ec60870be30e184bf5ce7c8426723993af91ef0336"
+
+[[files]]
+path = "resourcepacks/MyCustomSkillsAddon/assets/customtree/textures/icons/skill_tree/mage_tree.png"
+hash = "5beb84ffd2dd07bb0c7275f9f78c47cb9a1b5df4bb54278a35fd815b35748a76"
+
+[[files]]
+path = "resourcepacks/MyCustomSkillsAddon/assets/customtree/textures/icons/skill_tree/paladin_tree.png"
+hash = "45df999669e86da436bf1b5cb0a58f18cf597e1ae0be1d65aaffa8f9048545b1"
+
+[[files]]
+path = "resourcepacks/MyCustomSkillsAddon/assets/customtree/textures/icons/skill_tree/parkour_tree.png"
+hash = "7b518204e8d4f0ba5df337e8bf4bdad0cc81448c1e88118ffd572c4053911b09"
+
+[[files]]
+path = "resourcepacks/MyCustomSkillsAddon/assets/customtree/textures/icons/skill_tree/sanguinar_tree.png"
+hash = "31340672b57e28679902636b03bcea9ce00732941c15fd478172d39eb015e93a"
+
+[[files]]
+path = "resourcepacks/MyCustomSkillsAddon/assets/customtree/textures/icons/skill_tree/shooter_tree.png"
+hash = "d032bb5c591cc3474243fe3836e86d1ec0f5c2e352efd517d67008957c5c4ade"
+
+[[files]]
+path = "resourcepacks/MyCustomSkillsAddon/assets/customtree/textures/icons/skill_tree/warrior_tree.png"
+hash = "b3153e85b88439b1e603dbf208e2cd0ae4646ac74cdcbb4e112b014204b98686"
+
+[[files]]
+path = "resourcepacks/MyCustomSkillsAddon/assets/furattributes/lang/en_us.json"
+hash = "baf0cf39d8ac33e81ccf8afb1a4643999809c9c87fff7bb83f1aecd21c4c3517"
+
+[[files]]
+path = "resourcepacks/MyCustomSkillsAddon/assets/furattributes/lang/ru_ru.json"
+hash = "76d3f53155480750456adad690a7753e252bad98294102e1689b8076fc03c0b7"
+
+[[files]]
+path = "resourcepacks/MyCustomSkillsAddon/assets/irons_spellbooks/lang/en_us.json"
+hash = "d02afcb2f7f0e71c108dcb804a49f8b512a0e23048a7d35fbe168b5ed31293ce"
+
+[[files]]
+path = "resourcepacks/MyCustomSkillsAddon/assets/irons_spellbooks/lang/ru_ru.json"
+hash = "afbbb0b1814718e47ff97f2086b2bc859a37783f0633db650d4253ebb7300334"
+
+[[files]]
+path = "resourcepacks/MyCustomSkillsAddon/assets/minecraft/lang/en_us.json"
+hash = "758326aa4b9dc4e75e2d34b5b04aac5ad0c66faf8a19e89ba5e7cd87d239213a"
+
+[[files]]
+path = "resourcepacks/MyCustomSkillsAddon/assets/minecraft/lang/ru_ru.json"
+hash = "4541c83bedc0613b136af04cada213727d43f019401b35f2520c868d92ce69c0"
+
+[[files]]
+path = "resourcepacks/MyCustomSkillsAddon/assets/puffish_attributes/lang/en_us.json"
+hash = "baf0cf39d8ac33e81ccf8afb1a4643999809c9c87fff7bb83f1aecd21c4c3517"
+
+[[files]]
+path = "resourcepacks/MyCustomSkillsAddon/assets/puffish_attributes/lang/ru_ru.json"
+hash = "76d3f53155480750456adad690a7753e252bad98294102e1689b8076fc03c0b7"
+
+[[files]]
+path = "resourcepacks/MyCustomSkillsAddon/assets/skilltree/lang/en_us.json"
+hash = "736ec252ea7cb0fb2ffa6650bad5f1e8d208d9bb96b53f502c951db4e8797b42"
+
+[[files]]
+path = "resourcepacks/MyCustomSkillsAddon/assets/skilltree/lang/ru_ru.json"
+hash = "cb51daa32f97f3c8d8196df980b08db035574b7d072f1a0d5b53cafd615ec5bf"
+
+[[files]]
+path = "resourcepacks/MyCustomSkillsAddon/assets/tacz_attributes/lang/en_us.json"
+hash = "d6394a1c0901970713de7f5c6c8b8490575b2323440e4f753a10d39ffef334e5"
+
+[[files]]
+path = "resourcepacks/MyCustomSkillsAddon/assets/tacz_attributes/lang/ru_ru.json"
+hash = "dacfcabf0e4c7818d236e1b79e0bf143b7b3ab9e77392ca657bd9601506ee694"
+

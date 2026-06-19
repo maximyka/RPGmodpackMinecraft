@@ -1,0 +1,27 @@
+{
+    "id": "customtree:mage_ice_subb_3",
+    "bonuses": [
+        {
+            "type": "skilltree:attribute",
+            "attribute": "irons_spellbooks:ice_magic_resist",
+            "id": "c890461e-0b93-49e8-b845-7e435c271b89",
+            "name": "Lesser Resist ice subB 3",
+            "amount": 0.02,
+            "operation": 0
+        }
+    ],
+    "requirements": [],
+    "directConnections": [
+        "customtree:mage_ice_subb_4"
+    ],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+    "iconTexture": "skilltree:textures/icons/arrow_bronze.png",
+    "borderTexture": "skilltree:textures/tooltip/lesser.png",
+    "positionX": 353.25,
+    "positionY": -273.25,
+    "buttonSize": 16,
+    "isStartingPoint": false
+}

@@ -1,0 +1,32 @@
+{
+    "id": "customtree:mage_fire_subc_5",
+    "bonuses": [
+        {
+            "type": "skilltree:attribute",
+            "attribute": "irons_spellbooks:fire_magic_resist",
+            "id": "ca35d567-b97f-4ce5-8750-79961f3c9718",
+            "name": "Notable Resist fire subC",
+            "amount": 0.1,
+            "operation": 1
+        }
+    ],
+    "requirements": [
+        {
+            "minValue": 3500,
+            "statTypeId": "minecraft:custom",
+            "statId": "kubejs:mana_spent",
+            "type": "skilltree:stat_value"
+        }
+    ],
+    "directConnections": [],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+    "iconTexture": "skilltree:textures/icons/chestplate_fur.png",
+    "borderTexture": "skilltree:textures/tooltip/notable.png",
+    "positionX": -104.05,
+    "positionY": 558.69,
+    "buttonSize": 20,
+    "isStartingPoint": false
+}

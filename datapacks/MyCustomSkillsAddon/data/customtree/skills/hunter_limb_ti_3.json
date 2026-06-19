@@ -1,0 +1,30 @@
+{
+    "id": "customtree:hunter_limb_ti_3",
+    "bonuses": [
+        {
+            "type": "skilltree:attribute",
+            "attribute": "puffish_attributes:fall_reduction",
+            "id": "d88876a9-f032-45fd-b13b-65d41004b7bb",
+            "name": "hunter_limb_ti_3",
+            "amount": 0.04,
+            "operation": 1
+        }
+    ],
+    "requirements": [],
+    "directConnections": [
+        "customtree:hunter_limb_ti_2",
+        "customtree:hunter_limb_ti_4",
+        "customtree:hunter_limb_to_3"
+    ],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+    "iconTexture": "skilltree:textures/icons/boots_leather.png",
+    "borderTexture": "skilltree:textures/tooltip/lesser.png",
+    "positionX": -40.86,
+    "positionY": -114.0,
+    "buttonSize": 16,
+    "isStartingPoint": false,
+    "skillTree": "customtree:hunter_tree"
+}

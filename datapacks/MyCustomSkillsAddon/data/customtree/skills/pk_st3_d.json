@@ -1,0 +1,34 @@
+{
+    "id": "customtree:pk_st3_d",
+    "bonuses": [
+        {
+            "amount": 0.15,
+            "attribute": "parcool:stamina_recovery",
+            "id": "11111111-0000-0000-0000-000000000026",
+            "name": "Lesser Stamina Recovery",
+            "operation": 1,
+            "player_condition": {
+                "type": "skilltree:none"
+            },
+            "player_multiplier": {
+                "type": "skilltree:none"
+            },
+            "type": "skilltree:attribute"
+        }
+    ],
+    "requirements": [],
+    "directConnections": [
+        "customtree:pk_st2_d",
+        "customtree:pk_st4_d"
+    ],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+    "iconTexture": "skilltree:textures/icons/potion_green.png",
+    "borderTexture": "skilltree:textures/tooltip/lesser.png",
+    "positionX": -108.0,
+    "positionY": 30.0,
+    "buttonSize": 16,
+    "isStartingPoint": false
+}

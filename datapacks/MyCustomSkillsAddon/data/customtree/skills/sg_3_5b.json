@@ -1,0 +1,28 @@
+{
+  "id": "customtree:sg_3_5b",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:healing_received",
+      "id": "30000000-0000-0000-0000-000424938266",
+      "name": "HealingReceivedPercent",
+      "amount": 0.09,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "customtree:sg_4_5b",
+    "customtree:sg_apex_bl"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/potion_yellow_big.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -190.0,
+  "positionY": 90.0,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

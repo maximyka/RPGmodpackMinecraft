@@ -1,0 +1,27 @@
+{
+  "id": "customtree:pl_r1_c2",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "3edfcbff-62cb-4cec-8b7c-8ed1726a1077",
+      "name": "Flat Max HP",
+      "amount": 0.8467,
+      "operation": 0
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "customtree:pl_r2_c2"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/heart_red.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": 97.152,
+  "positionY": 40.32,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

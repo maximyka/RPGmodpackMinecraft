@@ -1,0 +1,21 @@
+{
+  "id": "customtree:pl_rm4_c5",
+  "bonuses": [
+    {
+      "type": "skilltree:item_usage_speed",
+      "multiplier": 0.05
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/apple_green.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": 286.08,
+  "positionY": -168.0,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

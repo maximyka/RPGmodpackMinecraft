@@ -1,0 +1,33 @@
+{
+    "id": "customtree:druid_crown_c2",
+    "bonuses": [
+        {
+            "type": "skilltree:attribute",
+            "attribute": "irons_spellbooks:cooldown_reduction",
+            "id": "a34285b8-277e-5e35-aa79-f4127ee779c4",
+            "name": "Druid crown_c2",
+            "amount": 0.02,
+            "operation": 1,
+            "player_condition": {
+                "type": "skilltree:none"
+            },
+            "player_multiplier": {
+                "type": "skilltree:none"
+            }
+        }
+    ],
+    "requirements": [],
+    "directConnections": [
+        "customtree:druid_crown_c3"
+    ],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+    "iconTexture": "skilltree:textures/icons/potion_blue.png",
+    "borderTexture": "skilltree:textures/tooltip/lesser.png",
+    "positionX": 0.0,
+    "positionY": -200.0,
+    "buttonSize": 16,
+    "isStartingPoint": false
+}

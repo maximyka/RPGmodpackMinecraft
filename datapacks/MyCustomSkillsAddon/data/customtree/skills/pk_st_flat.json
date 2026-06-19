@@ -1,0 +1,56 @@
+{
+    "id": "customtree:pk_st_flat",
+    "bonuses": [
+        {
+            "amount": 0.2,
+            "attribute": "parcool:max_stamina",
+            "id": "11111111-0000-0000-0000-000000000028",
+            "name": "Percentage Stamina",
+            "operation": 1,
+            "player_condition": {
+                "type": "skilltree:none"
+            },
+            "player_multiplier": {
+                "type": "skilltree:none"
+            },
+            "type": "skilltree:attribute"
+        },
+        {
+            "amount": 0.15,
+            "attribute": "parcool:stamina_recovery",
+            "id": "11111111-0000-0000-0000-000000000029",
+            "name": "Gateway Stamina Recovery",
+            "operation": 1,
+            "player_condition": {
+                "type": "skilltree:none"
+            },
+            "player_multiplier": {
+                "type": "skilltree:none"
+            },
+            "type": "skilltree:attribute"
+        }
+    ],
+    "requirements": [
+        {
+            "minValue": 3550000,
+            "statTypeId": "minecraft:custom",
+            "statId": "minecraft:sprint_one_cm",
+            "type": "skilltree:stat_value"
+        }
+    ],
+    "directConnections": [
+        "customtree:pk_st4_d",
+        "customtree:pk_st4_u",
+        "customtree:pk_surge_ks"
+    ],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+    "iconTexture": "skilltree:textures/icons/potion_yellow_big.png",
+    "borderTexture": "skilltree:textures/tooltip/notable.png",
+    "positionX": -178.0,
+    "positionY": 0.0,
+    "buttonSize": 20,
+    "isStartingPoint": false
+}

@@ -1,0 +1,51 @@
+{
+    "id": "customtree:hunter_apex_frost",
+    "bonuses": [
+        {
+            "type": "skilltree:attribute",
+            "attribute": "attributeslib:cold_damage",
+            "id": "f1293ce0-ecc0-4cb5-b23d-bcb697f798f7",
+            "name": "Frost Strike",
+            "amount": 10.0,
+            "operation": 0
+        },
+        {
+            "type": "skilltree:attribute",
+            "attribute": "furattributes:evasion",
+            "id": "edee5323-6fdc-44cf-9e07-c758a114a854",
+            "name": "Frost Dodge",
+            "amount": 0.06,
+            "operation": 0
+        },
+        {
+            "type": "skilltree:attribute",
+            "attribute": "furattributes:crit_damage",
+            "id": "baf75a6a-93cb-49d6-a744-7381b0c0afa6",
+            "name": "Frost Penalty",
+            "amount": -0.15,
+            "operation": 1
+        }
+    ],
+    "requirements": [
+        {
+            "minValue": 20000,
+            "statTypeId": "minecraft:used",
+            "statId": "minecraft:crossbow",
+            "type": "skilltree:stat_value"
+        }
+    ],
+    "directConnections": [
+        "customtree:hunter_frost_5"
+    ],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+    "iconTexture": "skilltree:textures/icons/potion_blue.png",
+    "borderTexture": "skilltree:textures/tooltip/keystone.png",
+    "positionX": -270,
+    "positionY": 330,
+    "buttonSize": 32,
+    "isStartingPoint": false,
+    "skillTree": "customtree:hunter_tree"
+}

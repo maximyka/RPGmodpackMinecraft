@@ -1,0 +1,33 @@
+{
+    "id": "customtree:warrior_guard_r2",
+    "bonuses": [
+        {
+            "type": "skilltree:attribute",
+            "attribute": "minecraft:generic.movement_speed",
+            "id": "8b0a6606-3bb2-5859-8c99-e264fb67e43a",
+            "name": "Warrior guard_r2",
+            "amount": 0.0144,
+            "operation": 1,
+            "player_condition": {
+                "type": "skilltree:none"
+            },
+            "player_multiplier": {
+                "type": "skilltree:none"
+            }
+        }
+    ],
+    "requirements": [],
+    "directConnections": [
+        "customtree:warrior_guard_r3"
+    ],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+    "iconTexture": "skilltree:textures/icons/chestplate_leather.png",
+    "borderTexture": "skilltree:textures/tooltip/lesser.png",
+    "positionX": 60.0,
+    "positionY": 0.0,
+    "buttonSize": 16,
+    "isStartingPoint": false
+}

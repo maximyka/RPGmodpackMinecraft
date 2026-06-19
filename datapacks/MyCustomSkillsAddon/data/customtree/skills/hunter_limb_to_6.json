@@ -1,0 +1,30 @@
+{
+    "id": "customtree:hunter_limb_to_6",
+    "bonuses": [
+        {
+            "type": "skilltree:attribute",
+            "attribute": "puffish_attributes:fall_reduction",
+            "id": "7f853b92-a4fa-40b3-a84c-0e634abc4b4a",
+            "name": "hunter_limb_to_6",
+            "amount": 0.04,
+            "operation": 1
+        }
+    ],
+    "requirements": [],
+    "directConnections": [
+        "customtree:hunter_limb_ti_6",
+        "customtree:hunter_limb_to_5",
+        "customtree:hunter_limb_to_7"
+    ],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+    "iconTexture": "skilltree:textures/icons/chestplate_fur.png",
+    "borderTexture": "skilltree:textures/tooltip/lesser.png",
+    "positionX": -121.35,
+    "positionY": -234.0,
+    "buttonSize": 16,
+    "isStartingPoint": false,
+    "skillTree": "customtree:hunter_tree"
+}

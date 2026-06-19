@@ -1,0 +1,41 @@
+{
+    "id": "customtree:warrior_pommel_4",
+    "bonuses": [
+        {
+            "type": "skilltree:attribute",
+            "attribute": "minecraft:generic.max_health",
+            "id": "3eadcb67-8793-536d-86a3-5dd5838ecc6b",
+            "name": "Warrior pommel_4",
+            "amount": 0.04,
+            "operation": 1,
+            "player_condition": {
+                "type": "skilltree:none"
+            },
+            "player_multiplier": {
+                "type": "skilltree:none"
+            }
+        }
+    ],
+    "requirements": [
+        {
+            "minValue": 35000,
+            "statTypeId": "minecraft:custom",
+            "statId": "minecraft:damage_dealt",
+            "type": "skilltree:stat_value"
+        }
+    ],
+    "directConnections": [
+        "customtree:warrior_pommel_2",
+        "customtree:warrior_pommel_3"
+    ],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+    "iconTexture": "skilltree:textures/icons/heart_cyan.png",
+    "borderTexture": "skilltree:textures/tooltip/notable.png",
+    "positionX": 0.0,
+    "positionY": 120.0,
+    "buttonSize": 20,
+    "isStartingPoint": false
+}

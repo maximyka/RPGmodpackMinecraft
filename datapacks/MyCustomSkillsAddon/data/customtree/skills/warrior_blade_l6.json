@@ -1,0 +1,50 @@
+{
+    "id": "customtree:warrior_blade_l6",
+    "bonuses": [
+        {
+            "type": "skilltree:attribute",
+            "attribute": "minecraft:generic.attack_speed",
+            "id": "1288bb45-726d-5ce1-963d-d7e39bb8c7c8",
+            "name": "Warrior blade_l6",
+            "amount": 0.08,
+            "operation": 1,
+            "player_condition": {
+                "type": "skilltree:none"
+            },
+            "player_multiplier": {
+                "type": "skilltree:none"
+            }
+        },
+        {
+            "type": "skilltree:crit_chance",
+            "chance": 0.03,
+            "player_condition": {
+                "type": "skilltree:none"
+            },
+            "player_multiplier": {
+                "type": "skilltree:none"
+            }
+        }
+    ],
+    "requirements": [
+        {
+            "minValue": 100000,
+            "statTypeId": "minecraft:custom",
+            "statId": "minecraft:damage_dealt",
+            "type": "skilltree:stat_value"
+        }
+    ],
+    "directConnections": [
+        "customtree:warrior_blade_l7"
+    ],
+    "longConnections": [],
+    "oneWayConnections": [],
+    "tags": [],
+    "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+    "iconTexture": "skilltree:textures/icons/glove_steel.png",
+    "borderTexture": "skilltree:textures/tooltip/notable.png",
+    "positionX": -35.0,
+    "positionY": -180.0,
+    "buttonSize": 20,
+    "isStartingPoint": false
+}

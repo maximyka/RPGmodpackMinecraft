@@ -1,0 +1,28 @@
+{
+  "id": "customtree:pl_rm4_cm4",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "101ef115-a5e4-42a1-89af-785512e2a692",
+      "name": "Consecrated Plate Max Health",
+      "amount": 0.0677,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "customtree:pl_rm5_cm4",
+    "customtree:pl_rm4_cm5"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/glove_iron.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -228.864,
+  "positionY": -168.0,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}
