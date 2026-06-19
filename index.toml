@@ -225,6 +225,10 @@ path = "mods/euphoriapatcher-1.9.3-r5.8.1-forge.jar"
 hash = "be83a4041226e1c212131d871a7e143e7889a302b41d5580a8888621e4e17b0b"
 
 [[files]]
+path = "mods/ExplorersCompass-1.20.1-1.4.0-forge.jar"
+hash = "0d9a7705f39a9eac19c33e0fbe5422280048991a341dc0d9471bff32111c502c"
+
+[[files]]
 path = "mods/FarmersDelight-1.20.1-1.3.2.jar"
 hash = "47aed94bb9192c4978fe199f9d3ca5895aeccfbe5b5a0869fdf3aa011c2641f7"
 
@@ -295,6 +299,10 @@ hash = "2f664f23ed031f6cfacce01b0461c450e2248435936cb6b7e2e0463c6ec56343"
 [[files]]
 path = "mods/InvMove-0.9.3-1.20.1-Forge.jar"
 hash = "fed951da0863669dea424fc7f9542e95f2bffe2fd53bef914e254fa9969d7885"
+
+[[files]]
+path = "mods/ironchest-1.20.1-14.4.4.jar"
+hash = "6bc75f288d2e8158d2e23c6881a1b341a894c38bab129ca0f20db6abd59d373f"
 
 [[files]]
 path = "mods/irons_lib-1.20.1-1.0.2.1.jar"
@@ -551,6 +559,10 @@ hash = "04e8a9bae99e54a972e91b8a1e5f3366e4020ec7fb762d9c8aafbf23ed29b8b1"
 [[files]]
 path = "mods/trashslot-forge-1.20.1-15.1.5.jar"
 hash = "7f038937dffeebc3885d347c47622d504a562da0bcce7873c50f2753db0a3746"
+
+[[files]]
+path = "mods/traveloptics-6.3.0-1.20.1.jar"
+hash = "878a0fb5a2057de530698fd63091b9fa1c23af0139054af108e9d566840a0fa9"
 
 [[files]]
 path = "mods/treechop-1.20.1-forge-0.19.0-fixed.jar"
