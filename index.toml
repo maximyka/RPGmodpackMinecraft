@@ -401,6 +401,10 @@ path = "mods/MyCustomSkillsAddon.jar"
 hash = "a3bc3b7ba351ca085eefeb2af7274a94a4f6ee1bb40c5c98548f9843f89f5a28"
 
 [[files]]
+path = "mods/naturescompass-1.20.1-1.12.0-forge.jar"
+hash = "bc3601e9e050802569647de843fe9d3160934c5f31412cba62ca2ea8c1485197"
+
+[[files]]
 path = "mods/notenoughanimations-forge-1.12.3-mc1.20.1.jar"
 hash = "284a9095dfde943ed97597a1e8f37aec0cff9f855e7ea5b66c18d1bdfa42ae24"
 
