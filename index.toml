@@ -369,14 +369,6 @@ path = "mods/L_Enders_Cataclysm-3.16.jar.toml"
 hash = "49386dd26db8fc58eccae2d52802aeb3dd6961396e324aca1105060704bb2737"
 
 [[files]]
-path = "mods/majrusz-library-forge-1.20.1-7.0.8.jar"
-hash = "4d58fc2db26343d6b163dbb8f8c98e554ada6fffb634b9896c2d274629090548"
-
-[[files]]
-path = "mods/majruszs-difficulty-forge-1.20.1-1.9.10.jar"
-hash = "3a47dee789e49050e2819e1c173c7fc4d8020a8604e7ed9afb4017a941ba86f3"
-
-[[files]]
 path = "mods/mcjtylib-1.20-8.0.6.jar"
 hash = "ef5f32a85584b6464d76bf98c967775335f8b3c8dcb6694572ade316583bb9f2"
 
@@ -411,10 +403,6 @@ hash = "a3bc3b7ba351ca085eefeb2af7274a94a4f6ee1bb40c5c98548f9843f89f5a28"
 [[files]]
 path = "mods/notenoughanimations-forge-1.12.3-mc1.20.1.jar"
 hash = "284a9095dfde943ed97597a1e8f37aec0cff9f855e7ea5b66c18d1bdfa42ae24"
-
-[[files]]
-path = "mods/nyfsquiver-1.20.1-forge-1.0.1.jar"
-hash = "a125ef6358212d896e56fdf2db596b50e847b5f53ebe1f32eb9784b26197a80d"
 
 [[files]]
 path = "mods/octolib-forge-0.5.0.11.20.1.jar"
