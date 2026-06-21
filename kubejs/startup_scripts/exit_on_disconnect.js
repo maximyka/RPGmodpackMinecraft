@@ -153,11 +153,20 @@ ForgeEvents.onEvent('net.minecraftforge.client.event.ScreenEvent$Init$Post', eve
         if (name.includes('JoinMultiplayerScreen')) {
             // Stop LAN server scanning thread to remove scanning text and ignore LAN servers
             try {
+                let clazz = screen.getClass();
                 let fieldFilter = null;
-                try {
-                    fieldFilter = screen.getClass().getDeclaredField("lanServerFilter");
-                } catch (e) {
-                    fieldFilter = screen.getClass().getDeclaredField("f_99680_");
+                while (clazz != null) {
+                    try {
+                        fieldFilter = clazz.getDeclaredField("lanServerFilter");
+                        break;
+                    } catch (e) {
+                        try {
+                            fieldFilter = clazz.getDeclaredField("f_99680_");
+                            break;
+                        } catch (ex) {
+                            clazz = clazz.getSuperclass();
+                        }
+                    }
                 }
                 if (fieldFilter) {
                     fieldFilter.setAccessible(true);
@@ -168,7 +177,21 @@ ForgeEvents.onEvent('net.minecraftforge.client.event.ScreenEvent$Init$Post', eve
                     fieldFilter.set(screen, null);
                 }
             } catch (e) {
-                console.error("RPG Modpack: Failed to disable LAN scanning: " + e);
+                console.error("RPG Modpack: Reflection failed to disable LAN scanning: " + e);
+            }
+
+            // Fallback: search and interrupt the LanServerDetector thread directly in the JVM
+            try {
+                let threads = java.lang.Thread.getAllStackTraces().keySet();
+                let iterator = threads.iterator();
+                while (iterator.hasNext()) {
+                    let thread = iterator.next();
+                    if (thread.getName().startsWith("LanServerDetector #")) {
+                        thread.interrupt();
+                    }
+                }
+            } catch (e) {
+                console.error("RPG Modpack: Failed to stop LAN thread via JVM search: " + e);
             }
 
             let listeners = event.getListenersList();
