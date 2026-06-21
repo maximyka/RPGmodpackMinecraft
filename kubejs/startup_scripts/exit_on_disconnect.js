@@ -88,22 +88,20 @@ ForgeEvents.onEvent('net.minecraftforge.client.event.ScreenEvent$Opening', event
                 event.setCanceled(true);
                 
                 let selectedServerName = (serverJson && serverJson.name) || "Основной";
-                mc.tell(() => {
-                    let serverData = new ServerData(
-                        selectedServerName,
-                        selectedServer,
-                        false
-                    );
-                    let resolvedAddress = ServerAddress.parseString(selectedServer);
-                    
-                    ConnectScreen.startConnecting(
-                        new TitleScreen(),
-                        mc,
-                        resolvedAddress,
-                        serverData,
-                        false // quickPlay = false (prevents auto exit on disconnect!)
-                    );
-                });
+                let serverData = new ServerData(
+                    selectedServerName,
+                    selectedServer,
+                    false
+                );
+                let resolvedAddress = ServerAddress.parseString(selectedServer);
+                
+                ConnectScreen.startConnecting(
+                    new TitleScreen(),
+                    mc,
+                    resolvedAddress,
+                    serverData,
+                    false // quickPlay = false (prevents auto exit on disconnect!)
+                );
                 return;
             }
             
