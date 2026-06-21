@@ -10,7 +10,6 @@ const TitleScreen = Java.loadClass('net.minecraft.client.gui.screens.TitleScreen
 const JoinMultiplayerScreen = Java.loadClass('net.minecraft.client.gui.screens.multiplayer.JoinMultiplayerScreen');
 const Button = Java.loadClass('net.minecraft.client.gui.components.Button');
 const Component = Java.loadClass('net.minecraft.network.chat.Component');
-const System = Java.loadClass('java.lang.System');
 
 let joinedOnce = false;
 
@@ -72,15 +71,23 @@ ForgeEvents.onEvent('net.minecraftforge.client.event.ScreenEvent$Opening', event
         // If TitleScreen or SelectWorldScreen opens
         if (name.includes('TitleScreen') || name.includes('SelectWorldScreen')) {
             let mc = Minecraft.getInstance();
-            let selectedServer = System.getProperty("selectedServer");
+            
+            // Read selected server IP from local JSON file (bypass java.lang.System restrictions)
+            let serverJson = null;
+            try {
+                serverJson = JsonIO.read('local/selected_server.json');
+            } catch (e) {
+                console.error("RPG Modpack: Failed to read selected_server.json: " + e);
+            }
+            
+            let selectedServer = serverJson ? serverJson.ip : null;
             
             if (name.includes('TitleScreen') && selectedServer && !joinedOnce) {
                 joinedOnce = true;
-                System.clearProperty("selectedServer");
                 
                 event.setCanceled(true);
                 
-                let selectedServerName = System.getProperty("selectedServerName") || "Основной";
+                let selectedServerName = (serverJson && serverJson.name) || "Основной";
                 mc.tell(() => {
                     let serverData = new ServerData(
                         selectedServerName,
@@ -174,12 +181,12 @@ ForgeEvents.onEvent('net.minecraftforge.client.event.ScreenEvent$Init$Post', eve
                 event.removeListener(buttonsToRemove[j]);
             }
 
-            // Replace the Cancel/Back button with a dedicated Exit Game button
+            // Replace the Cancel/Back button with a dedicated Exit Game button (using stop() to bypass java.lang.System restrictions)
             if (foundCancel) {
                 let exitButton = Button.builder(
                     Component.literal("Выйти из игры"),
                     btn => {
-                        System.exit(0);
+                        Minecraft.getInstance().stop();
                     }
                 ).bounds(cancelX, cancelY, cancelW, cancelH).build();
                 event.addListener(exitButton);
