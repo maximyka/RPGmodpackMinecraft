@@ -1,6 +1,16 @@
 // KubeJS Startup Script - exit_on_disconnect.js
 // Handles screen redirects, locks down the server selection screen, and customizes buttons.
 
+const Minecraft = Java.loadClass('net.minecraft.client.Minecraft');
+const ServerList = Java.loadClass('net.minecraft.client.multiplayer.ServerList');
+const ServerData = Java.loadClass('net.minecraft.client.multiplayer.ServerData');
+const ServerAddress = Java.loadClass('net.minecraft.client.multiplayer.resolver.ServerAddress');
+const ConnectScreen = Java.loadClass('net.minecraft.client.gui.screens.ConnectScreen');
+const TitleScreen = Java.loadClass('net.minecraft.client.gui.screens.TitleScreen');
+const JoinMultiplayerScreen = Java.loadClass('net.minecraft.client.gui.screens.multiplayer.JoinMultiplayerScreen');
+const Button = Java.loadClass('net.minecraft.client.gui.components.Button');
+const Component = Java.loadClass('net.minecraft.network.chat.Component');
+
 let joinedOnce = false;
 
 // Listen to client login using Forge event
@@ -8,44 +18,53 @@ ForgeEvents.onEvent('net.minecraftforge.client.event.ClientPlayerNetworkEvent$Lo
     joinedOnce = true;
 });
 
-// Reset client server list to official servers
+// Reset client server list to official servers (non-destructively)
 function resetServerList() {
     try {
-        let mc = net.minecraft.client.Minecraft.getInstance();
-        let serverList = new net.minecraft.client.multiplayer.ServerList(mc);
+        let mc = Minecraft.getInstance();
+        let serverList = new ServerList(mc);
         serverList.load();
         
-        let size = serverList.size();
-        let alreadyCorrect = false;
+        let serversJson = null;
+        try {
+            serversJson = JsonIO.read('local/servers_list.json');
+        } catch (e) {
+            console.error("RPG Modpack: Failed to read servers_list.json: " + e);
+        }
         
-        // Check if the list already contains exactly our two servers
-        if (size === 2) {
-            let s1 = serverList.get(0);
-            let s2 = serverList.get(1);
-            if (s1.name === "Основной" && s1.ip === "ip199-83-103-135.joinserver.xyz:25920" &&
-                s2.name === "Альтернативный (обход с прокси)" && s2.ip === "pidorserver.sosal.today") {
-                alreadyCorrect = true;
+        if (!serversJson || !serversJson.length) {
+            return;
+        }
+        
+        let changed = false;
+        
+        // For each server in the JSON config
+        for (let i = 0; i < serversJson.length; i++) {
+            let targetServer = serversJson[i];
+            let exists = false;
+            
+            // Check if it already exists in the Minecraft ServerList
+            for (let j = 0; j < serverList.size(); j++) {
+                let existingServer = serverList.get(j);
+                if (existingServer.ip === targetServer.ip) {
+                    exists = true;
+                    break;
+                }
+            }
+            
+            if (!exists) {
+                serverList.add(new ServerData(
+                    targetServer.name,
+                    targetServer.ip,
+                    false
+                ));
+                changed = true;
             }
         }
         
-        if (!alreadyCorrect) {
-            // Remove existing servers
-            for (let i = size - 1; i >= 0; i--) {
-                serverList.remove(serverList.get(i));
-            }
-            // Add official servers
-            serverList.add(new net.minecraft.client.multiplayer.ServerData(
-                "Основной", 
-                "ip199-83-103-135.joinserver.xyz:25920", 
-                false
-            ));
-            serverList.add(new net.minecraft.client.multiplayer.ServerData(
-                "Альтернативный (обход с прокси)", 
-                "pidorserver.sosal.today", 
-                false
-            ));
+        if (changed) {
             serverList.save();
-            console.log("RPG Modpack: Server list reset and locked to official servers.");
+            console.log("RPG Modpack: Added missing official servers to ServerList.");
         }
     } catch (e) {
         console.error("RPG Modpack: Failed to reset server list: " + e);
@@ -60,37 +79,43 @@ ForgeEvents.onEvent('net.minecraftforge.client.event.ScreenEvent$Opening', event
         
         // If TitleScreen or SelectWorldScreen opens
         if (name.includes('TitleScreen') || name.includes('SelectWorldScreen')) {
-            let mc = net.minecraft.client.Minecraft.getInstance();
-            let selectedServer = java.lang.System.getProperty("selectedServer");
+            let mc = Minecraft.getInstance();
+            
+            // Read selected server IP from local JSON file (bypass java.lang.System restrictions)
+            let serverJson = null;
+            try {
+                serverJson = JsonIO.read('local/selected_server.json');
+            } catch (e) {
+                console.error("RPG Modpack: Failed to read selected_server.json: " + e);
+            }
+            
+            let selectedServer = serverJson ? serverJson.ip : null;
             
             if (name.includes('TitleScreen') && selectedServer && !joinedOnce) {
                 joinedOnce = true;
-                java.lang.System.clearProperty("selectedServer");
                 
                 event.setCanceled(true);
                 
-                let selectedServerName = java.lang.System.getProperty("selectedServerName") || "Основной";
-                mc.tell(() => {
-                    let serverData = new net.minecraft.client.multiplayer.ServerData(
-                        selectedServerName,
-                        selectedServer,
-                        false
-                    );
-                    let resolvedAddress = net.minecraft.client.multiplayer.resolver.ServerAddress.parseString(selectedServer);
-                    
-                    net.minecraft.client.gui.screens.ConnectScreen.startConnecting(
-                        new net.minecraft.client.gui.screens.TitleScreen(),
-                        mc,
-                        resolvedAddress,
-                        serverData,
-                        false // quickPlay = false (prevents auto exit on disconnect!)
-                    );
-                });
+                let selectedServerName = (serverJson && serverJson.name) || "Основной";
+                let serverData = new ServerData(
+                    selectedServerName,
+                    selectedServer,
+                    false
+                );
+                let resolvedAddress = ServerAddress.parseString(selectedServer);
+                
+                ConnectScreen.startConnecting(
+                    new TitleScreen(),
+                    mc,
+                    resolvedAddress,
+                    serverData,
+                    false // quickPlay = false (prevents auto exit on disconnect!)
+                );
                 return;
             }
             
             // Otherwise, if they just returned to TitleScreen or world select, redirect to locked MultiplayerScreen
-            event.setNewScreen(new net.minecraft.client.gui.screens.multiplayer.JoinMultiplayerScreen(new net.minecraft.client.gui.screens.TitleScreen()));
+            event.setNewScreen(new JoinMultiplayerScreen(new TitleScreen()));
         }
     }
 });
@@ -163,12 +188,12 @@ ForgeEvents.onEvent('net.minecraftforge.client.event.ScreenEvent$Init$Post', eve
                 event.removeListener(buttonsToRemove[j]);
             }
 
-            // Replace the Cancel/Back button with a dedicated Exit Game button
+            // Replace the Cancel/Back button with a dedicated Exit Game button (using stop() to bypass java.lang.System restrictions)
             if (foundCancel) {
-                let exitButton = net.minecraft.client.gui.components.Button.builder(
-                    net.minecraft.network.chat.Component.literal("Выйти из игры"),
+                let exitButton = Button.builder(
+                    Component.literal("Выйти из игры"),
                     btn => {
-                        java.lang.System.exit(0);
+                        Minecraft.getInstance().stop();
                     }
                 ).bounds(cancelX, cancelY, cancelW, cancelH).build();
                 event.addListener(exitButton);
