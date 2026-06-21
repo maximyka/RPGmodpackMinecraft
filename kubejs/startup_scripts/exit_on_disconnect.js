@@ -12,6 +12,7 @@ const Button = Java.loadClass('net.minecraft.client.gui.components.Button');
 const Component = Java.loadClass('net.minecraft.network.chat.Component');
 
 let joinedOnce = false;
+let serverSelectionListField = null;
 
 // Listen to client login using Forge event
 ForgeEvents.onEvent('net.minecraftforge.client.event.ClientPlayerNetworkEvent$LoggingIn', event => {
@@ -173,6 +174,7 @@ ForgeEvents.onEvent('net.minecraftforge.client.event.ScreenEvent$Init$Post', eve
                         // Handle ServerSelectionList to remove LAN scanning entry
                         if (typeName.indexOf("ServerSelectionList") !== -1) {
                             f.setAccessible(true);
+                            serverSelectionListField = f;
                             let serverSelectionList = f.get(screen);
                             if (serverSelectionList) {
                                 try {
@@ -258,3 +260,30 @@ ForgeEvents.onEvent('net.minecraftforge.client.event.ScreenEvent$Init$Post', eve
         }
     }
 });
+
+// Remove LAN scanning entry dynamically on every frame to ensure it is hidden
+ForgeEvents.onEvent('net.minecraftforge.client.event.ScreenEvent$Render$Pre', event => {
+    let screen = event.getScreen();
+    if (screen) {
+        let name = screen.getClass().getName();
+        if (name.includes('JoinMultiplayerScreen') && serverSelectionListField) {
+            try {
+                let serverSelectionList = serverSelectionListField.get(screen);
+                if (serverSelectionList) {
+                    let children = serverSelectionList.children();
+                    for (let j = 0; j < children.size(); j++) {
+                        let entry = children.get(j);
+                        let entryClass = entry.getClass().getName();
+                        if (entryClass.indexOf("LanScanEntry") !== -1 || entryClass.indexOf("ScanningEntry") !== -1) {
+                            serverSelectionList.removeEntry(entry);
+                            console.log("[RPG Modpack] Removed LAN scanning entry during render: " + entryClass);
+                        }
+                    }
+                }
+            } catch (e) {
+                // Ignore reflection errors to prevent spamming the logs
+            }
+        }
+    }
+});
+
