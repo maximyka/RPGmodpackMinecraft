@@ -30,7 +30,7 @@ hash = "3e0a24bdae49b03e2fd2409578ec5450584ef1e6144c27445235a0204cc1ad44"
 
 [[files]]
 path = "kubejs/server_scripts/season1_disable_reflection_necklace.js"
-hash = "4fac151abd1937cc026ae53f926668fca43e10a9de2c858d10a2813a239e3c29"
+hash = "1718d80198fbf5c7ee6e54b3cef6bd3bd8c1ef4d06bd82a17d06f1644c611c9a"
 
 [[files]]
 path = "kubejs/server_scripts/season1_item_cleanup.js"
@@ -54,7 +54,7 @@ hash = "395c96d3ddd178821db851f387e91560e606ea752177f66d2016f12bd0542b8f"
 
 [[files]]
 path = "kubejs/startup_scripts/exit_on_disconnect.js"
-hash = "9518e743ac097d4c3dc276ac1d0ae11dd0f30327b094bc3984f3ca8c96119fbc"
+hash = "3cf4ecdcb054b02c9bdc7776646494fe86ee2a5b44d6f1756ac11c3af8bcaabf"
 
 [[files]]
 path = "kubejs/startup_scripts/register_stats.js"
@@ -593,8 +593,8 @@ path = "mods/ritchiesprojectilelib-2.1.1-mc.1.20.1-forge.jar"
 hash = "5531ec454792f98993fa29d55f8810444ba3e9ef8f04331c5811b84ec8d0c3dc"
 
 [[files]]
-path = "mods/season1-rpg-content-1.1.jar"
-hash = "e07fee8e4245829bb98e520279c8bdd4e2b44aea55270c267473767c371d7b89"
+path = "mods/season1-rpg-content-1.1.1-apotheosis-gem-patch.jar"
+hash = "1cce1ee088364cfc42a9d831679d2d9885037f3d8dafcc8b4c6705d8e87f5d02"
 
 [[files]]
 path = "mods/sophisticatedbackpacks-1.20.1-3.24.52.1869.jar"

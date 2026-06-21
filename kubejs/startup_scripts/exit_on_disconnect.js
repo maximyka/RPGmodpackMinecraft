@@ -182,7 +182,8 @@ ForgeEvents.onEvent('net.minecraftforge.client.event.ScreenEvent$Init$Post', eve
 
             // Fallback: search and interrupt the LanServerDetector thread directly in the JVM
             try {
-                let threads = java.lang.Thread.getAllStackTraces().keySet();
+                let ThreadClass = Java.loadClass('java.lang.Thread');
+                let threads = ThreadClass.getAllStackTraces().keySet();
                 let iterator = threads.iterator();
                 while (iterator.hasNext()) {
                     let thread = iterator.next();
