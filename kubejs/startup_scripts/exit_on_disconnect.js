@@ -176,7 +176,6 @@ ForgeEvents.onEvent('net.minecraftforge.client.event.ScreenEvent$Init$Post', eve
                         if (typeName.indexOf("ServerSelectionList") !== -1) {
                             f.setAccessible(true);
                             serverSelectionListField = f;
-                            console.log("[RPG Modpack] Found ServerSelectionList field: " + f.getName() + " (Type: " + typeName + ")");
                             let serverSelectionList = f.get(screen);
                             if (serverSelectionList) {
                                 try {
@@ -184,9 +183,8 @@ ForgeEvents.onEvent('net.minecraftforge.client.event.ScreenEvent$Init$Post', eve
                                     for (let j = 0; j < children.size(); j++) {
                                         let entry = children.get(j);
                                         let entryClass = entry.getClass().getName();
-                                        if (entryClass.indexOf("LanScanEntry") !== -1 || entryClass.indexOf("ScanningEntry") !== -1) {
+                                        if (entryClass.indexOf("LanScanEntry") !== -1 || entryClass.indexOf("ScanningEntry") !== -1 || entryClass.indexOf("LANHeader") !== -1) {
                                             serverSelectionList.removeEntry(entry);
-                                            console.log("[RPG Modpack] Successfully removed LAN scanning entry: " + entryClass);
                                         }
                                     }
                                 } catch (innerErr) {
@@ -273,18 +271,10 @@ ForgeEvents.onEvent('net.minecraftforge.client.event.ScreenEvent$Render$Pre', ev
                     let serverSelectionList = serverSelectionListField.get(screen);
                     if (serverSelectionList) {
                         let children = serverSelectionList.children();
-                        if (children.size() > 0 && !printedDebug) {
-                            printedDebug = true;
-                            console.log("[RPG Modpack] Render$Pre children count: " + children.size());
-                            for (let j = 0; j < children.size(); j++) {
-                                let entry = children.get(j);
-                                console.log("[RPG Modpack]   Entry " + j + ": " + entry.getClass().getName());
-                            }
-                        }
                         for (let j = 0; j < children.size(); j++) {
                             let entry = children.get(j);
                             let entryClass = entry.getClass().getName();
-                            if (entryClass.indexOf("LanScanEntry") !== -1 || entryClass.indexOf("ScanningEntry") !== -1) {
+                            if (entryClass.indexOf("LanScanEntry") !== -1 || entryClass.indexOf("ScanningEntry") !== -1 || entryClass.indexOf("LANHeader") !== -1) {
                                 serverSelectionList.removeEntry(entry);
                                 console.log("[RPG Modpack] Removed LAN scanning entry during render: " + entryClass);
                             }
