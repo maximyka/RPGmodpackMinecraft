@@ -7,21 +7,21 @@ try {
 } catch (e) {
     // File doesn't exist or not readable
 }
-const isDevMode = devModeJson && devModeJson.devMode === true;
+var isDevMode = devModeJson && devModeJson.devMode === true;
 
 if (isDevMode) {
     console.log("RPG Modpack: Running in Developer Mode. Bypassing lockdowns and redirects.");
 } else {
 
-const ClientMinecraft = Java.loadClass('net.minecraft.client.Minecraft');
-const ServerList = Java.loadClass('net.minecraft.client.multiplayer.ServerList');
-const ServerData = Java.loadClass('net.minecraft.client.multiplayer.ServerData');
-const ServerAddress = Java.loadClass('net.minecraft.client.multiplayer.resolver.ServerAddress');
-const ConnectScreen = Java.loadClass('net.minecraft.client.gui.screens.ConnectScreen');
-const TitleScreen = Java.loadClass('net.minecraft.client.gui.screens.TitleScreen');
-const JoinMultiplayerScreen = Java.loadClass('net.minecraft.client.gui.screens.multiplayer.JoinMultiplayerScreen');
-const Button = Java.loadClass('net.minecraft.client.gui.components.Button');
-const Component = Java.loadClass('net.minecraft.network.chat.Component');
+var ClientMinecraft = Java.loadClass('net.minecraft.client.Minecraft');
+var ServerList = Java.loadClass('net.minecraft.client.multiplayer.ServerList');
+var ServerData = Java.loadClass('net.minecraft.client.multiplayer.ServerData');
+var ServerAddress = Java.loadClass('net.minecraft.client.multiplayer.resolver.ServerAddress');
+var ConnectScreen = Java.loadClass('net.minecraft.client.gui.screens.ConnectScreen');
+var TitleScreen = Java.loadClass('net.minecraft.client.gui.screens.TitleScreen');
+var JoinMultiplayerScreen = Java.loadClass('net.minecraft.client.gui.screens.multiplayer.JoinMultiplayerScreen');
+var Button = Java.loadClass('net.minecraft.client.gui.components.Button');
+var Component = Java.loadClass('net.minecraft.network.chat.Component');
 
 let joinedOnce = false;
 let serverSelectionListField = null;
