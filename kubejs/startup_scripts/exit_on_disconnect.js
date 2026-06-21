@@ -149,12 +149,32 @@ ForgeEvents.onEvent('net.minecraftforge.client.event.ScreenEvent$Init$Post', eve
             }
         }
         
-        // 2. Lock down JoinMultiplayerScreen buttons
+        // 2. Lock down JoinMultiplayerScreen buttons and layout customization
         if (name.includes('JoinMultiplayerScreen')) {
+            // Stop LAN server scanning thread to remove scanning text and ignore LAN servers
+            try {
+                let fieldFilter = null;
+                try {
+                    fieldFilter = screen.getClass().getDeclaredField("lanServerFilter");
+                } catch (e) {
+                    fieldFilter = screen.getClass().getDeclaredField("f_99680_");
+                }
+                if (fieldFilter) {
+                    fieldFilter.setAccessible(true);
+                    let thread = fieldFilter.get(screen);
+                    if (thread) {
+                        thread.interrupt();
+                    }
+                    fieldFilter.set(screen, null);
+                }
+            } catch (e) {
+                console.error("RPG Modpack: Failed to disable LAN scanning: " + e);
+            }
+
             let listeners = event.getListenersList();
             let buttonsToRemove = [];
-            let cancelX = 0, cancelY = 0, cancelW = 150, cancelH = 20;
-            let foundCancel = false;
+            let refreshButton = null;
+            let cancelY = 0;
 
             for (let i = 0; i < listeners.size(); i++) {
                 let listener = listeners.get(i);
@@ -162,22 +182,18 @@ ForgeEvents.onEvent('net.minecraftforge.client.event.ScreenEvent$Init$Post', eve
                 if (listenerName.includes('Button')) {
                     let text = listener.getMessage().getString().toLowerCase();
                     
-                    // Filter out server modification buttons
-                    if (text.includes('add') || text.includes('добавить') ||
-                        text.includes('direct') || text.includes('адресу') ||
-                        text.includes('edit') || text.includes('настроить') ||
-                        text.includes('delete') || text.includes('удалить')) {
-                        buttonsToRemove.push(listener);
-                    }
-                    
-                    // Find and save bounds of the Cancel/Back button
-                    if (text.includes('cancel') || text.includes('отмена') ||
-                        text.includes('back') || text.includes('назад')) {
-                        cancelX = listener.getX();
+                    if (text.includes('refresh') || text.includes('обновить')) {
+                        refreshButton = listener;
+                    } else if (text.includes('cancel') || text.includes('отмена') ||
+                               text.includes('back') || text.includes('назад')) {
                         cancelY = listener.getY();
-                        cancelW = listener.getWidth();
-                        cancelH = listener.getHeight();
-                        foundCancel = true;
+                        buttonsToRemove.push(listener);
+                    } else if (text.includes('add') || text.includes('добавить') ||
+                               text.includes('direct') || text.includes('адресу') ||
+                               text.includes('edit') || text.includes('настроить') ||
+                               text.includes('delete') || text.includes('удалить') ||
+                               text.includes('join') || text.includes('подключиться') || 
+                               text.includes('войти') || text.includes('select')) {
                         buttonsToRemove.push(listener);
                     }
                 }
@@ -188,16 +204,31 @@ ForgeEvents.onEvent('net.minecraftforge.client.event.ScreenEvent$Init$Post', eve
                 event.removeListener(buttonsToRemove[j]);
             }
 
-            // Replace the Cancel/Back button with a dedicated Exit Game button (using stop() to bypass java.lang.System restrictions)
-            if (foundCancel) {
-                let exitButton = Button.builder(
-                    Component.literal("Выйти из игры"),
-                    btn => {
-                        Minecraft.getInstance().stop();
-                    }
-                ).bounds(cancelX, cancelY, cancelW, cancelH).build();
-                event.addListener(exitButton);
+            let screenWidth = screen.width || (typeof screen.getWidth === 'function' ? screen.getWidth() : 0);
+            let screenHeight = screen.height || (typeof screen.getHeight === 'function' ? screen.getHeight() : 0);
+
+            if (cancelY === 0) {
+                cancelY = screenHeight - 28;
             }
+
+            // Center: "Обновить" (width 120) and "Выйти из игры" (width 160)
+            // Total width = 120 + 10 + 160 = 290
+            let startX = Math.floor((screenWidth - 290) / 2);
+
+            if (refreshButton) {
+                refreshButton.setX(startX);
+                refreshButton.setY(cancelY);
+                refreshButton.setWidth(120);
+            }
+
+            // Add the Exit button next to it in a single row with the Refresh button
+            let exitButton = Button.builder(
+                Component.literal("Выйти из игры"),
+                btn => {
+                    Minecraft.getInstance().stop();
+                }
+            ).bounds(startX + 130, cancelY, 160, 20).build();
+            event.addListener(exitButton);
         }
     }
 });
