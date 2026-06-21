@@ -1,7 +1,7 @@
 name = "RPG Minecraft Modpack"
 author = "maximyka"
 version = "1.0"
-launcher_version = "1.12"
+launcher_version = "1.13"
 
 [versions]
 minecraft = "1.20.1"
