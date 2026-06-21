@@ -288,5 +288,6 @@ ForgeEvents.onEvent('net.minecraftforge.client.event.ScreenEvent$Render$Pre', ev
             }
         }
     }
+}
 });
 
