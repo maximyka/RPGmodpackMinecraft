@@ -4,7 +4,7 @@
 let joinedOnce = false;
 
 // Listen to client login using Forge event
-ForgeEvents.onEvent('net.minecraftforge.client.event.ClientPlayerNetworkEvent$LoggedInEvent', event => {
+ForgeEvents.onEvent('net.minecraftforge.client.event.ClientPlayerNetworkEvent$LoggingIn', event => {
     joinedOnce = true;
 });
 
