@@ -18,44 +18,53 @@ ForgeEvents.onEvent('net.minecraftforge.client.event.ClientPlayerNetworkEvent$Lo
     joinedOnce = true;
 });
 
-// Reset client server list to official servers
+// Reset client server list to official servers (non-destructively)
 function resetServerList() {
     try {
         let mc = Minecraft.getInstance();
         let serverList = new ServerList(mc);
         serverList.load();
         
-        let size = serverList.size();
-        let alreadyCorrect = false;
+        let serversJson = null;
+        try {
+            serversJson = JsonIO.read('local/servers_list.json');
+        } catch (e) {
+            console.error("RPG Modpack: Failed to read servers_list.json: " + e);
+        }
         
-        // Check if the list already contains exactly our two servers
-        if (size === 2) {
-            let s1 = serverList.get(0);
-            let s2 = serverList.get(1);
-            if (s1.name === "Основной" && s1.ip === "ip199-83-103-135.joinserver.xyz:25920" &&
-                s2.name === "Альтернативный (обход с прокси)" && s2.ip === "pidorserver.sosal.today") {
-                alreadyCorrect = true;
+        if (!serversJson || !serversJson.length) {
+            return;
+        }
+        
+        let changed = false;
+        
+        // For each server in the JSON config
+        for (let i = 0; i < serversJson.length; i++) {
+            let targetServer = serversJson[i];
+            let exists = false;
+            
+            // Check if it already exists in the Minecraft ServerList
+            for (let j = 0; j < serverList.size(); j++) {
+                let existingServer = serverList.get(j);
+                if (existingServer.ip === targetServer.ip) {
+                    exists = true;
+                    break;
+                }
+            }
+            
+            if (!exists) {
+                serverList.add(new ServerData(
+                    targetServer.name,
+                    targetServer.ip,
+                    false
+                ));
+                changed = true;
             }
         }
         
-        if (!alreadyCorrect) {
-            // Remove existing servers
-            for (let i = size - 1; i >= 0; i--) {
-                serverList.remove(serverList.get(i));
-            }
-            // Add official servers
-            serverList.add(new ServerData(
-                "Основной", 
-                "ip199-83-103-135.joinserver.xyz:25920", 
-                false
-            ));
-            serverList.add(new ServerData(
-                "Альтернативный (обход с прокси)", 
-                "pidorserver.sosal.today", 
-                false
-            ));
+        if (changed) {
             serverList.save();
-            console.log("RPG Modpack: Server list reset and locked to official servers.");
+            console.log("RPG Modpack: Added missing official servers to ServerList.");
         }
     } catch (e) {
         console.error("RPG Modpack: Failed to reset server list: " + e);

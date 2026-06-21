@@ -42,7 +42,7 @@ hash = "395c96d3ddd178821db851f387e91560e606ea752177f66d2016f12bd0542b8f"
 
 [[files]]
 path = "kubejs/startup_scripts/exit_on_disconnect.js"
-hash = "c85920984737cf04afbe25a9add08c005af33d9ae5f934bfd6a630c5a6497979"
+hash = "4e247fcc4a103dbf43de8d00e38a43b550390ddf71eefccb5d50e9f4b6c4b1b8"
 
 [[files]]
 path = "kubejs/startup_scripts/register_stats.js"
