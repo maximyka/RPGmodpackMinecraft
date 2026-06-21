@@ -23,3 +23,21 @@ ForgeEvents.onEvent('net.minecraftforge.client.event.ScreenEvent$Opening', event
         }
     }
 });
+
+// Remove Cancel button when connecting to server
+ForgeEvents.onEvent('net.minecraftforge.client.event.ScreenEvent$Init$Post', event => {
+    let screen = event.getScreen();
+    if (screen) {
+        let name = screen.getClass().getName();
+        if (name.includes('ConnectScreen')) {
+            let listeners = event.getListenersList();
+            for (let i = 0; i < listeners.size(); i++) {
+                let listener = listeners.get(i);
+                let listenerName = listener.getClass().getName();
+                if (listenerName.includes('Button')) {
+                    event.removeListener(listener);
+                }
+            }
+        }
+    }
+});

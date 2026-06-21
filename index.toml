@@ -18,7 +18,7 @@ hash = "152019ed6e0410a82805a95ea10f1ad1a17beaf2b50864d89b8fa9d172129ac7"
 
 [[files]]
 path = "kubejs/client_scripts/exit_on_disconnect.js"
-hash = "b6e1496b0620e3ba1d34aaf4928671b33e5a1bad42d1a16634115a7b85121d42"
+hash = "638920369e4aa0d67f50bdc4ca771082baf8b69938267c007f25af0d8c3e1670"
 
 [[files]]
 path = "kubejs/config/client.properties"
