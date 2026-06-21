@@ -17,10 +17,6 @@ path = "kubejs/client_scripts/example.js"
 hash = "152019ed6e0410a82805a95ea10f1ad1a17beaf2b50864d89b8fa9d172129ac7"
 
 [[files]]
-path = "kubejs/client_scripts/exit_on_disconnect.js"
-hash = "8d4b1546317db28deebd621690fc97021e890a616e1544af601d525bdbaea4f8"
-
-[[files]]
 path = "kubejs/config/client.properties"
 hash = "1d1bdbba1a5905eed82fd4f005e4c5dbb5e6d34382e5adef233ba087be84cc4c"
 
@@ -39,6 +35,10 @@ hash = "0aeb485e6df18e70ee13fee42c2df3a89b493e0e1f6decc1c54269229c4fb41c"
 [[files]]
 path = "kubejs/startup_scripts/example.js"
 hash = "395c96d3ddd178821db851f387e91560e606ea752177f66d2016f12bd0542b8f"
+
+[[files]]
+path = "kubejs/startup_scripts/exit_on_disconnect.js"
+hash = "93ace72172055d4fba79048e8a3c64d48351193163f89f4be94983533d26d2fa"
 
 [[files]]
 path = "kubejs/startup_scripts/register_stats.js"

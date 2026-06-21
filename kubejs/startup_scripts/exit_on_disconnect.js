@@ -1,17 +1,17 @@
-// KubeJS Client Script - exit_on_disconnect.js
-// Exits Minecraft when disconnected or if connection fails, preventing access to the vanilla menus.
+// KubeJS Startup Script - exit_on_disconnect.js
+// Handles screen redirects, locks down the server selection screen, and customizes buttons.
 
 let joinedOnce = false;
 
-// Track when player successfully joins a world/server
-ClientEvents.loggedIn(event => {
+// Listen to client login using Forge event
+ForgeEvents.onEvent('net.minecraftforge.client.event.ClientPlayerNetworkEvent$LoggedInEvent', event => {
     joinedOnce = true;
 });
 
 // Reset client server list to official servers
 function resetServerList() {
     try {
-        let mc = Client.minecraft;
+        let mc = net.minecraft.client.Minecraft.getInstance();
         let serverList = new net.minecraft.client.multiplayer.ServerList(mc);
         serverList.load();
         
@@ -60,6 +60,11 @@ ForgeEvents.onEvent('net.minecraftforge.client.event.ScreenEvent$Opening', event
         
         // If TitleScreen or SelectWorldScreen opens, redirect to JoinMultiplayerScreen
         if (name.includes('TitleScreen') || name.includes('SelectWorldScreen')) {
+            let mc = net.minecraft.client.Minecraft.getInstance();
+            if (!joinedOnce && mc.quickPlayStatus && mc.quickPlayStatus.isEnabled()) {
+                // Do not redirect if launching with quick-play and haven't joined yet
+                return;
+            }
             event.setNewScreen(new net.minecraft.client.gui.screens.multiplayer.JoinMultiplayerScreen(new net.minecraft.client.gui.screens.TitleScreen()));
         }
     }
