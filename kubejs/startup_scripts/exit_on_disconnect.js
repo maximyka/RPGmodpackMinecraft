@@ -1,6 +1,17 @@
 // KubeJS Startup Script - exit_on_disconnect.js
 // Handles screen redirects, locks down the server selection screen, and customizes buttons.
 
+const Minecraft = Java.loadClass('net.minecraft.client.Minecraft');
+const ServerList = Java.loadClass('net.minecraft.client.multiplayer.ServerList');
+const ServerData = Java.loadClass('net.minecraft.client.multiplayer.ServerData');
+const ServerAddress = Java.loadClass('net.minecraft.client.multiplayer.resolver.ServerAddress');
+const ConnectScreen = Java.loadClass('net.minecraft.client.gui.screens.ConnectScreen');
+const TitleScreen = Java.loadClass('net.minecraft.client.gui.screens.TitleScreen');
+const JoinMultiplayerScreen = Java.loadClass('net.minecraft.client.gui.screens.multiplayer.JoinMultiplayerScreen');
+const Button = Java.loadClass('net.minecraft.client.gui.components.Button');
+const Component = Java.loadClass('net.minecraft.network.chat.Component');
+const System = Java.loadClass('java.lang.System');
+
 let joinedOnce = false;
 
 // Listen to client login using Forge event
@@ -11,8 +22,8 @@ ForgeEvents.onEvent('net.minecraftforge.client.event.ClientPlayerNetworkEvent$Lo
 // Reset client server list to official servers
 function resetServerList() {
     try {
-        let mc = net.minecraft.client.Minecraft.getInstance();
-        let serverList = new net.minecraft.client.multiplayer.ServerList(mc);
+        let mc = Minecraft.getInstance();
+        let serverList = new ServerList(mc);
         serverList.load();
         
         let size = serverList.size();
@@ -34,12 +45,12 @@ function resetServerList() {
                 serverList.remove(serverList.get(i));
             }
             // Add official servers
-            serverList.add(new net.minecraft.client.multiplayer.ServerData(
+            serverList.add(new ServerData(
                 "Основной", 
                 "ip199-83-103-135.joinserver.xyz:25920", 
                 false
             ));
-            serverList.add(new net.minecraft.client.multiplayer.ServerData(
+            serverList.add(new ServerData(
                 "Альтернативный (обход с прокси)", 
                 "pidorserver.sosal.today", 
                 false
@@ -60,26 +71,26 @@ ForgeEvents.onEvent('net.minecraftforge.client.event.ScreenEvent$Opening', event
         
         // If TitleScreen or SelectWorldScreen opens
         if (name.includes('TitleScreen') || name.includes('SelectWorldScreen')) {
-            let mc = net.minecraft.client.Minecraft.getInstance();
-            let selectedServer = java.lang.System.getProperty("selectedServer");
+            let mc = Minecraft.getInstance();
+            let selectedServer = System.getProperty("selectedServer");
             
             if (name.includes('TitleScreen') && selectedServer && !joinedOnce) {
                 joinedOnce = true;
-                java.lang.System.clearProperty("selectedServer");
+                System.clearProperty("selectedServer");
                 
                 event.setCanceled(true);
                 
-                let selectedServerName = java.lang.System.getProperty("selectedServerName") || "Основной";
+                let selectedServerName = System.getProperty("selectedServerName") || "Основной";
                 mc.tell(() => {
-                    let serverData = new net.minecraft.client.multiplayer.ServerData(
+                    let serverData = new ServerData(
                         selectedServerName,
                         selectedServer,
                         false
                     );
-                    let resolvedAddress = net.minecraft.client.multiplayer.resolver.ServerAddress.parseString(selectedServer);
+                    let resolvedAddress = ServerAddress.parseString(selectedServer);
                     
-                    net.minecraft.client.gui.screens.ConnectScreen.startConnecting(
-                        new net.minecraft.client.gui.screens.TitleScreen(),
+                    ConnectScreen.startConnecting(
+                        new TitleScreen(),
                         mc,
                         resolvedAddress,
                         serverData,
@@ -90,7 +101,7 @@ ForgeEvents.onEvent('net.minecraftforge.client.event.ScreenEvent$Opening', event
             }
             
             // Otherwise, if they just returned to TitleScreen or world select, redirect to locked MultiplayerScreen
-            event.setNewScreen(new net.minecraft.client.gui.screens.multiplayer.JoinMultiplayerScreen(new net.minecraft.client.gui.screens.TitleScreen()));
+            event.setNewScreen(new JoinMultiplayerScreen(new TitleScreen()));
         }
     }
 });
@@ -165,10 +176,10 @@ ForgeEvents.onEvent('net.minecraftforge.client.event.ScreenEvent$Init$Post', eve
 
             // Replace the Cancel/Back button with a dedicated Exit Game button
             if (foundCancel) {
-                let exitButton = net.minecraft.client.gui.components.Button.builder(
-                    net.minecraft.network.chat.Component.literal("Выйти из игры"),
+                let exitButton = Button.builder(
+                    Component.literal("Выйти из игры"),
                     btn => {
-                        java.lang.System.exit(0);
+                        System.exit(0);
                     }
                 ).bounds(cancelX, cancelY, cancelW, cancelH).build();
                 event.addListener(exitButton);
