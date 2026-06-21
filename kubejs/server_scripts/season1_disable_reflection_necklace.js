@@ -1,18 +1,20 @@
 // kubejs/server_scripts/season1_disable_reflection_necklace.js
 //
 // Season I hard blocker for Relics Reflecting Necklace / Отражающее ожерелье.
+// Fixed for Rhino/KubeJS: avoids repeated block-scoped declarations that can trigger
+// "TypeError: redeclaration of var mcPlayer" in some KubeJS 1.20.1 environments.
 
-const SEASON1_DISABLED_RELIC_ID = 'relics:reflection_necklace';
-const SEASON1_CHECK_INTERVAL_TICKS = 20 * 2;
+var SEASON1_DISABLED_RELIC_ID = 'relics:reflection_necklace';
+var SEASON1_CHECK_INTERVAL_TICKS = 20 * 2;
 
-let CuriosApi = null;
-let ItemStack = null;
-let BuiltInRegistries = null;
+var Season1CuriosApi = null;
+var Season1ItemStack = null;
+var Season1BuiltInRegistries = null;
 
 try {
-  CuriosApi = Java.loadClass('top.theillusivec4.curios.api.CuriosApi');
-  ItemStack = Java.loadClass('net.minecraft.world.item.ItemStack');
-  BuiltInRegistries = Java.loadClass('net.minecraft.core.registries.BuiltInRegistries');
+  Season1CuriosApi = Java.loadClass('top.theillusivec4.curios.api.CuriosApi');
+  Season1ItemStack = Java.loadClass('net.minecraft.world.item.ItemStack');
+  Season1BuiltInRegistries = Java.loadClass('net.minecraft.core.registries.BuiltInRegistries');
   console.info('[Season I] Curios API loaded for reflection necklace blocker.');
 } catch (error) {
   console.error('[Season I] Curios API was not loaded. Reflection necklace removal from Curios may not work.');
@@ -34,14 +36,14 @@ function season1GetMcPlayer(player) {
 function season1JavaStackItemId(stack) {
   try {
     if (!stack || stack.isEmpty()) return null;
-    return String(BuiltInRegistries.ITEM.getKey(stack.getItem()));
+    return String(Season1BuiltInRegistries.ITEM.getKey(stack.getItem()));
   } catch (ignored) {}
 
   return null;
 }
 
 function season1ClearReflectionNecklaceFromInventory(player) {
-  let removed = 0;
+  var removed = 0;
 
   try {
     removed += player.inventory.clear(SEASON1_DISABLED_RELIC_ID);
@@ -54,45 +56,45 @@ function season1ClearReflectionNecklaceFromInventory(player) {
 }
 
 function season1ClearReflectionNecklaceFromCurios(player) {
-  if (!CuriosApi || !ItemStack || !BuiltInRegistries) {
+  if (!Season1CuriosApi || !Season1ItemStack || !Season1BuiltInRegistries) {
     return 0;
   }
 
-  let removed = 0;
+  var removed = 0;
 
   try {
-    const mcPlayer = season1GetMcPlayer(player);
-    const optionalInventory = CuriosApi.getCuriosInventory(mcPlayer);
+    var season1TargetPlayer = season1GetMcPlayer(player);
+    var optionalInventory = Season1CuriosApi.getCuriosInventory(season1TargetPlayer);
 
     if (!optionalInventory || !optionalInventory.isPresent()) {
       return 0;
     }
 
-    const curiosInventory = optionalInventory.orElse(null);
+    var curiosInventory = optionalInventory.orElse(null);
     if (!curiosInventory) {
       return 0;
     }
 
-    const curiosMap = curiosInventory.getCurios();
-    const iterator = curiosMap.entrySet().iterator();
+    var curiosMap = curiosInventory.getCurios();
+    var iterator = curiosMap.entrySet().iterator();
 
     while (iterator.hasNext()) {
-      const entry = iterator.next();
-      const handler = entry.getValue();
+      var entry = iterator.next();
+      var handler = entry.getValue();
 
       if (!handler) continue;
 
-      const stacks = handler.getStacks();
+      var stacks = handler.getStacks();
       if (!stacks) continue;
 
-      const slots = stacks.getSlots();
+      var slots = stacks.getSlots();
 
-      for (let slot = 0; slot < slots; slot++) {
-        const stack = stacks.getStackInSlot(slot);
-        const id = season1JavaStackItemId(stack);
+      for (var slot = 0; slot < slots; slot++) {
+        var stack = stacks.getStackInSlot(slot);
+        var id = season1JavaStackItemId(stack);
 
         if (id === SEASON1_DISABLED_RELIC_ID) {
-          stacks.setStackInSlot(slot, ItemStack.EMPTY);
+          stacks.setStackInSlot(slot, Season1ItemStack.EMPTY);
           removed++;
         }
       }
@@ -106,31 +108,31 @@ function season1ClearReflectionNecklaceFromCurios(player) {
 }
 
 function season1BlockReflectionNecklace(player, reason) {
-  let removed = 0;
+  var removed = 0;
 
   removed += season1ClearReflectionNecklaceFromInventory(player);
   removed += season1ClearReflectionNecklaceFromCurios(player);
 
   if (removed > 0) {
     player.tell('§c[Season I] Отражающее ожерелье временно отключено: предмет ломает баланс боссов.');
-    console.info(`[Season I] Removed ${SEASON1_DISABLED_RELIC_ID} from ${player.username}. count=${removed}, reason=${reason}`);
+    console.info('[Season I] Removed ' + SEASON1_DISABLED_RELIC_ID + ' from ' + player.username + '. count=' + removed + ', reason=' + reason);
   }
 
   return removed;
 }
 
-ItemEvents.rightClicked(SEASON1_DISABLED_RELIC_ID, event => {
+ItemEvents.rightClicked(SEASON1_DISABLED_RELIC_ID, function(event) {
   event.cancel();
   event.player.tell('§c[Season I] Отражающее ожерелье временно запрещено.');
   season1BlockReflectionNecklace(event.player, 'right_click');
 });
 
-PlayerEvents.loggedIn(event => {
+PlayerEvents.loggedIn(function(event) {
   season1BlockReflectionNecklace(event.player, 'login');
 });
 
-PlayerEvents.inventoryChanged(event => {
-  const item = event.item;
+PlayerEvents.inventoryChanged(function(event) {
+  var item = event.item;
 
   if (!item || item.empty) return;
 
@@ -139,14 +141,14 @@ PlayerEvents.inventoryChanged(event => {
   }
 });
 
-ServerEvents.tick(event => {
-  const server = event.server;
+ServerEvents.tick(function(event) {
+  var server = event.server;
 
   if (server.tickCount % SEASON1_CHECK_INTERVAL_TICKS !== 0) {
     return;
   }
 
-  server.players.forEach(player => {
+  server.players.forEach(function(player) {
     season1BlockReflectionNecklace(player, 'periodic_scan');
   });
 });
