@@ -180,21 +180,6 @@ ForgeEvents.onEvent('net.minecraftforge.client.event.ScreenEvent$Init$Post', eve
                 console.error("RPG Modpack: Reflection failed to disable LAN scanning: " + e);
             }
 
-            // Fallback: search and interrupt the LanServerDetector thread directly in the JVM
-            try {
-                let ThreadClass = Java.loadClass('java.lang.Thread');
-                let threads = ThreadClass.getAllStackTraces().keySet();
-                let iterator = threads.iterator();
-                while (iterator.hasNext()) {
-                    let thread = iterator.next();
-                    if (thread.getName().startsWith("LanServerDetector #")) {
-                        thread.interrupt();
-                    }
-                }
-            } catch (e) {
-                console.error("RPG Modpack: Failed to stop LAN thread via JVM search: " + e);
-            }
-
             let listeners = event.getListenersList();
             let buttonsToRemove = [];
             let refreshButton = null;
