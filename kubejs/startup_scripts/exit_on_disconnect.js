@@ -13,6 +13,7 @@ const Component = Java.loadClass('net.minecraft.network.chat.Component');
 
 let joinedOnce = false;
 let serverSelectionListField = null;
+let printedDebug = false;
 
 // Listen to client login using Forge event
 ForgeEvents.onEvent('net.minecraftforge.client.event.ClientPlayerNetworkEvent$LoggingIn', event => {
@@ -262,32 +263,38 @@ ForgeEvents.onEvent('net.minecraftforge.client.event.ScreenEvent$Init$Post', eve
     }
 });
 
-// Remove LAN scanning entry dynamically on every frame to ensure it is hidden
 ForgeEvents.onEvent('net.minecraftforge.client.event.ScreenEvent$Render$Pre', event => {
     let screen = event.getScreen();
     if (screen) {
         let name = screen.getClass().getName();
         if (name.includes('JoinMultiplayerScreen')) {
-            console.log("[RPG Modpack] Render$Pre running. Field cached: " + (serverSelectionListField != null));
             if (serverSelectionListField) {
                 try {
                     let serverSelectionList = serverSelectionListField.get(screen);
-                if (serverSelectionList) {
-                    let children = serverSelectionList.children();
-                    for (let j = 0; j < children.size(); j++) {
-                        let entry = children.get(j);
-                        let entryClass = entry.getClass().getName();
-                        if (entryClass.indexOf("LanScanEntry") !== -1 || entryClass.indexOf("ScanningEntry") !== -1) {
-                            serverSelectionList.removeEntry(entry);
-                            console.log("[RPG Modpack] Removed LAN scanning entry during render: " + entryClass);
+                    if (serverSelectionList) {
+                        let children = serverSelectionList.children();
+                        if (children.size() > 0 && !printedDebug) {
+                            printedDebug = true;
+                            console.log("[RPG Modpack] Render$Pre children count: " + children.size());
+                            for (let j = 0; j < children.size(); j++) {
+                                let entry = children.get(j);
+                                console.log("[RPG Modpack]   Entry " + j + ": " + entry.getClass().getName());
+                            }
+                        }
+                        for (let j = 0; j < children.size(); j++) {
+                            let entry = children.get(j);
+                            let entryClass = entry.getClass().getName();
+                            if (entryClass.indexOf("LanScanEntry") !== -1 || entryClass.indexOf("ScanningEntry") !== -1) {
+                                serverSelectionList.removeEntry(entry);
+                                console.log("[RPG Modpack] Removed LAN scanning entry during render: " + entryClass);
+                            }
                         }
                     }
+                } catch (e) {
+                    // Ignore reflection errors to prevent spamming the logs
                 }
-            } catch (e) {
-                // Ignore reflection errors to prevent spamming the logs
             }
         }
     }
-}
 });
 
