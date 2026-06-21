@@ -175,6 +175,7 @@ ForgeEvents.onEvent('net.minecraftforge.client.event.ScreenEvent$Init$Post', eve
                         if (typeName.indexOf("ServerSelectionList") !== -1) {
                             f.setAccessible(true);
                             serverSelectionListField = f;
+                            console.log("[RPG Modpack] Found ServerSelectionList field: " + f.getName() + " (Type: " + typeName + ")");
                             let serverSelectionList = f.get(screen);
                             if (serverSelectionList) {
                                 try {
@@ -266,9 +267,11 @@ ForgeEvents.onEvent('net.minecraftforge.client.event.ScreenEvent$Render$Pre', ev
     let screen = event.getScreen();
     if (screen) {
         let name = screen.getClass().getName();
-        if (name.includes('JoinMultiplayerScreen') && serverSelectionListField) {
-            try {
-                let serverSelectionList = serverSelectionListField.get(screen);
+        if (name.includes('JoinMultiplayerScreen')) {
+            console.log("[RPG Modpack] Render$Pre running. Field cached: " + (serverSelectionListField != null));
+            if (serverSelectionListField) {
+                try {
+                    let serverSelectionList = serverSelectionListField.get(screen);
                 if (serverSelectionList) {
                     let children = serverSelectionList.children();
                     for (let j = 0; j < children.size(); j++) {
