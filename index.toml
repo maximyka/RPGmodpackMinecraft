@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 path = "kubejs/README.txt"
-hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
+hash = "050df4dac58ebda30a898e6c65e91cc4f4e15bcd7c2a19b58ab1c05082e36556"
 
 [[files]]
 path = "kubejs/assets/kubejs/textures/block/example_block.png"
@@ -14,7 +14,7 @@ hash = "45a5f56eba6066ad05c70988a32b72c50cfeb6e35857739bd582007011ea002b"
 
 [[files]]
 path = "kubejs/client_scripts/example.js"
-hash = "152019ed6e0410a82805a95ea10f1ad1a17beaf2b50864d89b8fa9d172129ac7"
+hash = "c7dca50ca8a08c8ff35fc52c133cdf3563f9faa283db67dfaf17e7569929060f"
 
 [[files]]
 path = "kubejs/config/client.properties"
@@ -50,11 +50,11 @@ hash = "0aeb485e6df18e70ee13fee42c2df3a89b493e0e1f6decc1c54269229c4fb41c"
 
 [[files]]
 path = "kubejs/startup_scripts/example.js"
-hash = "395c96d3ddd178821db851f387e91560e606ea752177f66d2016f12bd0542b8f"
+hash = "02d48ff6f28d5a657b8aaf07436957850788d89cd71cee9d90170b1d42b896a1"
 
 [[files]]
 path = "kubejs/startup_scripts/exit_on_disconnect.js"
-hash = "4e247fcc4a103dbf43de8d00e38a43b550390ddf71eefccb5d50e9f4b6c4b1b8"
+hash = "dd0cc95aa3452822594d28943ba4b5edaaa3c0a017f52d5bb7426105c5641600"
 
 [[files]]
 path = "kubejs/startup_scripts/register_stats.js"
@@ -62,7 +62,7 @@ hash = "8b1bd941f5704095232873049d4a36370d1c9dccb436a07c2620b9ca1731da54"
 
 [[files]]
 path = "kubejs/startup_scripts/season1_to_wandering_trader_filter.js"
-hash = "537a24a80267cb109e20ddfeebe9dc47256fc237cf4618c0dbe3407d66858cfe"
+hash = "de5db6d4f5155cb640024515ad3a49607747e5be3a7d2f0b2f39bd64533cb52d"
 
 [[files]]
 path = "kubejs/startup_scripts/season1_tyros_item_attribute_patch.js"
