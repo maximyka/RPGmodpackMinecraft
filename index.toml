@@ -25,6 +25,10 @@ path = "kubejs/config/common.properties"
 hash = "8e4db9d5e87822d37d0b50d7b95483dba730c6c4b6b89b8ddf8302f3a9897694"
 
 [[files]]
+path = "kubejs/server_scripts/dev_creative.js"
+hash = "9eb1f692699e766cc2dcc1b4dbf41886e2157417226612701f9d9dccbfd9db60"
+
+[[files]]
 path = "kubejs/server_scripts/season1_boss_advancements.js"
 hash = "3e0a24bdae49b03e2fd2409578ec5450584ef1e6144c27445235a0204cc1ad44"
 
@@ -54,7 +58,7 @@ hash = "395c96d3ddd178821db851f387e91560e606ea752177f66d2016f12bd0542b8f"
 
 [[files]]
 path = "kubejs/startup_scripts/exit_on_disconnect.js"
-hash = "90665b2cf22aebc1fd76baecae7a81411201c065356ca9042eeafd6f35bf4510"
+hash = "ea23dcc1343d4e75a8faa0aaf748ef009e2355c93b64828e34ea46fcee54ccbc"
 
 [[files]]
 path = "kubejs/startup_scripts/register_stats.js"

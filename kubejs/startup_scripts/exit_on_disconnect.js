@@ -1,8 +1,13 @@
 // KubeJS Startup Script - exit_on_disconnect.js
 // Handles screen redirects, locks down the server selection screen, and customizes buttons.
 
-const System = Java.loadClass('java.lang.System');
-const isDevMode = System.getProperty('devMode') === 'true';
+let devModeJson = null;
+try {
+    devModeJson = JsonIO.read('local/dev_mode.json');
+} catch (e) {
+    // File doesn't exist or not readable
+}
+const isDevMode = devModeJson && devModeJson.devMode === true;
 
 if (isDevMode) {
     console.log("RPG Modpack: Running in Developer Mode. Bypassing lockdowns and redirects.");
