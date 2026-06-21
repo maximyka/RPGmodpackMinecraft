@@ -13,7 +13,7 @@ if (isDevMode) {
     console.log("RPG Modpack: Running in Developer Mode. Bypassing lockdowns and redirects.");
 } else {
 
-const Minecraft = Java.loadClass('net.minecraft.client.Minecraft');
+const ClientMinecraft = Java.loadClass('net.minecraft.client.Minecraft');
 const ServerList = Java.loadClass('net.minecraft.client.multiplayer.ServerList');
 const ServerData = Java.loadClass('net.minecraft.client.multiplayer.ServerData');
 const ServerAddress = Java.loadClass('net.minecraft.client.multiplayer.resolver.ServerAddress');
@@ -35,7 +35,7 @@ ForgeEvents.onEvent('net.minecraftforge.client.event.ClientPlayerNetworkEvent$Lo
 // Reset client server list to official servers (non-destructively)
 function resetServerList() {
     try {
-        let mc = Minecraft.getInstance();
+        let mc = ClientMinecraft.getInstance();
         let serverList = new ServerList(mc);
         serverList.load();
         
@@ -93,7 +93,7 @@ ForgeEvents.onEvent('net.minecraftforge.client.event.ScreenEvent$Opening', event
         
         // If TitleScreen or SelectWorldScreen opens
         if (name.includes('TitleScreen') || name.includes('SelectWorldScreen')) {
-            let mc = Minecraft.getInstance();
+            let mc = ClientMinecraft.getInstance();
             
             // Read selected server IP from local JSON file (bypass java.lang.System restrictions)
             let serverJson = null;
@@ -265,7 +265,7 @@ ForgeEvents.onEvent('net.minecraftforge.client.event.ScreenEvent$Init$Post', eve
             let exitButton = Button.builder(
                 Component.literal("Выйти из игры"),
                 btn => {
-                    Minecraft.getInstance().stop();
+                    ClientMinecraft.getInstance().stop();
                 }
             ).bounds(startX + 130, cancelY, 160, 20).build();
             event.addListener(exitButton);
