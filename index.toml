@@ -66,7 +66,7 @@ hash = "de5db6d4f5155cb640024515ad3a49607747e5be3a7d2f0b2f39bd64533cb52d"
 
 [[files]]
 path = "kubejs/startup_scripts/season1_tyros_item_attribute_patch.js"
-hash = "14c90401f57f41558e0c90f969cc417be4aafda49ebd2d3e6cac48f0cc31ad80"
+hash = "6c217b0245c46a02f4b699a18d285973cc7fb487c16d9286c637c1cae4da1c1d"
 
 [[files]]
 path = "mods/AI-Improvements-1.20-0.5.2.jar"
