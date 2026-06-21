@@ -533,6 +533,10 @@ path = "mods/modernfix-forge-5.27.49-mc1.20.1.jar"
 hash = "80c65c57c6d969c71df533c63d78778bee4945ce45f080db8a2d93ff0074cacb"
 
 [[files]]
+path = "mods/moonlight-1.20-2.16.34-forge.jar"
+hash = "007c05ae799417ca7aa26669c5d97be9dface5b6fc27aca4ca8031cafe4ddd6e"
+
+[[files]]
 path = "mods/multipiston-1.20-0.0.47-snapshot.jar"
 hash = "ea41ccf857b3dd9cb7b1128f982fa138f1a62fdb6a4995adbd99eff963d71721"
 
