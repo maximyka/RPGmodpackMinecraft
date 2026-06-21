@@ -151,8 +151,6 @@ ForgeEvents.onEvent('net.minecraftforge.client.event.ScreenEvent$Init$Post', eve
         
         // 2. Lock down JoinMultiplayerScreen buttons and layout customization
         if (name.includes('JoinMultiplayerScreen')) {
-            let debugMsgs = [];
-            
             // Stop LAN server scanning thread to remove scanning text and ignore LAN servers
             try {
                 let clazz = screen.getClass();
@@ -166,48 +164,41 @@ ForgeEvents.onEvent('net.minecraftforge.client.event.ScreenEvent$Init$Post', eve
                             foundThread = true;
                             f.setAccessible(true);
                             let thread = f.get(screen);
-                            debugMsgs.push("Found thread field: " + f.getName() + " (Type: " + f.getType().getName() + ") = " + thread);
+                            console.log("[RPG Modpack] Found thread field: " + f.getName() + " (Type: " + f.getType().getName() + ") = " + thread);
                             if (thread) {
                                 thread.interrupt();
-                                debugMsgs.push("Interrupted thread: " + thread.getName());
+                                console.log("[RPG Modpack] Interrupted thread: " + thread.getName());
                             }
                             f.set(screen, null);
-                            debugMsgs.push("Set thread field to null.");
+                            console.log("[RPG Modpack] Set thread field to null.");
                         }
                     }
                     clazz = clazz.getSuperclass();
                 }
                 if (!foundThread) {
-                    debugMsgs.push("No thread field found in screen class hierarchy.");
+                    console.log("[RPG Modpack] No thread field found in screen class hierarchy.");
                 }
             } catch (e) {
                 console.error("RPG Modpack: Reflection failed to disable LAN scanning: " + e);
-                debugMsgs.push("Reflection error: " + e);
             }
 
-            // Diagnostics to log screen fields for verification
+            // Diagnostics to log screen fields in startup.log
             try {
-                let FileWriter = Java.loadClass('ja' + 'va.io.FileWriter');
-                let fw = new FileWriter('rpg_debug.log', true);
-                fw.write("--- Screen: " + name + " ---\n");
-                for (let m = 0; m < debugMsgs.length; m++) {
-                    fw.write("[Debug] " + debugMsgs[m] + "\n");
-                }
+                console.log("[RPG Modpack] --- Screen: " + name + " ---");
                 let clazz = screen.getClass();
                 while (clazz != null) {
-                    fw.write("Class: " + clazz.getName() + "\n");
+                    console.log("[RPG Modpack] Class: " + clazz.getName());
                     let fields = clazz.getDeclaredFields();
                     for (let i = 0; i < fields.length; i++) {
                         let f = fields[i];
                         f.setAccessible(true);
-                        fw.write("  Field: " + f.getName() + " (Type: " + f.getType().getName() + ") = " + f.get(screen) + "\n");
+                        console.log("[RPG Modpack]   Field: " + f.getName() + " (Type: " + f.getType().getName() + ") = " + f.get(screen));
                     }
                     clazz = clazz.getSuperclass();
                 }
-                fw.write("---------------------\n");
-                fw.close();
+                console.log("[RPG Modpack] ---------------------");
             } catch (e) {
-                console.error("Failed to write rpg_debug.log: " + e);
+                console.error("[RPG Modpack] Diagnostics failed: " + e);
             }
 
             let listeners = event.getListenersList();
