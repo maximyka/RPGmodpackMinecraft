@@ -1,6 +1,13 @@
 // KubeJS Startup Script - exit_on_disconnect.js
 // Handles screen redirects, locks down the server selection screen, and customizes buttons.
 
+const System = Java.loadClass('java.lang.System');
+const isDevMode = System.getProperty('devMode') === 'true';
+
+if (isDevMode) {
+    console.log("RPG Modpack: Running in Developer Mode. Bypassing lockdowns and redirects.");
+} else {
+
 const Minecraft = Java.loadClass('net.minecraft.client.Minecraft');
 const ServerList = Java.loadClass('net.minecraft.client.multiplayer.ServerList');
 const ServerData = Java.loadClass('net.minecraft.client.multiplayer.ServerData');
@@ -287,4 +294,7 @@ ForgeEvents.onEvent('net.minecraftforge.client.event.ScreenEvent$Render$Pre', ev
         }
     }
 });
+
+}
+
 
