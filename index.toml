@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 path = "kubejs/README.txt"
-hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
+hash = "050df4dac58ebda30a898e6c65e91cc4f4e15bcd7c2a19b58ab1c05082e36556"
 
 [[files]]
 path = "kubejs/assets/kubejs/textures/block/example_block.png"
@@ -14,7 +14,7 @@ hash = "45a5f56eba6066ad05c70988a32b72c50cfeb6e35857739bd582007011ea002b"
 
 [[files]]
 path = "kubejs/client_scripts/example.js"
-hash = "152019ed6e0410a82805a95ea10f1ad1a17beaf2b50864d89b8fa9d172129ac7"
+hash = "c7dca50ca8a08c8ff35fc52c133cdf3563f9faa283db67dfaf17e7569929060f"
 
 [[files]]
 path = "kubejs/config/client.properties"
@@ -25,8 +25,12 @@ path = "kubejs/config/common.properties"
 hash = "8e4db9d5e87822d37d0b50d7b95483dba730c6c4b6b89b8ddf8302f3a9897694"
 
 [[files]]
+path = "kubejs/server_scripts/season1_boss_advancements.js"
+hash = "3e0a24bdae49b03e2fd2409578ec5450584ef1e6144c27445235a0204cc1ad44"
+
+[[files]]
 path = "kubejs/server_scripts/season1_disable_reflection_necklace.js"
-hash = "1d7b5d6982d0c4045a5f6c65ef0e1491863222b3bdc66fd18735ecbc602a7d02"
+hash = "4fac151abd1937cc026ae53f926668fca43e10a9de2c858d10a2813a239e3c29"
 
 [[files]]
 path = "kubejs/server_scripts/season1_item_cleanup.js"
@@ -34,7 +38,11 @@ hash = "ef16f827f610bf7b288e0d720b0af73c7c3a140a4d09e07c92cbe7a94c0d0d2c"
 
 [[files]]
 path = "kubejs/server_scripts/season1_repeatable_tyros_vault.js"
-hash = "125e605fadd58fc706d094ae33ab9cebbbffd8193d4bd247467f400377205ef8"
+hash = "35d18f64b59e6d38123b2f836691a3a6eedbcbd062b49df674fcbcff52f1dc94"
+
+[[files]]
+path = "kubejs/server_scripts/season1_weapon_recipe_patch.js"
+hash = "f125272cd4917a96707e1b4a3f80e3691938bbb78df227b765032e16633de24d"
 
 [[files]]
 path = "kubejs/server_scripts/sync_stats.js"
@@ -42,11 +50,11 @@ hash = "0aeb485e6df18e70ee13fee42c2df3a89b493e0e1f6decc1c54269229c4fb41c"
 
 [[files]]
 path = "kubejs/startup_scripts/example.js"
-hash = "395c96d3ddd178821db851f387e91560e606ea752177f66d2016f12bd0542b8f"
+hash = "02d48ff6f28d5a657b8aaf07436957850788d89cd71cee9d90170b1d42b896a1"
 
 [[files]]
 path = "kubejs/startup_scripts/exit_on_disconnect.js"
-hash = "4e247fcc4a103dbf43de8d00e38a43b550390ddf71eefccb5d50e9f4b6c4b1b8"
+hash = "dd0cc95aa3452822594d28943ba4b5edaaa3c0a017f52d5bb7426105c5641600"
 
 [[files]]
 path = "kubejs/startup_scripts/register_stats.js"
@@ -54,11 +62,11 @@ hash = "8b1bd941f5704095232873049d4a36370d1c9dccb436a07c2620b9ca1731da54"
 
 [[files]]
 path = "kubejs/startup_scripts/season1_to_wandering_trader_filter.js"
-hash = "537a24a80267cb109e20ddfeebe9dc47256fc237cf4618c0dbe3407d66858cfe"
+hash = "de5db6d4f5155cb640024515ad3a49607747e5be3a7d2f0b2f39bd64533cb52d"
 
 [[files]]
 path = "kubejs/startup_scripts/season1_tyros_item_attribute_patch.js"
-hash = "266db414829efe9e32632223b865c9584e190159d88277eb441c2b5d31641edd"
+hash = "14c90401f57f41558e0c90f969cc417be4aafda49ebd2d3e6cac48f0cc31ad80"
 
 [[files]]
 path = "mods/AI-Improvements-1.20-0.5.2.jar"
@@ -357,6 +365,10 @@ path = "mods/drinkbeer-refill-1.20.1-1.0.5.jar"
 hash = "9daf9a45b30dca5a8bb09f975d73638304dd61b81b49c8f31dd3d7c138826c5d"
 
 [[files]]
+path = "mods/dummmmmmy-1.20-2.0.12-forge.jar"
+hash = "bd7f168ec56f14a25d36d9d0dc4d281e88f77b1ba678907b5c570e5c051a5ca4"
+
+[[files]]
 path = "mods/embeddium-0.3.31-mc1.20.1.jar"
 hash = "eed3d1325f2acc2fd4e69bb495e5ccb91d962126ac5330f0582ebc2a3daf47fb"
 
@@ -577,12 +589,8 @@ path = "mods/ritchiesprojectilelib-2.1.1-mc.1.20.1-forge.jar"
 hash = "5531ec454792f98993fa29d55f8810444ba3e9ef8f04331c5811b84ec8d0c3dc"
 
 [[files]]
-path = "mods/season1-rpg-content-1.0.6-tyros-sergey-kostyshin.jar"
-hash = "ce3921d4b15ff9d753ac431d11b2848b7f45aaa4266f2d2b038e9853a94dcb32"
-
-[[files]]
-path = "mods/season1-rpg-content-1.0.8-vault-fix-gems-only.jar"
-hash = "551fe6a93b46890c426d2e7ad45b8abbd1cebe291486296727b923cb341afc94"
+path = "mods/season1-rpg-content-1.1.jar"
+hash = "e07fee8e4245829bb98e520279c8bdd4e2b44aea55270c267473767c371d7b89"
 
 [[files]]
 path = "mods/sophisticatedbackpacks-1.20.1-3.24.52.1869.jar"
