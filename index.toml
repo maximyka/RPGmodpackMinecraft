@@ -25,6 +25,10 @@ path = "kubejs/config/common.properties"
 hash = "8e4db9d5e87822d37d0b50d7b95483dba730c6c4b6b89b8ddf8302f3a9897694"
 
 [[files]]
+path = "kubejs/server_scripts/season1_disable_reflection_necklace.js"
+hash = "1d7b5d6982d0c4045a5f6c65ef0e1491863222b3bdc66fd18735ecbc602a7d02"
+
+[[files]]
 path = "kubejs/server_scripts/season1_item_cleanup.js"
 hash = "ef16f827f610bf7b288e0d720b0af73c7c3a140a4d09e07c92cbe7a94c0d0d2c"
 
