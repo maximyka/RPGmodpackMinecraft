@@ -151,54 +151,50 @@ ForgeEvents.onEvent('net.minecraftforge.client.event.ScreenEvent$Init$Post', eve
         
         // 2. Lock down JoinMultiplayerScreen buttons and layout customization
         if (name.includes('JoinMultiplayerScreen')) {
-            // Stop LAN server scanning thread to remove scanning text and ignore LAN servers
             try {
                 let clazz = screen.getClass();
-                let foundThread = false;
                 while (clazz != null) {
                     let fields = clazz.getDeclaredFields();
                     for (let i = 0; i < fields.length; i++) {
                         let f = fields[i];
-                        let typeName = f.getType().getName().toLowerCase();
-                        if (typeName.indexOf("thread") !== -1) {
-                            foundThread = true;
+                        let typeName = f.getType().getName();
+                        let typeNameLower = typeName.toLowerCase();
+                        
+                        // Handle LAN scanning thread
+                        if (typeNameLower.indexOf("lanserverdetector") !== -1 || typeNameLower.indexOf("thread") !== -1) {
                             f.setAccessible(true);
                             let thread = f.get(screen);
-                            console.log("[RPG Modpack] Found thread field: " + f.getName() + " (Type: " + f.getType().getName() + ") = " + thread);
                             if (thread) {
                                 thread.interrupt();
-                                console.log("[RPG Modpack] Interrupted thread: " + thread.getName());
+                                console.log("[RPG Modpack] Interrupted LAN scanning thread: " + f.getName());
                             }
-                            f.set(screen, null);
-                            console.log("[RPG Modpack] Set thread field to null.");
+                        }
+                        
+                        // Handle ServerSelectionList to remove LAN scanning entry
+                        if (typeName.indexOf("ServerSelectionList") !== -1) {
+                            f.setAccessible(true);
+                            let serverSelectionList = f.get(screen);
+                            if (serverSelectionList) {
+                                try {
+                                    let children = serverSelectionList.children();
+                                    for (let j = 0; j < children.size(); j++) {
+                                        let entry = children.get(j);
+                                        let entryClass = entry.getClass().getName();
+                                        if (entryClass.indexOf("LanScanEntry") !== -1 || entryClass.indexOf("ScanningEntry") !== -1) {
+                                            serverSelectionList.removeEntry(entry);
+                                            console.log("[RPG Modpack] Successfully removed LAN scanning entry: " + entryClass);
+                                        }
+                                    }
+                                } catch (innerErr) {
+                                    console.error("[RPG Modpack] Failed to remove LAN scan entry: " + innerErr);
+                                }
+                            }
                         }
                     }
                     clazz = clazz.getSuperclass();
                 }
-                if (!foundThread) {
-                    console.log("[RPG Modpack] No thread field found in screen class hierarchy.");
-                }
             } catch (e) {
                 console.error("RPG Modpack: Reflection failed to disable LAN scanning: " + e);
-            }
-
-            // Diagnostics to log screen fields in startup.log
-            try {
-                console.log("[RPG Modpack] --- Screen: " + name + " ---");
-                let clazz = screen.getClass();
-                while (clazz != null) {
-                    console.log("[RPG Modpack] Class: " + clazz.getName());
-                    let fields = clazz.getDeclaredFields();
-                    for (let i = 0; i < fields.length; i++) {
-                        let f = fields[i];
-                        f.setAccessible(true);
-                        console.log("[RPG Modpack]   Field: " + f.getName() + " (Type: " + f.getType().getName() + ") = " + f.get(screen));
-                    }
-                    clazz = clazz.getSuperclass();
-                }
-                console.log("[RPG Modpack] ---------------------");
-            } catch (e) {
-                console.error("[RPG Modpack] Diagnostics failed: " + e);
             }
 
             let listeners = event.getListenersList();
