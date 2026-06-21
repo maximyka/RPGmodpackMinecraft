@@ -58,13 +58,38 @@ ForgeEvents.onEvent('net.minecraftforge.client.event.ScreenEvent$Opening', event
     if (screen) {
         let name = screen.getClass().getName();
         
-        // If TitleScreen or SelectWorldScreen opens, redirect to JoinMultiplayerScreen
+        // If TitleScreen or SelectWorldScreen opens
         if (name.includes('TitleScreen') || name.includes('SelectWorldScreen')) {
             let mc = net.minecraft.client.Minecraft.getInstance();
-            if (!joinedOnce && mc.quickPlayStatus && mc.quickPlayStatus.isEnabled()) {
-                // Do not redirect if launching with quick-play and haven't joined yet
+            let selectedServer = java.lang.System.getProperty("selectedServer");
+            
+            if (name.includes('TitleScreen') && selectedServer && !joinedOnce) {
+                joinedOnce = true;
+                java.lang.System.clearProperty("selectedServer");
+                
+                event.setCanceled(true);
+                
+                let selectedServerName = java.lang.System.getProperty("selectedServerName") || "Основной";
+                mc.tell(() => {
+                    let serverData = new net.minecraft.client.multiplayer.ServerData(
+                        selectedServerName,
+                        selectedServer,
+                        false
+                    );
+                    let resolvedAddress = net.minecraft.client.multiplayer.resolver.ServerAddress.parseString(selectedServer);
+                    
+                    net.minecraft.client.gui.screens.ConnectScreen.startConnecting(
+                        new net.minecraft.client.gui.screens.TitleScreen(),
+                        mc,
+                        resolvedAddress,
+                        serverData,
+                        false // quickPlay = false (prevents auto exit on disconnect!)
+                    );
+                });
                 return;
             }
+            
+            // Otherwise, if they just returned to TitleScreen or world select, redirect to locked MultiplayerScreen
             event.setNewScreen(new net.minecraft.client.gui.screens.multiplayer.JoinMultiplayerScreen(new net.minecraft.client.gui.screens.TitleScreen()));
         }
     }
