@@ -44,6 +44,14 @@ def main():
                 if file_hash:
                     files_indexed.append((rel_path, file_hash))
                     
+    # Проверяем options.txt в корне
+    options_path = os.path.join(base_dir, "options.txt")
+    if os.path.exists(options_path):
+        print("Индексация options.txt...")
+        options_hash = calculate_sha256(options_path)
+        if options_hash:
+            files_indexed.append(("options.txt", options_hash))
+                    
     # Сортируем для красоты
     files_indexed.sort(key=lambda x: x[0])
     

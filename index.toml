@@ -684,3 +684,7 @@ hash = "107a686c1a1637998c8ce7fa2262bb8c36f24277d6b2cf4b512a0b176ff41e89"
 path = "mods/xaeroworldmap-forge-1.20.1-1.40.16.jar"
 hash = "49fbf2a0c91ca7e161b17f3b1784d4e798d0cd19f361ad3ebf6613e559f6371d"
 
+[[files]]
+path = "options.txt"
+hash = "84eec7bb0c3b3f152944bcf5d2d61fd2686f21d33bebb47274d9b0d878154fb5"
+
