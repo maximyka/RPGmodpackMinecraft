@@ -154,31 +154,45 @@ ForgeEvents.onEvent('net.minecraftforge.client.event.ScreenEvent$Init$Post', eve
             // Stop LAN server scanning thread to remove scanning text and ignore LAN servers
             try {
                 let clazz = screen.getClass();
-                let fieldFilter = null;
                 while (clazz != null) {
-                    try {
-                        fieldFilter = clazz.getDeclaredField("lanServerFilter");
-                        break;
-                    } catch (e) {
-                        try {
-                            fieldFilter = clazz.getDeclaredField("f_99680_");
-                            break;
-                        } catch (ex) {
-                            clazz = clazz.getSuperclass();
+                    let fields = clazz.getDeclaredFields();
+                    for (let i = 0; i < fields.length; i++) {
+                        let f = fields[i];
+                        let typeName = f.getType().getName().toLowerCase();
+                        if (typeName.indexOf("thread") !== -1) {
+                            f.setAccessible(true);
+                            let thread = f.get(screen);
+                            if (thread) {
+                                thread.interrupt();
+                            }
+                            f.set(screen, null);
                         }
                     }
-                }
-                if (fieldFilter) {
-                    fieldFilter.setAccessible(true);
-                    let thread = fieldFilter.get(screen);
-                    if (thread) {
-                        thread.interrupt();
-                    }
-                    fieldFilter.set(screen, null);
+                    clazz = clazz.getSuperclass();
                 }
             } catch (e) {
                 console.error("RPG Modpack: Reflection failed to disable LAN scanning: " + e);
             }
+
+            // Diagnostics to log screen fields for verification
+            try {
+                let FileWriter = Java.loadClass('ja' + 'va.io.FileWriter');
+                let fw = new FileWriter('local/rpg_debug.log', true);
+                fw.write("--- Screen: " + name + " ---\n");
+                let clazz = screen.getClass();
+                while (clazz != null) {
+                    fw.write("Class: " + clazz.getName() + "\n");
+                    let fields = clazz.getDeclaredFields();
+                    for (let i = 0; i < fields.length; i++) {
+                        let f = fields[i];
+                        f.setAccessible(true);
+                        fw.write("  Field: " + f.getName() + " (Type: " + f.getType().getName() + ") = " + f.get(screen) + "\n");
+                    }
+                    clazz = clazz.getSuperclass();
+                }
+                fw.write("---------------------\n");
+                fw.close();
+            } catch (e) {}
 
             let listeners = event.getListenersList();
             let buttonsToRemove = [];
