@@ -25,14 +25,16 @@ path = "kubejs/config/common.properties"
 hash = "8e4db9d5e87822d37d0b50d7b95483dba730c6c4b6b89b8ddf8302f3a9897694"
 
 [[files]]
+path = "kubejs/server_scripts/dev_creative.js"
+hash = "dce8ba0f0a463f61888c20d6c2aa47ef516b8cde0ad8179e6a2da62effd42615"
+
+[[files]]
 path = "kubejs/server_scripts/dev_disabled/season1_dump_attributes.js.disabled"
 hash = "aeb9b71200f8b553f4e512ac5c8e3c20a08289bdc2b518b22919a44bd00f3c20"
 
 [[files]]
 path = "kubejs/server_scripts/example.js"
 hash = "a19b7c81a150bd965b153ded9c45ee7649eaad9e10d0a5ec1d662e7b15ceadb2"
-path = "kubejs/server_scripts/dev_creative.js"
-hash = "9eb1f692699e766cc2dcc1b4dbf41886e2157417226612701f9d9dccbfd9db60"
 
 [[files]]
 path = "kubejs/server_scripts/season1_boss_advancements.js"
@@ -64,11 +66,7 @@ hash = "395c96d3ddd178821db851f387e91560e606ea752177f66d2016f12bd0542b8f"
 
 [[files]]
 path = "kubejs/startup_scripts/exit_on_disconnect.js"
-<<<<<<< HEAD
-hash = "a8cc79ed8968fa796020caf302a49091e4cacf9b9ee2c1af1b56ea542757e332"
-=======
-hash = "b68cbd8501f757546e485e964cb188c6f8fc6f08dc2fc1c2fd0684fd066140e1"
->>>>>>> 2b5fcf740aa612785b5bf49a15c2621bc0431ec0
+hash = "b7e2f9d25a0a0001c557b32e77d90d79b2f5a60ff207558223aff34212b79399"
 
 [[files]]
 path = "kubejs/startup_scripts/register_stats.js"
@@ -611,13 +609,8 @@ path = "mods/ritchiesprojectilelib-2.1.1-mc.1.20.1-forge.jar"
 hash = "5531ec454792f98993fa29d55f8810444ba3e9ef8f04331c5811b84ec8d0c3dc"
 
 [[files]]
-<<<<<<< HEAD
 path = "mods/season1-rpg-content-1.1.2.jar"
-hash = "9440b2e0ce774d13a86776177d5f09c03b54b2bca14cc9e96c743111593d08eb"
-=======
-path = "mods/season1-rpg-content-1.1.1-apotheosis-gem-patch.jar"
-hash = "1cce1ee088364cfc42a9d831679d2d9885037f3d8dafcc8b4c6705d8e87f5d02"
->>>>>>> 2b5fcf740aa612785b5bf49a15c2621bc0431ec0
+hash = "c32d87fc5c29aeb80bb763ff76c1d905a6fda8cbc766a6b69186a3d690daeda2"
 
 [[files]]
 path = "mods/sophisticatedbackpacks-1.20.1-3.24.52.1869.jar"
