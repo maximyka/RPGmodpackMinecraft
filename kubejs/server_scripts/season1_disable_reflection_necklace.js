@@ -75,13 +75,37 @@ function season1ClearReflectionNecklaceFromCurios(player) {
       return 0;
     }
 
-    var curiosMap = curiosInventory.getCurios();
-    var iterator = curiosMap.entrySet().iterator();
+    // Do NOT iterate curiosInventory.getCurios().entrySet() here.
+    // In KubeJS/Rhino on Java 17 this can crash on Collections$UnmodifiableMap$UnmodifiableEntrySet
+    // with IllegalAccessException. Query known slot handlers directly instead.
+    var knownCurioSlots = [
+      'necklace',
+      'curio',
+      'charm',
+      'ring',
+      'belt',
+      'body',
+      'back',
+      'hands',
+      'head',
+      'bracelet'
+    ];
 
-    while (iterator.hasNext()) {
-      var entry = iterator.next();
-      var handler = entry.getValue();
+    for (var slotIndex = 0; slotIndex < knownCurioSlots.length; slotIndex++) {
+      var slotName = knownCurioSlots[slotIndex];
+      var optionalHandler = null;
 
+      try {
+        optionalHandler = curiosInventory.getStacksHandler(slotName);
+      } catch (ignoredSlotLookup) {
+        optionalHandler = null;
+      }
+
+      if (!optionalHandler || !optionalHandler.isPresent()) {
+        continue;
+      }
+
+      var handler = optionalHandler.get();
       if (!handler) continue;
 
       var stacks = handler.getStacks();

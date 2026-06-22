@@ -25,12 +25,20 @@ path = "kubejs/config/common.properties"
 hash = "8e4db9d5e87822d37d0b50d7b95483dba730c6c4b6b89b8ddf8302f3a9897694"
 
 [[files]]
+path = "kubejs/server_scripts/dev_disabled/season1_dump_attributes.js.disabled"
+hash = "aeb9b71200f8b553f4e512ac5c8e3c20a08289bdc2b518b22919a44bd00f3c20"
+
+[[files]]
+path = "kubejs/server_scripts/example.js"
+hash = "a19b7c81a150bd965b153ded9c45ee7649eaad9e10d0a5ec1d662e7b15ceadb2"
+
+[[files]]
 path = "kubejs/server_scripts/season1_boss_advancements.js"
 hash = "3e0a24bdae49b03e2fd2409578ec5450584ef1e6144c27445235a0204cc1ad44"
 
 [[files]]
 path = "kubejs/server_scripts/season1_disable_reflection_necklace.js"
-hash = "4fac151abd1937cc026ae53f926668fca43e10a9de2c858d10a2813a239e3c29"
+hash = "7b1bc045bbd1fa20f8670725a816f55a46b84cc029de36f27b17b0f94e56bfb0"
 
 [[files]]
 path = "kubejs/server_scripts/season1_item_cleanup.js"
@@ -38,15 +46,15 @@ hash = "ef16f827f610bf7b288e0d720b0af73c7c3a140a4d09e07c92cbe7a94c0d0d2c"
 
 [[files]]
 path = "kubejs/server_scripts/season1_repeatable_tyros_vault.js"
-hash = "646fa208ab19bd5b57fd1018d05435115dccd2b80f81317893671d6f5c065f36"
+hash = "35d18f64b59e6d38123b2f836691a3a6eedbcbd062b49df674fcbcff52f1dc94"
 
 [[files]]
 path = "kubejs/server_scripts/season1_weapon_recipe_patch.js"
-hash = "b46aeb9e44557c0cb105f86738996f233a7d993917e34630f0f29fbaa5eb3106"
+hash = "f125272cd4917a96707e1b4a3f80e3691938bbb78df227b765032e16633de24d"
 
 [[files]]
 path = "kubejs/server_scripts/sync_stats.js"
-hash = "0aeb485e6df18e70ee13fee42c2df3a89b493e0e1f6decc1c54269229c4fb41c"
+hash = "8ddc12d1f356625c9659d456e1e557c6fa8dcf49d515efb6b885dd2e8ffec241"
 
 [[files]]
 path = "kubejs/startup_scripts/example.js"
@@ -54,7 +62,7 @@ hash = "395c96d3ddd178821db851f387e91560e606ea752177f66d2016f12bd0542b8f"
 
 [[files]]
 path = "kubejs/startup_scripts/exit_on_disconnect.js"
-hash = "01b955d05e694226be6b864b3bed34f44cf792dfced40e54539937007ec6ecc4"
+hash = "a8cc79ed8968fa796020caf302a49091e4cacf9b9ee2c1af1b56ea542757e332"
 
 [[files]]
 path = "kubejs/startup_scripts/register_stats.js"
@@ -62,11 +70,11 @@ hash = "8b1bd941f5704095232873049d4a36370d1c9dccb436a07c2620b9ca1731da54"
 
 [[files]]
 path = "kubejs/startup_scripts/season1_to_wandering_trader_filter.js"
-hash = "537a24a80267cb109e20ddfeebe9dc47256fc237cf4618c0dbe3407d66858cfe"
+hash = "de5db6d4f5155cb640024515ad3a49607747e5be3a7d2f0b2f39bd64533cb52d"
 
 [[files]]
 path = "kubejs/startup_scripts/season1_tyros_item_attribute_patch.js"
-hash = "bbcc13200cb46710e3df867590fd0ddd7a1dfd109ff956d30823d5c06ada7ce2"
+hash = "6f1ba14ba10c3d3315d1744847b5aa299949798c3cbd93c7b9a464c18ef157ae"
 
 [[files]]
 path = "mods/AI-Improvements-1.20-0.5.2.jar"
@@ -207,6 +215,10 @@ hash = "447dd543e178a9454ccf3bf0d9d7bd7957b1af6da9d74f2cd3d9b5fbe8548e98"
 [[files]]
 path = "mods/PuzzlesLib-v8.1.33-1.20.1-Forge.jar"
 hash = "f3077a9f817629b8e8929c1951042d1a1adc62d30b72adebd54d2b074a4faf4f"
+
+[[files]]
+path = "mods/SAuth-2.0.0.jar"
+hash = "e489e7198b0be37680671aef19bc9848b28c0bf47a31555c13c9c22b95b57315"
 
 [[files]]
 path = "mods/ShoulderSurfing-Forge-1.20.1-4.22.12.jar"
@@ -593,8 +605,8 @@ path = "mods/ritchiesprojectilelib-2.1.1-mc.1.20.1-forge.jar"
 hash = "5531ec454792f98993fa29d55f8810444ba3e9ef8f04331c5811b84ec8d0c3dc"
 
 [[files]]
-path = "mods/season1-rpg-content-1.1.jar"
-hash = "e07fee8e4245829bb98e520279c8bdd4e2b44aea55270c267473767c371d7b89"
+path = "mods/season1-rpg-content-1.1.2.jar"
+hash = "9440b2e0ce774d13a86776177d5f09c03b54b2bca14cc9e96c743111593d08eb"
 
 [[files]]
 path = "mods/sophisticatedbackpacks-1.20.1-3.24.52.1869.jar"
