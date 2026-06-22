@@ -1,6 +1,7 @@
 // Загрузка Java-классов Minecraft для нативной работы со статистиками
 const StatsClass = Java.loadClass('net.minecraft.stats.Stats');
 const ResourceLocationClass = Java.loadClass('net.minecraft.resources.ResourceLocation');
+const IntegerClass = Java.loadClass('java.lang.Integer');
 
 let BuiltInRegistriesClass;
 try {
@@ -13,15 +14,28 @@ try {
     }
 }
 
-// Попытка загрузить Java-класс MagicData из мода
+// Попытка загрузить Java-класс MagicData из мода (проверяем все возможные пакеты)
 let MagicDataClass;
+let LoadedMagicDataClassName = "Не загружен";
 try {
     MagicDataClass = Java.loadClass("io.redspace.ironsspellbooks.api.magic.MagicData");
+    LoadedMagicDataClassName = "io.redspace.ironsspellbooks.api.magic.MagicData";
 } catch (e) {
     try {
-        MagicDataClass = Java.loadClass("io.redspace.irons_spellbooks.api.magic.MagicData");
-    } catch (err) {
-        // Мод не установлен
+        MagicDataClass = Java.loadClass("io.redspace.ironsspellbooks.player.MagicData");
+        LoadedMagicDataClassName = "io.redspace.ironsspellbooks.player.MagicData";
+    } catch (e2) {
+        try {
+            MagicDataClass = Java.loadClass("io.redspace.irons_spellbooks.api.magic.MagicData");
+            LoadedMagicDataClassName = "io.redspace.irons_spellbooks.api.magic.MagicData";
+        } catch (err) {
+            try {
+                MagicDataClass = Java.loadClass("io.redspace.irons_spellbooks.player.MagicData");
+                LoadedMagicDataClassName = "io.redspace.irons_spellbooks.player.MagicData";
+            } catch (err2) {
+                // Мод не установлен
+            }
+        }
     }
 }
 
@@ -42,6 +56,36 @@ function getCustomStat(namespace, path) {
     return null;
 }
 
+// Вспомогательная функция для безопасного преобразования JS чисел в примитивные Java-целые (int)
+function toJavaInt(value) {
+    try {
+        return IntegerClass.parseInt(Math.round(value).toFixed(0));
+    } catch (e) {
+        return 0;
+    }
+}
+
+// Вспомогательная функция для безопасного вызова awardStat через Java-рефлексию (обходит проблему перегрузки метода в Rhino)
+function awardStatReflected(player, stat, amount) {
+    try {
+        let playerClass = player.getClass();
+        let methods = playerClass.getMethods();
+        for (let i = 0; i < methods.length; i++) {
+            let m = methods[i];
+            let params = m.getParameterTypes();
+            if (params.length === 2 && 
+                params[0].getName() === 'net.minecraft.stats.Stat' && 
+                (params[1].getName() === 'int' || params[1].getName() === 'java.lang.Integer')) {
+                m.invoke(player, stat, IntegerClass.valueOf(toJavaInt(amount)));
+                return true;
+            }
+        }
+    } catch (e) {
+        console.error("Ошибка рефлексии при начислении статистики: " + e);
+    }
+    return false;
+}
+
 // Отслеживаем выстрелы TACZ через спавн пуль
 EntityEvents.spawned(event => {
     try {
@@ -52,7 +96,8 @@ EntityEvents.spawned(event => {
                 try {
                     let stat = getCustomStat('kubejs', 'gun_shots');
                     if (stat) {
-                        (shooter.minecraftPlayer || shooter).awardStat(stat, 1);
+                        let rawShooter = shooter.minecraftEntity || shooter;
+                        awardStatReflected(rawShooter, stat, 1);
                     }
                 } catch (statError) {
                     // Пропускаем
@@ -76,6 +121,7 @@ EntityEvents.spawned(event => {
 })
 
 // Потиковый контроль уровня маны
+// Потиковый контроль уровня маны с оптимизированным получением через Java API
 PlayerEvents.tick(event => {
     try {
         let player = event.player;
@@ -86,28 +132,57 @@ PlayerEvents.tick(event => {
         if (player.age % 5 !== 0) return;
         
         let currentMana = 0;
+        let rawPlayer = player.minecraftEntity || player;
         
-        // Метод 1: Пытаемся вытащить ману напрямую из NBT игрока (ForgeCaps)
-        try {
-            let nbt = player.nbt;
-            if (nbt && nbt.ForgeCaps) {
-                let magicDataNBT = nbt.ForgeCaps['irons_spellbooks:magic_data'] || nbt.ForgeCaps['ironsspellbooks:magic_data'];
-                if (magicDataNBT) {
-                    currentMana = magicDataNBT.mana;
-                }
-            }
-        } catch (nbtErr) {
-            // Игнорируем
-        }
-        
-        // Метод 2: Резервный метод через Java-класс MagicData
-        if ((currentMana == null || currentMana <= 0) && MagicDataClass) {
+        // Метод 1: Пытаемся получить ману напрямую через Java API (официальный статический метод getPlayerMagicData)
+        if (MagicDataClass) {
             try {
-                let magicData = MagicDataClass.getPlayerMagicData(player.minecraftPlayer || player);
+                let magicData = MagicDataClass.getPlayerMagicData(rawPlayer);
                 if (magicData) {
                     currentMana = magicData.getMana();
                 }
             } catch (javaErr) {
+                // Игнорируем
+            }
+            
+            // Метод 1б: Резервный вызов через Capability, если статический метод не вернул значение
+            if (currentMana <= 0) {
+                try {
+                    let cap = MagicDataClass.CAPABILITY;
+                    if (cap) {
+                        let lazyOpt = rawPlayer.getCapability(cap, null);
+                        if (lazyOpt && lazyOpt.isPresent()) {
+                            let magicData = lazyOpt.orElse(null);
+                            if (magicData) {
+                                currentMana = magicData.getMana();
+                            }
+                        }
+                    }
+                } catch (capErr) {
+                    // Игнорируем
+                }
+            }
+        }
+        
+        // Метод 2: Резервный метод через NBT (парсим безопасно через API KubeJS, избегая stall-значений)
+        if (currentMana <= 0) {
+            try {
+                let nbt = player.nbt;
+                if (nbt && nbt.contains('ForgeCaps')) {
+                    let forgeCaps = nbt.getCompound('ForgeCaps');
+                    if (forgeCaps) {
+                        let magicDataKey = forgeCaps.contains('irons_spellbooks:magic_data') 
+                            ? 'irons_spellbooks:magic_data' 
+                            : (forgeCaps.contains('ironsspellbooks:magic_data') ? 'ironsspellbooks:magic_data' : null);
+                        if (magicDataKey) {
+                            let magicDataNBT = forgeCaps.getCompound(magicDataKey);
+                            if (magicDataNBT && magicDataNBT.contains('mana')) {
+                                currentMana = magicDataNBT.getFloat('mana');
+                            }
+                        }
+                    }
+                }
+            } catch (nbtErr) {
                 // Игнорируем
             }
         }
@@ -137,24 +212,25 @@ PlayerEvents.tick(event => {
         if (diff > 0 && diff < currentMaxMana) {
             let manaSpentInt = Math.round(diff);
             
-            // 1. Увеличиваем статистику KubeJS (через native Minecraft API)
+            // 1. Увеличиваем кастомную статистику KubeJS (для внутренних механик мода)
             try {
-                let stat = getCustomStat('kubejs', 'mana_spent');
-                if (stat) {
-                    (player.minecraftPlayer || player).awardStat(stat, manaSpentInt);
+                let statKube = getCustomStat('kubejs', 'mana_spent');
+                if (statKube) {
+                    awardStatReflected(rawPlayer, statKube, manaSpentInt);
                 }
             } catch (statError) {
-                // Пропускаем
+                console.error("Ошибка KubeJS Stat: " + statError);
             }
             
-            // 2. Увеличиваем скорборд ManaSpent (для Журнала Искателя)
-            let objective = player.scoreboard.getObjective('ManaSpent');
-            if (objective) {
-                try {
-                    objective.getScore(player).add(manaSpentInt);
-                } catch (scoreErr) {
-                    player.runCommandSilent("scoreboard players add @s ManaSpent " + manaSpentInt);
+            // 2. Увеличиваем ванильную статистику minecraft:inspect_dropper, которая переименована в ресурспаках в "Потрачено маны".
+            // При этом Minecraft автоматически обновит скорборд ManaSpent, так как его критерием является minecraft.custom:minecraft.inspect_dropper.
+            try {
+                let statDropper = getCustomStat('minecraft', 'inspect_dropper');
+                if (statDropper) {
+                    awardStatReflected(rawPlayer, statDropper, manaSpentInt);
                 }
+            } catch (statError) {
+                console.error("Ошибка Vanilla Stat: " + statError);
             }
         }
     } catch (e) {
@@ -185,12 +261,40 @@ ServerEvents.commandRegistry(event => {
             // 2. Проверка Java API
             try {
                 if (MagicDataClass) {
-                    player.tell("2. Java-класс MagicData: §aЗагружен");
-                    let magicData = MagicDataClass.getPlayerMagicData(player.minecraftPlayer || player);
+                    player.tell("2. Java-класс MagicData: §aЗагружен (" + LoadedMagicDataClassName + ")");
+                    
+                    let magicData = null;
+                    let methodUsed = "";
+                    let rawPlayer = player.minecraftEntity || player;
+                    
+                    // Пробуем getPlayerMagicData
+                    try {
+                        magicData = MagicDataClass.getPlayerMagicData(rawPlayer);
+                        methodUsed = "getPlayerMagicData";
+                    } catch (eMethod) {
+                        // Игнорируем
+                    }
+                    
+                    // Пробуем Capability
+                    if (!magicData) {
+                        try {
+                            let cap = MagicDataClass.CAPABILITY;
+                            if (cap) {
+                                let lazyOpt = rawPlayer.getCapability(cap, null);
+                                if (lazyOpt && lazyOpt.isPresent()) {
+                                    magicData = lazyOpt.orElse(null);
+                                    methodUsed = "Capability";
+                                }
+                            }
+                        } catch (eCap) {
+                            // Игнорируем
+                        }
+                    }
+                    
                     if (magicData) {
-                        player.tell("3. Мана через Java-API: §aРаботает! Значение: §e" + magicData.getMana());
+                        player.tell("3. Мана через Java-API (" + methodUsed + "): §aРаботает! Значение: §e" + magicData.getMana());
                     } else {
-                        player.tell("3. Мана через Java-API: §cВернул null (не видит игрока)");
+                        player.tell("3. Мана через Java-API: §cВернул null (не удалось получить MagicData)");
                     }
                 } else {
                     player.tell("2. Java-класс MagicData: §cНе загружен");
@@ -215,7 +319,7 @@ ServerEvents.commandRegistry(event => {
                 try {
                     let stat = getCustomStat('kubejs', 'mana_spent');
                     if (stat) {
-                        let vanillaPlayer = player.minecraftPlayer || player;
+                        let vanillaPlayer = player.minecraftEntity || player;
                         let statsCounter = null;
                         try {
                             if (player.server && player.server.playerList) {
@@ -240,6 +344,8 @@ ServerEvents.commandRegistry(event => {
                 
                 let oldMana = player.persistentData.last_mana_tick || 0;
                 player.tell("6. Сохраненная мана в NBT: §e" + oldMana);
+                player.tell("7. Возраст (player.age): §e" + player.age);
+                player.tell("8. Ticks (player.minecraftEntity.tickCount): §e" + (player.minecraftEntity ? player.minecraftEntity.tickCount : "N/A"));
             } catch (e4) {
                 player.tell("4. Скорборд/NBT: §cОшибка: " + e4);
             }

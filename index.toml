@@ -50,7 +50,7 @@ hash = "b46aeb9e44557c0cb105f86738996f233a7d993917e34630f0f29fbaa5eb3106"
 
 [[files]]
 path = "kubejs/server_scripts/sync_stats.js"
-hash = "0aeb485e6df18e70ee13fee42c2df3a89b493e0e1f6decc1c54269229c4fb41c"
+hash = "8ddc12d1f356625c9659d456e1e557c6fa8dcf49d515efb6b885dd2e8ffec241"
 
 [[files]]
 path = "kubejs/startup_scripts/example.js"
