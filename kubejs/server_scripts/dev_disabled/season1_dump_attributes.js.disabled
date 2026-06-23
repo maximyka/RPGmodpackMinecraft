@@ -1,0 +1,20 @@
+const BuiltInRegistries = Java.loadClass('net.minecraft.core.registries.BuiltInRegistries')
+
+ServerEvents.loaded(event => {
+  console.info('[Season I] ===== ATTRIBUTE REGISTRY DUMP START =====')
+
+  const keys = BuiltInRegistries.ATTRIBUTE.keySet().toArray()
+  const list = []
+
+  for (let i = 0; i < keys.length; i++) {
+    list.push(String(keys[i]))
+  }
+
+  list.sort()
+
+  for (let i = 0; i < list.length; i++) {
+    console.info('[Season I Attribute] ' + list[i])
+  }
+
+  console.info('[Season I] ===== ATTRIBUTE REGISTRY DUMP END =====')
+})
