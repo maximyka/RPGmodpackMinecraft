@@ -18,11 +18,11 @@ hash = "152019ed6e0410a82805a95ea10f1ad1a17beaf2b50864d89b8fa9d172129ac7"
 
 [[files]]
 path = "kubejs/config/client.properties"
-hash = "bc92d6ce27b2e86f388e65a2383844fa7b1af40e33ea83bffffb0e40295da9f0"
+hash = "1d1bdbba1a5905eed82fd4f005e4c5dbb5e6d34382e5adef233ba087be84cc4c"
 
 [[files]]
 path = "kubejs/config/common.properties"
-hash = "0a9dd9f69ffcfc827e4801f5c7eb728bdbaf275e79ff95fefa26455ea42db2bb"
+hash = "8e4db9d5e87822d37d0b50d7b95483dba730c6c4b6b89b8ddf8302f3a9897694"
 
 [[files]]
 path = "kubejs/server_scripts/dev_creative.js"
@@ -30,35 +30,35 @@ hash = "9eb1f692699e766cc2dcc1b4dbf41886e2157417226612701f9d9dccbfd9db60"
 
 [[files]]
 path = "kubejs/server_scripts/dev_disabled/season1_dump_attributes.js.disabled"
-hash = "5e5a3378a8119246cc43507466daff6439e033b392a1afd5fdab3d4146f42ea2"
+hash = "aeb9b71200f8b553f4e512ac5c8e3c20a08289bdc2b518b22919a44bd00f3c20"
 
 [[files]]
 path = "kubejs/server_scripts/example.js"
-hash = "a19b7c81a150bd965b153ded9c45ee7649eaad9e10d0a5ec1d662e7b15ceadb2"
+hash = "4c0d680a490abad6df4ed66e02ccad3cf2bda3829b0a9ecea5c23cc67e8a5fdf"
 
 [[files]]
 path = "kubejs/server_scripts/season1_boss_advancements.js"
-hash = "f1613c1dc574924ddb96745ec2a7c24448801a86f7550c57a6c900c539f1afc9"
+hash = "3e0a24bdae49b03e2fd2409578ec5450584ef1e6144c27445235a0204cc1ad44"
 
 [[files]]
 path = "kubejs/server_scripts/season1_disable_reflection_necklace.js"
-hash = "7b1bc045bbd1fa20f8670725a816f55a46b84cc029de36f27b17b0f94e56bfb0"
+hash = "96bd3bbae04dddef0c478f6d69865fcb1b326d247a62c7e8bba55338b5e46152"
 
 [[files]]
 path = "kubejs/server_scripts/season1_item_cleanup.js"
-hash = "9fb3c11cbe914b7a732c7b9f0f4901b10f29511fd3b4b0349c199a36a6efad7c"
+hash = "ef16f827f610bf7b288e0d720b0af73c7c3a140a4d09e07c92cbe7a94c0d0d2c"
 
 [[files]]
 path = "kubejs/server_scripts/season1_repeatable_tyros_vault.js"
-hash = "35d18f64b59e6d38123b2f836691a3a6eedbcbd062b49df674fcbcff52f1dc94"
+hash = "646fa208ab19bd5b57fd1018d05435115dccd2b80f81317893671d6f5c065f36"
 
 [[files]]
 path = "kubejs/server_scripts/season1_weapon_recipe_patch.js"
-hash = "f125272cd4917a96707e1b4a3f80e3691938bbb78df227b765032e16633de24d"
+hash = "b46aeb9e44557c0cb105f86738996f233a7d993917e34630f0f29fbaa5eb3106"
 
 [[files]]
 path = "kubejs/server_scripts/sync_stats.js"
-hash = "4bfddd7d5643313c8c34e14bbc2c5313709e43442a19026955d2f6e208ba2c90"
+hash = "8ddc12d1f356625c9659d456e1e557c6fa8dcf49d515efb6b885dd2e8ffec241"
 
 [[files]]
 path = "kubejs/startup_scripts/example.js"
@@ -70,15 +70,15 @@ hash = "b68cbd8501f757546e485e964cb188c6f8fc6f08dc2fc1c2fd0684fd066140e1"
 
 [[files]]
 path = "kubejs/startup_scripts/register_stats.js"
-hash = "6b9b6d0ce551170bdd35c02ba291f54e06a133b8ef6e690912dfd126d7aef0f2"
+hash = "8b1bd941f5704095232873049d4a36370d1c9dccb436a07c2620b9ca1731da54"
 
 [[files]]
 path = "kubejs/startup_scripts/season1_to_wandering_trader_filter.js"
-hash = "de5db6d4f5155cb640024515ad3a49607747e5be3a7d2f0b2f39bd64533cb52d"
+hash = "537a24a80267cb109e20ddfeebe9dc47256fc237cf4618c0dbe3407d66858cfe"
 
 [[files]]
 path = "kubejs/startup_scripts/season1_tyros_item_attribute_patch.js"
-hash = "6f1ba14ba10c3d3315d1744847b5aa299949798c3cbd93c7b9a464c18ef157ae"
+hash = "bbcc13200cb46710e3df867590fd0ddd7a1dfd109ff956d30823d5c06ada7ce2"
 
 [[files]]
 path = "mods/AI-Improvements-1.20-0.5.2.jar"
@@ -178,7 +178,7 @@ hash = "31949971a7a8d5a5bc95ad9d400cbedfd2d65ffbfb3cea7c0b2fa3b47431a0a5"
 
 [[files]]
 path = "mods/L_Enders_Cataclysm-3.16.jar.toml"
-hash = "babe784a25f87eda95e0e25855e1bc069196d09e4c8387e1f736625e14cf109b"
+hash = "49386dd26db8fc58eccae2d52802aeb3dd6961396e324aca1105060704bb2737"
 
 [[files]]
 path = "mods/Loot-Integrations-When-Dungeons-Arise-Mod-Forge-NeoForge-Fabric-1.21.1.jar"
@@ -366,7 +366,7 @@ hash = "1e817919a35b37cf30524aaec73f0ca5130452f23f168f844854df282eb8e51f"
 
 [[files]]
 path = "mods/desktop.ini"
-hash = "8e0387864b4728334ce32a944179aabc30cf5f28d6f770351cd34199bca491d0"
+hash = "ac9bd5fb5eaea65918ce3cb6149e9b345049c079fa945e196eee487c928d4d96"
 
 [[files]]
 path = "mods/distraction_free_recipes-forge-1.2.1-1.20.1.jar"
@@ -714,5 +714,5 @@ hash = "49fbf2a0c91ca7e161b17f3b1784d4e798d0cd19f361ad3ebf6613e559f6371d"
 
 [[files]]
 path = "options.txt"
-hash = "bcaf6f95efa74d71240ed79990f2808af668faac074783c5f3fe5459f9f26fdd"
+hash = "84eec7bb0c3b3f152944bcf5d2d61fd2686f21d33bebb47274d9b0d878154fb5"
 
